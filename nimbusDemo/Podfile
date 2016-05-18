@@ -1,0 +1,26 @@
+pod 'Reachability','~>3.0.0'
+pod 'Nimbus','~>1.2.0'
+pod 'FMDB', '~> 2.5'
+pod 'FMDB/SQLCipher'
+pod 'MJRefresh', '~> 2.3.2'
+pod 'JSONModel'
+pod 'SVProgressHUD', '~> 1.1'
+pod 'ASMediaFocusManager', '~> 0.5'
+pod 'RegexKitLite', '~> 4.0'
+pod 'SFHFKeychainUtils', '~> 0.0.1'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'JSONKit', '~> 1.4'
+pod 'AFNetworking','~>2.0'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'Masonry', '~> 0.6.4'
+pod 'YYKit', '~> 0.9.10'
+
+post_install do |installer|
+    # Disable "Application Extension API Only" flag in pods
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ENABLE_STRICT_OBJC_MSGSEND'] = "NO"
+            config.build_settings['CLANG_WARN_DIRECT_OBJC_ISA_USAGE'] = "NO"
+        end
+    end
+end
