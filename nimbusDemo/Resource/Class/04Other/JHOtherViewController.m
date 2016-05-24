@@ -16,9 +16,10 @@
 #import "JHBlockViewController.h"
 //Masonry    只要引进下面的类，以前的frame会出现干扰？？？
 //#import "MASExampleListViewController.h"
-
+#import "Masonry.h"
 //YYKit
 #import "YYRootViewController.h"
+#import "JHDateBase/JHDateBaseViewController.h"
 
 
 @implementation JHOtherViewController
@@ -160,6 +161,9 @@
             break;
         case kOtherServiceBtnStrategy:{
             NIDPRINT(@"l4");
+            JHDateBaseViewController *VC = [[JHDateBaseViewController alloc] init];
+            VC.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnCodeCard:{
