@@ -157,7 +157,7 @@
             return @"YYKit";
             
         case kOtherServiceBtnStrategy:
-            return @"春雨攻略";
+            return @"FMDB";
             
         case kOtherServiceBtnCodeCard:
             return @"网络复诊卡";
