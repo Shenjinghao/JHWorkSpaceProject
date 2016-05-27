@@ -24,7 +24,7 @@
 {
     self = [super initWithQuery:nil];
     if (self) {
-        self.flurryTitle = @"CYWebViewController";
+        self.flurryTitle = @"JHWebViewController";
         self.title = query[@"title"];
 //        _confirmQuit = NO;
         self.type = [query[@"type"] integerValue];
