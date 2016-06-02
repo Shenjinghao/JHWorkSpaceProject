@@ -400,6 +400,7 @@
 		A85D08861B8C904B00F976F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85D08851B8C904B00F976F2 /* Images.xcassets */; };
 		A85D08891B8C904B00F976F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A85D08871B8C904B00F976F2 /* LaunchScreen.xib */; };
 		A85D08951B8C904B00F976F2 /* __DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D08941B8C904B00F976F2 /* __DemoTests.m */; };
+		A87BCE1A1D0064FD000693BA /* JHChatVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87BCE191D0064FD000693BA /* JHChatVIewController.m */; };
 		A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */; };
 		A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */; };
 		A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */; };
@@ -957,6 +958,8 @@
 		A85D08931B8C904B00F976F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A85D08941B8C904B00F976F2 /* __DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __DemoTests.m; sourceTree = "<group>"; };
 		A86925981BFB0242003F7F6B /* Config.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		A87BCE181D0064FD000693BA /* JHChatVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChatVIewController.h; sourceTree = "<group>"; };
+		A87BCE191D0064FD000693BA /* JHChatVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChatVIewController.m; sourceTree = "<group>"; };
 		A88285D81C32BA4900390B45 /* MyInformationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyInformationHeaderView.h; path = ../01Home/MyInformationHeaderView.h; sourceTree = "<group>"; };
 		A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyInformationHeaderView.m; path = ../01Home/MyInformationHeaderView.m; sourceTree = "<group>"; };
 		A88285DB1C32BA8100390B45 /* UserCenterInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCenterInfoButton.h; path = ../01Home/UserCenterInfoButton.h; sourceTree = "<group>"; };
@@ -1766,6 +1769,7 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A87BCE171D003793000693BA /* JHChat */,
 				A8DB9B421CF3048800884853 /* JHDateBase */,
 				A8DE57301C4DD1530019CB49 /* YYKitDemo */,
 				A80A2F3F1C479FF300DBD028 /* Block */,
@@ -1946,6 +1950,15 @@
 				A85D08931B8C904B00F976F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87BCE171D003793000693BA /* JHChat */ = {
+			isa = PBXGroup;
+			children = (
+				A87BCE181D0064FD000693BA /* JHChatVIewController.h */,
+				A87BCE191D0064FD000693BA /* JHChatVIewController.m */,
+			);
+			path = JHChat;
 			sourceTree = "<group>";
 		};
 		A8DB9B421CF3048800884853 /* JHDateBase */ = {
@@ -2814,6 +2827,7 @@
 				A8DE59061C4DD3450019CB49 /* YYTextEmoticonExample.m in Sources */,
 				A80A2F321C43E03000DBD028 /* JHRACViewController.m in Sources */,
 				A8DE58F71C4DD3450019CB49 /* YYImageExample.m in Sources */,
+				A87BCE1A1D0064FD000693BA /* JHChatVIewController.m in Sources */,
 				A8FEC9DD1C2835E1007AF43A /* JHAPIHost.m in Sources */,
 				A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */,
 				A8FEC9E61C294F41007AF43A /* JHEmptyView.m in Sources */,
