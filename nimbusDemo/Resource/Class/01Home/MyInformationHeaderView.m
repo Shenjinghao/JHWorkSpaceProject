@@ -198,7 +198,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
     
     
     //创建医生简介
-    NSString* welcomeTextStr = [NSString stringWithFormat:@"大神 哈哈"];
+    NSString* welcomeTextStr = [NSString stringWithFormat:@"haha 哈哈"];
     _userDetailTextLabel = [UILabel labelWithFrame:CGRectMake(0, _headerImageView.bottom + 10, viewWidth(), 16) boldFontSize:15 fontColor:[UIColor whiteColor] text:welcomeTextStr];
     _userDetailTextLabel.textAlignment = NSTextAlignmentCenter;
     [_myHeaderView addSubview:_userDetailTextLabel];

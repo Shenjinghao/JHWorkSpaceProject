@@ -163,10 +163,10 @@
             return @"小黄条";
             
         case kOtherServiceBtnReadToday:
-            return @"今日必读";
+            return @"无限聊天";
             
         case kOtherServiceBtnHeartWall:
-            return @"心意墙";
+            return @"pop window";
             
         case kOtherServiceBtnStarDoctor:
             return @"明星医生";

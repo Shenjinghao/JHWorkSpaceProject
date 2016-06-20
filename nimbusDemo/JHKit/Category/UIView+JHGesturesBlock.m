@@ -7,10 +7,6 @@
 //
 
 
-#ifndef safe_block
-#define safe_block(block, ...) block ? block(__VA_ARGS__) : nil
-
-#endif
 
 #import "UIView+JHGesturesBlock.h"
 
