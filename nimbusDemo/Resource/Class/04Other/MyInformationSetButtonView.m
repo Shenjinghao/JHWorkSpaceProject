@@ -169,7 +169,7 @@
             return @"pop window";
             
         case kOtherServiceBtnStarDoctor:
-            return @"明星医生";
+            return @"滑动滑块";
             
         case kOtherServiceBtnInviteDoctor:
             return @"邀请医生";

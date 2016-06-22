@@ -219,12 +219,15 @@
             default:
                 break;
         }
+        [_ownTableView beginUpdates];
+        [_ownTableView deleteRowsAtIndexPaths:@[path]  withRowAnimation:UITableViewRowAnimationMiddle];
+        [_ownTableView endUpdates];
 
         
     }else{
         NSString *name = _model.dataDict[indexStr][indexPath.row][@"name"];
         
-        NSMutableDictionary *nameAndStateDic = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"MainCell",@"cell",name,@"name",@"NO",@"state",nil];
+        NSMutableDictionary *nameAndStateDic = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"MainCell",@"cell",name,@"name",@"YES",@"state",nil];
         switch (indexPath.section) {
             case 0:
             {
@@ -272,8 +275,12 @@
             default:
                 break;
         }
+        [_ownTableView beginUpdates];
+        [_ownTableView insertRowsAtIndexPaths:@[path] withRowAnimation:UITableViewRowAnimationMiddle];
+        [_ownTableView endUpdates];
         
     }
+    
     
     
 }

@@ -17,6 +17,18 @@
 		A814CE031D140031006E17C6 /* JHAnotherListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE021D140031006E17C6 /* JHAnotherListCell.m */; };
 		A814CE061D140136006E17C6 /* UIButton+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE051D140136006E17C6 /* UIButton+Create.m */; };
 		A814CE0A1D17E87F006E17C6 /* JHAnimateSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE091D17E87F006E17C6 /* JHAnimateSlider.m */; };
+		A814CE171D17F815006E17C6 /* clear_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE0C1D17F815006E17C6 /* clear_blank.png */; };
+		A814CE181D17F815006E17C6 /* jh_slider_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE0D1D17F815006E17C6 /* jh_slider_arrow.png */; };
+		A814CE191D17F815006E17C6 /* jh_slider_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE0E1D17F815006E17C6 /* jh_slider_arrow@2x.png */; };
+		A814CE1A1D17F815006E17C6 /* jh_slider_loading_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE0F1D17F815006E17C6 /* jh_slider_loading_circle.png */; };
+		A814CE1B1D17F815006E17C6 /* jh_slider_loading_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE101D17F815006E17C6 /* jh_slider_loading_circle@2x.png */; };
+		A814CE1C1D17F815006E17C6 /* jh_slider_loading_circle_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE111D17F815006E17C6 /* jh_slider_loading_circle_alpha.png */; };
+		A814CE1D1D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE121D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png */; };
+		A814CE1E1D17F815006E17C6 /* jh_slider_round.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE131D17F815006E17C6 /* jh_slider_round.png */; };
+		A814CE1F1D17F815006E17C6 /* jh_slider_round@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE141D17F815006E17C6 /* jh_slider_round@2x.png */; };
+		A814CE201D17F815006E17C6 /* jh_slider_round_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE151D17F815006E17C6 /* jh_slider_round_finish.png */; };
+		A814CE211D17F815006E17C6 /* jh_slider_round_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */; };
+		A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */; };
 		A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */; };
 		A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FD1C2D27CD005A5CED /* JHActivityView.m */; };
 		A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D35001C2D2A2C005A5CED /* UIFont+JHCategory.m */; };
@@ -623,6 +635,19 @@
 		A814CE051D140136006E17C6 /* UIButton+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Create.m"; sourceTree = "<group>"; };
 		A814CE081D17E87F006E17C6 /* JHAnimateSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAnimateSlider.h; sourceTree = "<group>"; };
 		A814CE091D17E87F006E17C6 /* JHAnimateSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnimateSlider.m; sourceTree = "<group>"; };
+		A814CE0C1D17F815006E17C6 /* clear_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_blank.png; sourceTree = "<group>"; };
+		A814CE0D1D17F815006E17C6 /* jh_slider_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jh_slider_arrow.png; sourceTree = "<group>"; };
+		A814CE0E1D17F815006E17C6 /* jh_slider_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_arrow@2x.png"; sourceTree = "<group>"; };
+		A814CE0F1D17F815006E17C6 /* jh_slider_loading_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jh_slider_loading_circle.png; sourceTree = "<group>"; };
+		A814CE101D17F815006E17C6 /* jh_slider_loading_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_loading_circle@2x.png"; sourceTree = "<group>"; };
+		A814CE111D17F815006E17C6 /* jh_slider_loading_circle_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jh_slider_loading_circle_alpha.png; sourceTree = "<group>"; };
+		A814CE121D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_loading_circle_alpha@2x.png"; sourceTree = "<group>"; };
+		A814CE131D17F815006E17C6 /* jh_slider_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jh_slider_round.png; sourceTree = "<group>"; };
+		A814CE141D17F815006E17C6 /* jh_slider_round@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_round@2x.png"; sourceTree = "<group>"; };
+		A814CE151D17F815006E17C6 /* jh_slider_round_finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jh_slider_round_finish.png; sourceTree = "<group>"; };
+		A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_round_finish@2x.png"; sourceTree = "<group>"; };
+		A814CE221D180543006E17C6 /* JHAnimateSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAnimateSliderViewController.h; sourceTree = "<group>"; };
+		A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnimateSliderViewController.m; sourceTree = "<group>"; };
 		A84D34F91C2CE198005A5CED /* JHViewController+NavigationButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHViewController+NavigationButtons.h"; sourceTree = "<group>"; };
 		A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHViewController+NavigationButtons.m"; sourceTree = "<group>"; };
 		A84D34FC1C2D27CD005A5CED /* JHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActivityView.h; sourceTree = "<group>"; };
@@ -1364,6 +1389,26 @@
 			children = (
 				A814CE081D17E87F006E17C6 /* JHAnimateSlider.h */,
 				A814CE091D17E87F006E17C6 /* JHAnimateSlider.m */,
+				A814CE221D180543006E17C6 /* JHAnimateSliderViewController.h */,
+				A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */,
+			);
+			path = JHAnimateSlider;
+			sourceTree = "<group>";
+		};
+		A814CE0B1D17F815006E17C6 /* JHAnimateSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A814CE0C1D17F815006E17C6 /* clear_blank.png */,
+				A814CE0D1D17F815006E17C6 /* jh_slider_arrow.png */,
+				A814CE0E1D17F815006E17C6 /* jh_slider_arrow@2x.png */,
+				A814CE0F1D17F815006E17C6 /* jh_slider_loading_circle.png */,
+				A814CE101D17F815006E17C6 /* jh_slider_loading_circle@2x.png */,
+				A814CE111D17F815006E17C6 /* jh_slider_loading_circle_alpha.png */,
+				A814CE121D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png */,
+				A814CE131D17F815006E17C6 /* jh_slider_round.png */,
+				A814CE141D17F815006E17C6 /* jh_slider_round@2x.png */,
+				A814CE151D17F815006E17C6 /* jh_slider_round_finish.png */,
+				A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */,
 			);
 			path = JHAnimateSlider;
 			sourceTree = "<group>";
@@ -1371,6 +1416,7 @@
 		A84D35051C2D6CE9005A5CED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A814CE0B1D17F815006E17C6 /* JHAnimateSlider */,
 				A87BCEB31D0E59C2000693BA /* collection */,
 				A87BCE311D0573BA000693BA /* chat */,
 				A84D35061C2D6CE9005A5CED /* common */,
@@ -2572,6 +2618,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A814CE1C1D17F815006E17C6 /* jh_slider_loading_circle_alpha.png in Resources */,
 				A84D37301C2D6CE9005A5CED /* recommended_new.png in Resources */,
 				A84D37531C2D6CE9005A5CED /* clinic_01_icon_c.png in Resources */,
 				A84D36961C2D6CE9005A5CED /* message_phone_hint_failure.png in Resources */,
@@ -2584,6 +2631,7 @@
 				A8DE58C21C4DD3450019CB49 /* ermilio_q90.webp in Resources */,
 				A84D36821C2D6CE9005A5CED /* comments_right_arrow.png in Resources */,
 				A8DE58CF1C4DD3450019CB49 /* niconiconi@2x.gif in Resources */,
+				A814CE211D17F815006E17C6 /* jh_slider_round_finish@2x.png in Resources */,
 				A87BCE951D0573BA000693BA /* problem_bottom_item@3x.png in Resources */,
 				A84D372A1C2D6CE9005A5CED /* phone_normal@2x.png in Resources */,
 				A84D374E1C2D6CE9005A5CED /* award_bigicon_6.png in Resources */,
@@ -2643,6 +2691,7 @@
 				A84D379F1C2D6CEA005A5CED /* my_topic@3x.png in Resources */,
 				A84D36FA1C2D6CE9005A5CED /* home_badge@2x.png in Resources */,
 				A84D369E1C2D6CE9005A5CED /* patient_center_phone_icon@2x.png in Resources */,
+				A814CE1F1D17F815006E17C6 /* jh_slider_round@2x.png in Resources */,
 				A84D37E91C2D6CEA005A5CED /* web_share@2x.png in Resources */,
 				A84D37841C2D6CEA005A5CED /* doctor_group_sort_arrow_down@2x.png in Resources */,
 				A8DE58DC1C4DD3450019CB49 /* twitter_2.json in Resources */,
@@ -2697,6 +2746,7 @@
 				A87BCE941D0573BA000693BA /* problem_bottom_item@2x.png in Resources */,
 				A84D37D01C2D6CEA005A5CED /* services_status_icon_soldout@2x.png in Resources */,
 				A84D37551C2D6CE9005A5CED /* clinic_02_icon_c.png in Resources */,
+				A814CE181D17F815006E17C6 /* jh_slider_arrow.png in Resources */,
 				A8DE58C51C4DD3450019CB49 /* EmoticonWeibo.bundle in Resources */,
 				A84D36921C2D6CE9005A5CED /* problem_tool_voice.png in Resources */,
 				A87BCEF31D0E59C2000693BA /* clinic_10_icon.png in Resources */,
@@ -2732,6 +2782,7 @@
 				A84D37AA1C2D6CEA005A5CED /* star_doctor_service.png in Resources */,
 				A87BCEE71D0E59C2000693BA /* clinic_03_icon_c.png in Resources */,
 				A87BCE791D0573BA000693BA /* chatinput_photo@2x.png in Resources */,
+				A814CE191D17F815006E17C6 /* jh_slider_arrow@2x.png in Resources */,
 				A84D37071C2D6CE9005A5CED /* home_list_reading@2x.png in Resources */,
 				A87BCE8F1D0573BA000693BA /* field_bg.png in Resources */,
 				A84D36AA1C2D6CE9005A5CED /* navigation_button_pressed.png in Resources */,
@@ -2742,6 +2793,7 @@
 				A84D37B61C2D6CEA005A5CED /* ic_patient_attention@3x.png in Resources */,
 				A87BCE971D0573BA000693BA /* problem_list_error_alert@2x.png in Resources */,
 				A84D374B1C2D6CE9005A5CED /* add_model_cell_bg.png in Resources */,
+				A814CE171D17F815006E17C6 /* clear_blank.png in Resources */,
 				A84D37651C2D6CE9005A5CED /* clinic_11_icon_c.png in Resources */,
 				A84D37CD1C2D6CEA005A5CED /* services_icon_volunteer@2x.png in Resources */,
 				A87BCEF71D0E59C2000693BA /* clinic_12_icon_c.png in Resources */,
@@ -2860,6 +2912,7 @@
 				A84D370C1C2D6CE9005A5CED /* home_phone_disable@3x.png in Resources */,
 				A84D37371C2D6CE9005A5CED /* top_msg@2x.png in Resources */,
 				A84D37491C2D6CE9005A5CED /* accounts_help.png in Resources */,
+				A814CE201D17F815006E17C6 /* jh_slider_round_finish.png in Resources */,
 				A87BCE7C1D0573BA000693BA /* chatinput_profile@3x.png in Resources */,
 				A8DE58DB1C4DD3450019CB49 /* twitter_1.json in Resources */,
 				A84D373F1C2D6CE9005A5CED /* protocal_read_checkbox@2x.png in Resources */,
@@ -2869,6 +2922,7 @@
 				A87BCE751D0573BA000693BA /* chatinput_modul@2x.png in Resources */,
 				A87BCEFA1D0E59C2000693BA /* clinic_14_icon.png in Resources */,
 				A84D37D61C2D6CEA005A5CED /* video_askIcon@2x.png in Resources */,
+				A814CE1B1D17F815006E17C6 /* jh_slider_loading_circle@2x.png in Resources */,
 				A84D36FE1C2D6CE9005A5CED /* home_hospital_guide@2x.png in Resources */,
 				A84D36BF1C2D6CE9005A5CED /* group_home.png in Resources */,
 				A8DE58B71C4DD3450019CB49 /* dribbble128_imageio.png in Resources */,
@@ -2973,6 +3027,7 @@
 				A84D375C1C2D6CE9005A5CED /* clinic_06_icon_c.png in Resources */,
 				A87BCE9E1D0573BA000693BA /* right_bubble@2x.png in Resources */,
 				A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */,
+				A814CE1A1D17F815006E17C6 /* jh_slider_loading_circle.png in Resources */,
 				A87BCEA51D0573BA000693BA /* unselected_combo_box@2x.png in Resources */,
 				A84D37E01C2D6CEA005A5CED /* tools_setting.png in Resources */,
 				A84D37E71C2D6CEA005A5CED /* tools_share_weixin_friend@2x.png in Resources */,
@@ -2991,10 +3046,12 @@
 				A84D36951C2D6CE9005A5CED /* doctor_default@2x.png in Resources */,
 				A84D36F71C2D6CE9005A5CED /* star_highlighted.png in Resources */,
 				A84D375E1C2D6CE9005A5CED /* clinic_07_icon_c.png in Resources */,
+				A814CE1E1D17F815006E17C6 /* jh_slider_round.png in Resources */,
 				A8DE58CC1C4DD3450019CB49 /* mew_interlaced.gif in Resources */,
 				A84D376F1C2D6CE9005A5CED /* clinic_16_icon_c.png in Resources */,
 				A87BCE7A1D0573BA000693BA /* chatinput_photo@3x.png in Resources */,
 				A84D37321C2D6CE9005A5CED /* recommended_square@3x.png in Resources */,
+				A814CE1D1D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png in Resources */,
 				A84D375A1C2D6CE9005A5CED /* clinic_05_icon.png in Resources */,
 				A84D36BE1C2D6CE9005A5CED /* group_header.png in Resources */,
 				A84D37C01C2D6CEA005A5CED /* check_selected.png in Resources */,
@@ -3108,6 +3165,7 @@
 				A87BCE1E1D0069D1000693BA /* JHChatViewController.m in Sources */,
 				A8FECA0A1C2A7733007AF43A /* JHMutableTableViewModel.m in Sources */,
 				A8FEC9BC1C204CA2007AF43A /* NSString+JHCategory.m in Sources */,
+				A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */,
 				A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */,
 				A84D35041C2D4134005A5CED /* UIColor+JHCategory.m in Sources */,
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,

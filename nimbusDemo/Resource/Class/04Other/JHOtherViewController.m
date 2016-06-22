@@ -26,7 +26,8 @@
 #import "JHChat/JHChatViewController.h"
 //pop window
 #import "JHPopWindowViewController.h"
-#import "JHPatientViewController.h"
+//滑动动画
+#import "JHAnimateSliderViewController.h"
 
 @implementation JHOtherViewController
 
@@ -195,8 +196,7 @@
             break;
         case kOtherServiceBtnStarDoctor:{
             NIDPRINT(@"l8");
-            JHPatientViewController *VC = [[JHPatientViewController alloc] initWithQuery:nil];
-            VC.hidesBottomBarWhenPushed = YES;
+            JHAnimateSliderViewController *VC = [[JHAnimateSliderViewController alloc] initWithQuery:nil];
             [self.navigationController pushViewController:VC animated:YES];
         }
             break;

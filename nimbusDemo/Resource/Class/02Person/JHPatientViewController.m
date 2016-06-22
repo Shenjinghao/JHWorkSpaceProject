@@ -142,14 +142,13 @@ static NSString* cellID = @"collectionCell";
             
         }];
         [alertVC addAction:action];
+        [self presentViewController:alertVC animated:YES completion:nil];
     }else{
         
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"触发" message:alertText delegate:self cancelButtonTitle:@"好" otherButtonTitles:@"", nil];
         [alertView show];
         
     }
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"触发" message:alertText delegate:self cancelButtonTitle:@"好" otherButtonTitles:@"不好", nil];
-    [alertView show];
     
 }
 
