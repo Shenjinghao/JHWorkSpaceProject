@@ -20,6 +20,8 @@
 //YYKit
 #import "YYRootViewController.h"
 #import "JHDateBase/JHDateBaseViewController.h"
+//小黄条
+#import "JHTopBannerViewController.h"
 
 
 @implementation JHOtherViewController
@@ -168,6 +170,9 @@
             break;
         case kOtherServiceBtnCodeCard:{
             NIDPRINT(@"l5");
+            JHTopBannerViewController *VC = [[JHTopBannerViewController alloc] init];
+            VC.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnReadToday:{

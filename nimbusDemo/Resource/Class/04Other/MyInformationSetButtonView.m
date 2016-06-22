@@ -160,7 +160,7 @@
             return @"FMDB";
             
         case kOtherServiceBtnCodeCard:
-            return @"网络复诊卡";
+            return @"小黄条";
             
         case kOtherServiceBtnReadToday:
             return @"今日必读";
