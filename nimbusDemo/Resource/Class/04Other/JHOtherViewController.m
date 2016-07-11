@@ -28,6 +28,10 @@
 #import "JHPopWindowViewController.h"
 //滑动动画
 #import "JHAnimateSliderViewController.h"
+//loading动画
+#import "JHLoadingViewController.h"
+//font设置
+#import "JHFontSettingViewController.h"
 
 @implementation JHOtherViewController
 
@@ -202,10 +206,17 @@
             break;
         case kOtherServiceBtnInviteDoctor:{
             NIDPRINT(@"l9");
+            
+            JHLoadingViewController *VC = [[JHLoadingViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnInviteCode:{
             NIDPRINT(@"20");
+            
+            JHFontSettingViewController *VC = [[JHFontSettingViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
+            
          }
             break;
         case kOtherServiceBtnDoctorGroup:{

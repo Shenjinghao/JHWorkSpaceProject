@@ -172,10 +172,10 @@
             return @"滑动滑块";
             
         case kOtherServiceBtnInviteDoctor:
-            return @"邀请医生";
+            return @"LoadingAnimation";
             
         case kOtherServiceBtnInviteCode:
-            return @"邀请码";
+            return @"字体设置";
             
         case kOtherServiceBtnDoctorGroup:
             return @"医生集团";

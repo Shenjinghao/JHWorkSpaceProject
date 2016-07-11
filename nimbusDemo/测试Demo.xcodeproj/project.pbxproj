@@ -483,6 +483,15 @@
 		A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */; };
 		A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */; };
 		A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */; };
+		A887FC2D1D2BC4EF00746CDD /* JHAutoCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC2C1D2BC4EF00746CDD /* JHAutoCenterView.m */; };
+		A887FC301D2BC51A00746CDD /* JHLoadingVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC2F1D2BC51A00746CDD /* JHLoadingVIew.m */; };
+		A887FC341D2BCA8300746CDD /* loading_bkgnd.png in Resources */ = {isa = PBXBuildFile; fileRef = A887FC321D2BCA8300746CDD /* loading_bkgnd.png */; };
+		A887FC351D2BCA8300746CDD /* loading_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A887FC331D2BCA8300746CDD /* loading_circle.png */; };
+		A887FC381D2BD12900746CDD /* JHLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC371D2BD12900746CDD /* JHLoadingViewController.m */; };
+		A887FC451D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC441D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m */; };
+		A887FC481D2F4BEB00746CDD /* JHFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC471D2F4BEB00746CDD /* JHFontManager.m */; };
+		A887FC4B1D2F4C1100746CDD /* JHFontSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC4A1D2F4C1100746CDD /* JHFontSettingViewController.m */; };
+		A887FC4E1D2F7E5B00746CDD /* JHFontSettingArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC4D1D2F7E5B00746CDD /* JHFontSettingArrowView.m */; };
 		A888FBFB1CF5499E005F7749 /* JHTopYellowBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */; };
 		A8DB9B451CF304A900884853 /* JHDateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B441CF304A900884853 /* JHDateBase.m */; };
 		A8DB9B481CF3183100884853 /* JHDateBaseSimpleUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B471CF3183100884853 /* JHDateBaseSimpleUse.m */; };
@@ -1143,6 +1152,22 @@
 		A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCenterInfoButton.m; path = ../01Home/UserCenterInfoButton.m; sourceTree = "<group>"; };
 		A88285DE1C32C42B00390B45 /* MyInformationSetButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInformationSetButtonView.h; sourceTree = "<group>"; };
 		A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInformationSetButtonView.m; sourceTree = "<group>"; };
+		A887FC2B1D2BC4EF00746CDD /* JHAutoCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAutoCenterView.h; sourceTree = "<group>"; };
+		A887FC2C1D2BC4EF00746CDD /* JHAutoCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAutoCenterView.m; sourceTree = "<group>"; };
+		A887FC2E1D2BC51A00746CDD /* JHLoadingVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoadingVIew.h; sourceTree = "<group>"; };
+		A887FC2F1D2BC51A00746CDD /* JHLoadingVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoadingVIew.m; sourceTree = "<group>"; };
+		A887FC321D2BCA8300746CDD /* loading_bkgnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_bkgnd.png; sourceTree = "<group>"; };
+		A887FC331D2BCA8300746CDD /* loading_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_circle.png; sourceTree = "<group>"; };
+		A887FC361D2BD12900746CDD /* JHLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoadingViewController.h; sourceTree = "<group>"; };
+		A887FC371D2BD12900746CDD /* JHLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoadingViewController.m; sourceTree = "<group>"; };
+		A887FC431D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFontDescriptor+JHFontSetting.h"; sourceTree = "<group>"; };
+		A887FC441D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFontDescriptor+JHFontSetting.m"; sourceTree = "<group>"; };
+		A887FC461D2F4BEB00746CDD /* JHFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFontManager.h; sourceTree = "<group>"; };
+		A887FC471D2F4BEB00746CDD /* JHFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFontManager.m; sourceTree = "<group>"; };
+		A887FC491D2F4C1100746CDD /* JHFontSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFontSettingViewController.h; sourceTree = "<group>"; };
+		A887FC4A1D2F4C1100746CDD /* JHFontSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFontSettingViewController.m; sourceTree = "<group>"; };
+		A887FC4C1D2F7E5B00746CDD /* JHFontSettingArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFontSettingArrowView.h; sourceTree = "<group>"; };
+		A887FC4D1D2F7E5B00746CDD /* JHFontSettingArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFontSettingArrowView.m; sourceTree = "<group>"; };
 		A888FBF91CF5499E005F7749 /* JHTopYellowBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopYellowBannerManager.h; sourceTree = "<group>"; };
 		A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopYellowBannerManager.m; sourceTree = "<group>"; };
 		A8DB9B431CF304A900884853 /* JHDateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBase.h; sourceTree = "<group>"; };
@@ -1416,6 +1441,7 @@
 		A84D35051C2D6CE9005A5CED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A887FC311D2BCA8300746CDD /* JHLoading */,
 				A814CE0B1D17F815006E17C6 /* JHAnimateSlider */,
 				A87BCEB31D0E59C2000693BA /* collection */,
 				A87BCE311D0573BA000693BA /* chat */,
@@ -1940,6 +1966,8 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A887FC421D2F4B9B00746CDD /* JHFontSetting */,
+				A887FC2A1D2BC3F200746CDD /* JHLoading */,
 				A814CE071D17E742006E17C6 /* JHAnimateSlider */,
 				A87BCEA91D0D3C47000693BA /* PopWindow */,
 				A87BCE1B1D0069C0000693BA /* JHChat */,
@@ -2273,6 +2301,43 @@
 				A87BCEE01D0E59C2000693BA /* clinic_default_icon.png */,
 			);
 			path = collection;
+			sourceTree = "<group>";
+		};
+		A887FC2A1D2BC3F200746CDD /* JHLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A887FC2B1D2BC4EF00746CDD /* JHAutoCenterView.h */,
+				A887FC2C1D2BC4EF00746CDD /* JHAutoCenterView.m */,
+				A887FC2E1D2BC51A00746CDD /* JHLoadingVIew.h */,
+				A887FC2F1D2BC51A00746CDD /* JHLoadingVIew.m */,
+				A887FC361D2BD12900746CDD /* JHLoadingViewController.h */,
+				A887FC371D2BD12900746CDD /* JHLoadingViewController.m */,
+			);
+			path = JHLoading;
+			sourceTree = "<group>";
+		};
+		A887FC311D2BCA8300746CDD /* JHLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A887FC321D2BCA8300746CDD /* loading_bkgnd.png */,
+				A887FC331D2BCA8300746CDD /* loading_circle.png */,
+			);
+			path = JHLoading;
+			sourceTree = "<group>";
+		};
+		A887FC421D2F4B9B00746CDD /* JHFontSetting */ = {
+			isa = PBXGroup;
+			children = (
+				A887FC431D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.h */,
+				A887FC441D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m */,
+				A887FC461D2F4BEB00746CDD /* JHFontManager.h */,
+				A887FC471D2F4BEB00746CDD /* JHFontManager.m */,
+				A887FC491D2F4C1100746CDD /* JHFontSettingViewController.h */,
+				A887FC4A1D2F4C1100746CDD /* JHFontSettingViewController.m */,
+				A887FC4C1D2F7E5B00746CDD /* JHFontSettingArrowView.h */,
+				A887FC4D1D2F7E5B00746CDD /* JHFontSettingArrowView.m */,
+			);
+			path = JHFontSetting;
 			sourceTree = "<group>";
 		};
 		A888FBF81CF54980005F7749 /* TopYellowBanner */ = {
@@ -2690,6 +2755,7 @@
 				A84D37BF1C2D6CEA005A5CED /* check_normal@2x.png in Resources */,
 				A84D379F1C2D6CEA005A5CED /* my_topic@3x.png in Resources */,
 				A84D36FA1C2D6CE9005A5CED /* home_badge@2x.png in Resources */,
+				A887FC351D2BCA8300746CDD /* loading_circle.png in Resources */,
 				A84D369E1C2D6CE9005A5CED /* patient_center_phone_icon@2x.png in Resources */,
 				A814CE1F1D17F815006E17C6 /* jh_slider_round@2x.png in Resources */,
 				A84D37E91C2D6CEA005A5CED /* web_share@2x.png in Resources */,
@@ -3031,6 +3097,7 @@
 				A87BCEA51D0573BA000693BA /* unselected_combo_box@2x.png in Resources */,
 				A84D37E01C2D6CEA005A5CED /* tools_setting.png in Resources */,
 				A84D37E71C2D6CEA005A5CED /* tools_share_weixin_friend@2x.png in Resources */,
+				A887FC341D2BCA8300746CDD /* loading_bkgnd.png in Resources */,
 				A84D37661C2D6CE9005A5CED /* clinic_12_icon.png in Resources */,
 				A87BCEF81D0E59C2000693BA /* clinic_13_icon.png in Resources */,
 				A84D37921C2D6CEA005A5CED /* my_invite@2x.png in Resources */,
@@ -3197,6 +3264,7 @@
 				A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */,
 				A8DE58F41C4DD3450019CB49 /* YYFPSLabel.m in Sources */,
 				A8FEC9D71C21A141007AF43A /* JHBaseRequest.m in Sources */,
+				A887FC451D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m in Sources */,
 				A87BCE2A1D055C2C000693BA /* JHTextView.m in Sources */,
 				A8DE58F11C4DD3450019CB49 /* YYBPGCoder.m in Sources */,
 				A85D08811B8C904B00F976F2 /* ViewController.m in Sources */,
@@ -3204,6 +3272,7 @@
 				A8DE58FD1C4DD3450019CB49 /* YYSimpleWebViewController.m in Sources */,
 				A8DE58FB1C4DD3450019CB49 /* YYPhotoGroupView.m in Sources */,
 				A8FEC9E31C2945D5007AF43A /* JHTableItem.m in Sources */,
+				A887FC2D1D2BC4EF00746CDD /* JHAutoCenterView.m in Sources */,
 				A8DB9B481CF3183100884853 /* JHDateBaseSimpleUse.m in Sources */,
 				A8FEC9C91C2151F4007AF43A /* JHViewController.m in Sources */,
 				A8DE59371C4DE5420019CB49 /* T1HomeTimelineItemsViewController.m in Sources */,
@@ -3216,6 +3285,7 @@
 				A8DE58FF1C4DD3450019CB49 /* YYTableViewCell.m in Sources */,
 				A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */,
 				A8FECA101C2A81AB007AF43A /* UIImageView+JHCategory.m in Sources */,
+				A887FC481D2F4BEB00746CDD /* JHFontManager.m in Sources */,
 				A84DC52C1C1AF599000F4EA1 /* UIView+JHCategory.m in Sources */,
 				A814CE031D140031006E17C6 /* JHAnotherListCell.m in Sources */,
 				A8DE59021C4DD3450019CB49 /* YYTextAttributeExample.m in Sources */,
@@ -3229,9 +3299,11 @@
 				A8DE59411C4DE5420019CB49 /* WBStatusLayout.m in Sources */,
 				A8DE593B1C4DE5420019CB49 /* WBEmoticonInputView.m in Sources */,
 				A84DC52F1C1AF5EF000F4EA1 /* UIImage+JHCategory.m in Sources */,
+				A887FC4E1D2F7E5B00746CDD /* JHFontSettingArrowView.m in Sources */,
 				A8DE59061C4DD3450019CB49 /* YYTextEmoticonExample.m in Sources */,
 				A80A2F321C43E03000DBD028 /* JHRACViewController.m in Sources */,
 				A8DE58F71C4DD3450019CB49 /* YYImageExample.m in Sources */,
+				A887FC301D2BC51A00746CDD /* JHLoadingVIew.m in Sources */,
 				A8FEC9DD1C2835E1007AF43A /* JHAPIHost.m in Sources */,
 				A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */,
 				A87BCF101D0E5B70000693BA /* JHCollectionViewFlowLayout.m in Sources */,
@@ -3245,6 +3317,7 @@
 				A814CE061D140136006E17C6 /* UIButton+Create.m in Sources */,
 				A8DE59051C4DD3450019CB49 /* YYTextEditExample.m in Sources */,
 				A8DB9B4E1CF3FF8600884853 /* JHSimpleDBModel.m in Sources */,
+				A887FC381D2BD12900746CDD /* JHLoadingViewController.m in Sources */,
 				A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */,
 				A8DE59091C4DD3450019CB49 /* YYTextMarkdownExample.m in Sources */,
 				A8FEC9E01C293BD4007AF43A /* JHURLRequestModel.m in Sources */,
@@ -3255,6 +3328,7 @@
 				A8DE590C1C4DD3450019CB49 /* YYTextUndoRedoExample.m in Sources */,
 				A85D08781B8C904B00F976F2 /* main.m in Sources */,
 				A84D38001C31382F005A5CED /* JHHomeViewController.m in Sources */,
+				A887FC4B1D2F4C1100746CDD /* JHFontSettingViewController.m in Sources */,
 				A87BCEB21D0D40B0000693BA /* JHPopWindowViewController.m in Sources */,
 				A8DE590A1C4DD3450019CB49 /* YYTextRubyExample.m in Sources */,
 			);
