@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define kUpdateNavigationBarColor @"kUpdateNavigationBarColor"
+
 @interface ViewController : UIViewController
 
 
