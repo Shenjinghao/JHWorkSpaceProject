@@ -480,6 +480,11 @@
 		A87BCF101D0E5B70000693BA /* JHCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A87BCF0F1D0E5B70000693BA /* JHCollectionViewFlowLayout.m */; };
 		A87BCF131D0EB905000693BA /* JHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A87BCF121D0EB905000693BA /* JHCollectionViewCell.m */; };
 		A87BCF151D0EC4C7000693BA /* Collection_List.plist in Resources */ = {isa = PBXBuildFile; fileRef = A87BCF141D0EC4C7000693BA /* Collection_List.plist */; };
+		A87CD6201D37A93E009A1F13 /* JHNavigationBarVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD6181D37A93E009A1F13 /* JHNavigationBarVC1.m */; };
+		A87CD6211D37A93E009A1F13 /* JHNavigationBarVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD61A1D37A93E009A1F13 /* JHNavigationBarVC2.m */; };
+		A87CD6221D37A93E009A1F13 /* JHNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD61C1D37A93E009A1F13 /* JHNavigationBarViewController.m */; };
+		A87CD6231D37A93E009A1F13 /* navi_bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A87CD61D1D37A93E009A1F13 /* navi_bar.jpg */; };
+		A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */; };
 		A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */; };
 		A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */; };
 		A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */; };
@@ -1146,6 +1151,15 @@
 		A87BCF111D0EB904000693BA /* JHCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewCell.h; sourceTree = "<group>"; };
 		A87BCF121D0EB905000693BA /* JHCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewCell.m; sourceTree = "<group>"; };
 		A87BCF141D0EC4C7000693BA /* Collection_List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Collection_List.plist; sourceTree = "<group>"; };
+		A87CD6171D37A93E009A1F13 /* JHNavigationBarVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationBarVC1.h; sourceTree = "<group>"; };
+		A87CD6181D37A93E009A1F13 /* JHNavigationBarVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarVC1.m; sourceTree = "<group>"; };
+		A87CD6191D37A93E009A1F13 /* JHNavigationBarVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationBarVC2.h; sourceTree = "<group>"; };
+		A87CD61A1D37A93E009A1F13 /* JHNavigationBarVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarVC2.m; sourceTree = "<group>"; };
+		A87CD61B1D37A93E009A1F13 /* JHNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationBarViewController.h; sourceTree = "<group>"; };
+		A87CD61C1D37A93E009A1F13 /* JHNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationBarViewController.m; sourceTree = "<group>"; };
+		A87CD61D1D37A93E009A1F13 /* navi_bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navi_bar.jpg; sourceTree = "<group>"; };
+		A87CD61E1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JHDynamicChangeNavigationBar.h"; sourceTree = "<group>"; };
+		A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JHDynamicChangeNavigationBar.m"; sourceTree = "<group>"; };
 		A88285D81C32BA4900390B45 /* MyInformationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyInformationHeaderView.h; path = ../01Home/MyInformationHeaderView.h; sourceTree = "<group>"; };
 		A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyInformationHeaderView.m; path = ../01Home/MyInformationHeaderView.m; sourceTree = "<group>"; };
 		A88285DB1C32BA8100390B45 /* UserCenterInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCenterInfoButton.h; path = ../01Home/UserCenterInfoButton.h; sourceTree = "<group>"; };
@@ -1966,6 +1980,7 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A87CD6161D37A93E009A1F13 /* NavigationBar */,
 				A887FC421D2F4B9B00746CDD /* JHFontSetting */,
 				A887FC2A1D2BC3F200746CDD /* JHLoading */,
 				A814CE071D17E742006E17C6 /* JHAnimateSlider */,
@@ -2301,6 +2316,22 @@
 				A87BCEE01D0E59C2000693BA /* clinic_default_icon.png */,
 			);
 			path = collection;
+			sourceTree = "<group>";
+		};
+		A87CD6161D37A93E009A1F13 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				A87CD6171D37A93E009A1F13 /* JHNavigationBarVC1.h */,
+				A87CD6181D37A93E009A1F13 /* JHNavigationBarVC1.m */,
+				A87CD6191D37A93E009A1F13 /* JHNavigationBarVC2.h */,
+				A87CD61A1D37A93E009A1F13 /* JHNavigationBarVC2.m */,
+				A87CD61B1D37A93E009A1F13 /* JHNavigationBarViewController.h */,
+				A87CD61C1D37A93E009A1F13 /* JHNavigationBarViewController.m */,
+				A87CD61D1D37A93E009A1F13 /* navi_bar.jpg */,
+				A87CD61E1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.h */,
+				A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 		A887FC2A1D2BC3F200746CDD /* JHLoading */ = {
@@ -3119,6 +3150,7 @@
 				A87BCE7A1D0573BA000693BA /* chatinput_photo@3x.png in Resources */,
 				A84D37321C2D6CE9005A5CED /* recommended_square@3x.png in Resources */,
 				A814CE1D1D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png in Resources */,
+				A87CD6231D37A93E009A1F13 /* navi_bar.jpg in Resources */,
 				A84D375A1C2D6CE9005A5CED /* clinic_05_icon.png in Resources */,
 				A84D36BE1C2D6CE9005A5CED /* group_header.png in Resources */,
 				A84D37C01C2D6CEA005A5CED /* check_selected.png in Resources */,
@@ -3217,6 +3249,7 @@
 				A85D087B1B8C904B00F976F2 /* AppDelegate.m in Sources */,
 				A84D38031C313856005A5CED /* JHPatientViewController.m in Sources */,
 				A814CE001D13EFAB006E17C6 /* JHTableViewListCell.m in Sources */,
+				A87CD6201D37A93E009A1F13 /* JHNavigationBarVC1.m in Sources */,
 				A8DE59031C4DD3450019CB49 /* YYTextBindingExample.m in Sources */,
 				A8FEC9B91C2022AE007AF43A /* UIWindow+JHCategory.m in Sources */,
 				A8DE593A1C4DE5420019CB49 /* T1StatusLayout.m in Sources */,
@@ -3313,18 +3346,21 @@
 				A8DE58F61C4DD3450019CB49 /* YYImageDisplayExample.m in Sources */,
 				A8DE59361C4DE5420019CB49 /* T1Helper.m in Sources */,
 				A84D37EF1C310C47005A5CED /* UIViewController+JHCategory.m in Sources */,
+				A87CD6221D37A93E009A1F13 /* JHNavigationBarViewController.m in Sources */,
 				A8FECA041C2A5620007AF43A /* JHNetworkImageView.m in Sources */,
 				A814CE061D140136006E17C6 /* UIButton+Create.m in Sources */,
 				A8DE59051C4DD3450019CB49 /* YYTextEditExample.m in Sources */,
 				A8DB9B4E1CF3FF8600884853 /* JHSimpleDBModel.m in Sources */,
 				A887FC381D2BD12900746CDD /* JHLoadingViewController.m in Sources */,
 				A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */,
+				A87CD6211D37A93E009A1F13 /* JHNavigationBarVC2.m in Sources */,
 				A8DE59091C4DD3450019CB49 /* YYTextMarkdownExample.m in Sources */,
 				A8FEC9E01C293BD4007AF43A /* JHURLRequestModel.m in Sources */,
 				A8DE59071C4DD3450019CB49 /* YYTextExample.m in Sources */,
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
+				A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */,
 				A8DE590C1C4DD3450019CB49 /* YYTextUndoRedoExample.m in Sources */,
 				A85D08781B8C904B00F976F2 /* main.m in Sources */,
 				A84D38001C31382F005A5CED /* JHHomeViewController.m in Sources */,

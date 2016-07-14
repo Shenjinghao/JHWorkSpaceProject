@@ -11,7 +11,8 @@
 
 #import "MyInformationHeaderView.h"
 #import "UserCenterInfoButton.h"
-
+#import "JHNavigationBarViewController.h"
+#import "AppDelegate.h"
 
 typedef NS_ENUM(NSInteger, buttonDidClickedTag)
 {
@@ -260,6 +261,10 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
         }
         case kBadgeButtonTag:{              //月积分
             NIDPRINT(@"s3");
+            
+            JHNavigationBarViewController *VC = [[JHNavigationBarViewController alloc] initWithQuery:nil];
+            [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:VC animated:YES];
+            
             break;
         }
         case kBadgeButtonTag + 1:{          //粉丝
