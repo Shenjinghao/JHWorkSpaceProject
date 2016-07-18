@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^JHGesturesActionBlock)(UIGestureRecognizer *);
+typedef void (^JHGesturesActionBlock)(UIGestureRecognizer *gesture);
 
 @interface UIView (JHGesturesBlock)
 

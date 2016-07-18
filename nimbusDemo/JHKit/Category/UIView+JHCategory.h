@@ -162,7 +162,15 @@
 
 //+ (UIImage *)getImageFromView:(UIView *)theView;
 
-
+/**
+ *  细线
+ *
+ *  @param frame <#frame description#>
+ *  @param 除去导航栏 <#除去导航栏 description#>
+ *
+ *  @return <#return value description#>
+ */
++ (UIView*) separateLineWithFrame:(CGRect) frame backGroundColor:(UIColor*)color;
 
 @end
 //

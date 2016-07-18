@@ -197,6 +197,14 @@
     return view;
 }
 
+#pragma mark 创建线条
++ (UIView*) separateLineWithFrame:(CGRect) frame backGroundColor:(UIColor*)color {
+    UIView* separeteLine = [[UIView alloc] initWithFrame: frame];
+    
+    UIColor* backColor = color ? color : RGBCOLOR_HEX(0xcccccc);
+    separeteLine.backgroundColor = backColor;
+    return separeteLine;
+}
 
 @end
 

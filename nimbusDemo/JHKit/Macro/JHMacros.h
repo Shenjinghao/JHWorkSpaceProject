@@ -69,9 +69,18 @@ v = nil
 // 登录的Host
 #define kLastLogInHost                      (@"kLastLogInHost")
 
+//版本判断
+#define kIOSVersion [[UIDevice currentDevice].systemVersion floatValue]
+#define IOSOVER(v) (kIOSVersion >= v)
 
+//safe_block
+#ifndef safe_block
+#define safe_block(block, ...) block ? block(__VA_ARGS__) : nil
+//机型判定
+#define IS_iPhone4 ([UIScreen mainScreen].bounds.size.height < 568)
+#define _IPHONE6PLUS_ ([UIScreen mainScreen].scale == 3.0f)
 
-
+#endif
 
 
 #endif /* JHMacros_h */

@@ -22,7 +22,16 @@
 #import "JHDateBase/JHDateBaseViewController.h"
 //小黄条
 #import "JHTopBannerViewController.h"
-
+//聊天
+#import "JHChat/JHChatViewController.h"
+//pop window
+#import "JHPopWindowViewController.h"
+//滑动动画
+#import "JHAnimateSliderViewController.h"
+//loading动画
+#import "JHLoadingViewController.h"
+//font设置
+#import "JHFontSettingViewController.h"
 
 @implementation JHOtherViewController
 
@@ -177,22 +186,37 @@
             break;
         case kOtherServiceBtnReadToday:{
             NIDPRINT(@"l6");
+            JHChatViewController *VC = [[JHChatViewController alloc] initWithQuery:nil];
+            VC.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnHeartWall:{
             NIDPRINT(@"l7");
+            JHPopWindowViewController *VC = [[JHPopWindowViewController alloc] init];
+            VC.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:VC animated:YES];
          }
             break;
         case kOtherServiceBtnStarDoctor:{
             NIDPRINT(@"l8");
+            JHAnimateSliderViewController *VC = [[JHAnimateSliderViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnInviteDoctor:{
             NIDPRINT(@"l9");
+            
+            JHLoadingViewController *VC = [[JHLoadingViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
         }
             break;
         case kOtherServiceBtnInviteCode:{
             NIDPRINT(@"20");
+            
+            JHFontSettingViewController *VC = [[JHFontSettingViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
+            
          }
             break;
         case kOtherServiceBtnDoctorGroup:{

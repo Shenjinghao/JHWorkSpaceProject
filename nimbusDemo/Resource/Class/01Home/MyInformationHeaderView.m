@@ -11,7 +11,10 @@
 
 #import "MyInformationHeaderView.h"
 #import "UserCenterInfoButton.h"
-
+#import "JHNavigationBarViewController.h"
+#import "AppDelegate.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
 typedef NS_ENUM(NSInteger, buttonDidClickedTag)
 {
@@ -42,6 +45,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
     
 }
 
+@property (strong, nonatomic) UISplitViewController *splitViewController;
 
 @end
 
@@ -93,7 +97,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
         [_myHeaderView addSubview:lineView];
         
     }
-    NSArray * titles = @[@"月积分", @"粉丝", @"评价", @"推荐指数"];
+    NSArray * titles = @[@"动态navigationbar", @"AppsInfo", @"评价", @"推荐指数"];
     NSMutableArray *tempArray = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i ++) {
         //创建自定义button
@@ -198,7 +202,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
     
     
     //创建医生简介
-    NSString* welcomeTextStr = [NSString stringWithFormat:@"大神 哈哈"];
+    NSString* welcomeTextStr = [NSString stringWithFormat:@"haha 哈哈"];
     _userDetailTextLabel = [UILabel labelWithFrame:CGRectMake(0, _headerImageView.bottom + 10, viewWidth(), 16) boldFontSize:15 fontColor:[UIColor whiteColor] text:welcomeTextStr];
     _userDetailTextLabel.textAlignment = NSTextAlignmentCenter;
     [_myHeaderView addSubview:_userDetailTextLabel];
@@ -260,10 +264,29 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
         }
         case kBadgeButtonTag:{              //月积分
             NIDPRINT(@"s3");
+            
+            JHNavigationBarViewController *VC = [[JHNavigationBarViewController alloc] initWithQuery:nil];
+            [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:VC animated:YES];
+            
             break;
         }
         case kBadgeButtonTag + 1:{          //粉丝
             NIDPRINT(@"s4");
+            
+            MasterViewController *masterViewController = [[MasterViewController alloc] init];
+//            UINavigationController *masterNavigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+            
+            DetailViewController *detailViewController = [[DetailViewController alloc] init];
+//            UINavigationController *detailNavigationController = [[UINavigationController alloc] initWithRootViewController:detailViewController];
+            
+            masterViewController.detailViewController = detailViewController;
+            
+            self.splitViewController = [[UISplitViewController alloc] init];
+            self.splitViewController.delegate = detailViewController;
+//            self.splitViewController.viewControllers = [NSArray arrayWithObjects:masterNavigationController, detailNavigationController, nil];
+            
+            [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:masterViewController animated:YES];
+            
             break;
         }
         case kBadgeButtonTag + 2:{          //评价

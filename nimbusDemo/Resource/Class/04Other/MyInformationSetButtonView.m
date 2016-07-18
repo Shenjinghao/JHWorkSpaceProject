@@ -163,19 +163,19 @@
             return @"小黄条";
             
         case kOtherServiceBtnReadToday:
-            return @"今日必读";
+            return @"无限聊天";
             
         case kOtherServiceBtnHeartWall:
-            return @"心意墙";
+            return @"pop window";
             
         case kOtherServiceBtnStarDoctor:
-            return @"明星医生";
+            return @"滑动滑块";
             
         case kOtherServiceBtnInviteDoctor:
-            return @"邀请医生";
+            return @"LoadingAnimation";
             
         case kOtherServiceBtnInviteCode:
-            return @"邀请码";
+            return @"字体设置";
             
         case kOtherServiceBtnDoctorGroup:
             return @"医生集团";
