@@ -31,6 +31,10 @@ typedef NS_ENUM(NSInteger, ChatInputViewState)
     ChatInputViewStateKeyboard      //显示键盘
 };
 
+
+/**
+ *  代理实现button相应事件
+ */
 @protocol ChatInputMoreViewDeleagte<NSObject>;
 @optional
 
