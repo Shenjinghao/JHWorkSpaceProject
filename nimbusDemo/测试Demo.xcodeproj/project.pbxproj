@@ -29,6 +29,7 @@
 		A814CE201D17F815006E17C6 /* jh_slider_round_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE151D17F815006E17C6 /* jh_slider_round_finish.png */; };
 		A814CE211D17F815006E17C6 /* jh_slider_round_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */; };
 		A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */; };
+		A81D3D991D3CC19400D7A126 /* JHSplitPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D3D981D3CC19400D7A126 /* JHSplitPhotoViewController.m */; };
 		A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */; };
 		A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FD1C2D27CD005A5CED /* JHActivityView.m */; };
 		A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D35001C2D2A2C005A5CED /* UIFont+JHCategory.m */; };
@@ -665,6 +666,8 @@
 		A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_round_finish@2x.png"; sourceTree = "<group>"; };
 		A814CE221D180543006E17C6 /* JHAnimateSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAnimateSliderViewController.h; sourceTree = "<group>"; };
 		A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnimateSliderViewController.m; sourceTree = "<group>"; };
+		A81D3D971D3CC19400D7A126 /* JHSplitPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSplitPhotoViewController.h; sourceTree = "<group>"; };
+		A81D3D981D3CC19400D7A126 /* JHSplitPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSplitPhotoViewController.m; sourceTree = "<group>"; };
 		A84D34F91C2CE198005A5CED /* JHViewController+NavigationButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHViewController+NavigationButtons.h"; sourceTree = "<group>"; };
 		A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHViewController+NavigationButtons.m"; sourceTree = "<group>"; };
 		A84D34FC1C2D27CD005A5CED /* JHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActivityView.h; sourceTree = "<group>"; };
@@ -1461,6 +1464,15 @@
 			path = JHAnimateSlider;
 			sourceTree = "<group>";
 		};
+		A81D3D961D3CC17800D7A126 /* SplitPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				A81D3D971D3CC19400D7A126 /* JHSplitPhotoViewController.h */,
+				A81D3D981D3CC19400D7A126 /* JHSplitPhotoViewController.m */,
+			);
+			path = SplitPhoto;
+			sourceTree = "<group>";
+		};
 		A84D35051C2D6CE9005A5CED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -1989,6 +2001,7 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A81D3D961D3CC17800D7A126 /* SplitPhoto */,
 				A87CD6291D3C7DF1009A1F13 /* AppsInfo */,
 				A87CD6161D37A93E009A1F13 /* NavigationBar */,
 				A887FC421D2F4B9B00746CDD /* JHFontSetting */,
@@ -2666,6 +2679,7 @@
 				A85D086F1B8C904B00F976F2 /* Frameworks */,
 				A85D08701B8C904B00F976F2 /* Resources */,
 				A662CD651713AAC715C6B027 /* Copy Pods Resources */,
+				BCD45DCE9DE1D9EF95133C18 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3255,6 +3269,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCD45DCE9DE1D9EF95133C18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -3320,6 +3349,7 @@
 				A814CE0A1D17E87F006E17C6 /* JHAnimateSlider.m in Sources */,
 				A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */,
 				A8DE58F41C4DD3450019CB49 /* YYFPSLabel.m in Sources */,
+				A81D3D991D3CC19400D7A126 /* JHSplitPhotoViewController.m in Sources */,
 				A8FEC9D71C21A141007AF43A /* JHBaseRequest.m in Sources */,
 				A887FC451D2F4BC700746CDD /* UIFontDescriptor+JHFontSetting.m in Sources */,
 				A87BCE2A1D055C2C000693BA /* JHTextView.m in Sources */,

@@ -10,6 +10,8 @@
 #import "UIView+JHGesturesBlock.h"
 #import "JHChatInputMoreView.h"
 #import "NITableViewModel+private.h"
+//剪裁图片
+#import "JHSplitPhotoViewController.h"
 
 @interface JHChatViewController ()<ChatInputViewDelegate,ChatInputMoreViewDeleagte>
 
@@ -132,6 +134,29 @@
 - (void)inputViewDidChangeFrame:(JHChatInputView *)inputView
 {
     inputView.bottom = self.view.height - self.keyBoardHeight;
+}
+
+#pragma mark 更多按钮点击事件处理
+- (void)moreItemButtonClicked:(ChatInputViewType)type;
+{
+    switch (type) {
+        case ChatInputViewTypePhoto:
+            
+            break;
+            
+        case ChatInputViewTypeAlbum:
+        {
+            JHSplitPhotoViewController *VC = [[JHSplitPhotoViewController alloc] initWithQuery:nil];
+            [self.navigationController pushViewController:VC animated:YES];
+            
+        }
+
+            
+            break;
+            
+        default:
+            break;
+    }
 }
 
 @end

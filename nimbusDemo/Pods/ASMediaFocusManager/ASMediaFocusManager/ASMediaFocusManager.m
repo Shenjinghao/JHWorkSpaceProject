@@ -8,6 +8,8 @@
 
 #import "ASMediaFocusManager.h"
 #import "ASMediaFocusController.h"
+#import "ASVideoBehavior.h"
+#import "ASMediaFocusBasicToolbarController.h"
 #import <QuartzCore/QuartzCore.h>
 
 static CGFloat const kAnimateElasticSizeRatio = 0.03;
@@ -17,11 +19,12 @@ static CGFloat const kAnimateElasticThirdMoveSizeRatio = 0.2;
 static CGFloat const kAnimationDuration = 0.5;
 static CGFloat const kSwipeOffset = 100;
 
-@interface ASMediaFocusManager ()
+@interface ASMediaFocusManager () <UIGestureRecognizerDelegate>
 // The media view being focused.
 @property (nonatomic, strong) UIView *mediaView;
 @property (nonatomic, strong) ASMediaFocusController *focusViewController;
 @property (nonatomic, assign) BOOL isZooming;
+@property (nonatomic, strong) ASVideoBehavior *videoBehavior;
 @end
 
 @implementation ASMediaFocusManager
@@ -37,8 +40,11 @@ static CGFloat const kSwipeOffset = 100;
         self.elasticAnimation = YES;
         self.zoomEnabled = YES;
         self.isZooming = NO;
+        self.focusOnPinch = NO;
         self.gestureDisabledDuringZooming = YES;
         self.isDefocusingWithTap = NO;
+        self.addPlayIconOnVideo = YES;
+        self.videoBehavior = [ASVideoBehavior new];
     }
     
     return self;
@@ -55,10 +61,21 @@ static CGFloat const kSwipeOffset = 100;
 - (void)installOnView:(UIView *)view
 {
     UITapGestureRecognizer *tapGesture;
+    NSURL *url;
     
     tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleFocusGesture:)];
     [view addGestureRecognizer:tapGesture];
     view.userInteractionEnabled = YES;
+
+    UIPinchGestureRecognizer *pinchRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePinchFocusGesture:)];
+    pinchRecognizer.delegate = self;
+    [view addGestureRecognizer:pinchRecognizer];
+    
+    url = [self.delegate mediaFocusManager:self mediaURLForView:view];
+    if(self.addPlayIconOnVideo && [self isVideoURL:url])
+    {
+        [self.videoBehavior addVideoIconToView:view image:self.playImage];
+    }
 }
 
 - (void)installDefocusActionOnFocusViewController:(ASMediaFocusController *)focusViewController
@@ -83,20 +100,18 @@ static CGFloat const kSwipeOffset = 100;
 
 - (void)setupAccessoryViewOnFocusViewController:(ASMediaFocusController *)focusViewController
 {
-    UIButton *doneButton;
-    
-    doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [doneButton setTitle:NSLocalizedString(@"Done", @"Done") forState:UIControlStateNormal];
-    [doneButton addTarget:self action:@selector(handleDefocusGesture:) forControlEvents:UIControlEventTouchUpInside];
-    doneButton.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
-    [doneButton sizeToFit];
-    doneButton.frame = CGRectInset(doneButton.frame, -20, -4);
-    doneButton.layer.borderWidth = 2;
-    doneButton.layer.cornerRadius = 4;
-    doneButton.layer.borderColor = [UIColor whiteColor].CGColor;
-    doneButton.center = CGPointMake(focusViewController.accessoryView.bounds.size.width - doneButton.bounds.size.width/2 - 10, doneButton.bounds.size.height/2 + 20);
-    doneButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
-    [focusViewController.accessoryView addSubview:doneButton];
+    if(self.topAccessoryController == nil)
+    {
+        ASMediaFocusBasicToolbarController *defaultController = [[ASMediaFocusBasicToolbarController alloc] initWithNibName:@"ASMediaFocusBasicToolbar" bundle:nil];
+        defaultController.view.backgroundColor = [UIColor clearColor];
+        [defaultController.doneButton addTarget:self action:@selector(endFocusing) forControlEvents:UIControlEventTouchUpInside];
+        self.topAccessoryController = defaultController;
+    }
+
+    CGRect frame = self.topAccessoryController.view.frame;
+    frame.size.width = focusViewController.accessoryView.frame.size.width;
+    self.topAccessoryController.view.frame = frame;
+    [focusViewController.accessoryView addSubview:self.topAccessoryController.view];
 }
 
 #pragma mark - Utilities
@@ -201,7 +216,6 @@ static CGFloat const kSwipeOffset = 100;
     UIImage *image;
     UIImageView *imageView = nil;
     NSURL *url;
-    NSString *extension;
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(mediaFocusManager:imageViewForView:)])
     {
@@ -238,8 +252,7 @@ static CGFloat const kSwipeOffset = 100;
         }
     }
     
-    extension = url.pathExtension.lowercaseString;
-    if([extension isEqualToString:@"mp4"] || [extension isEqualToString:@"mov"])
+    if([self isVideoURL:url])
     {
         [viewController showPlayerWithURL:url];
     }
@@ -273,6 +286,14 @@ static CGFloat const kSwipeOffset = 100;
             imageView.image = image;
         });
     }
+}
+
+- (BOOL)isVideoURL:(NSURL *)url
+{
+    NSString *extension;
+    
+    extension = url.pathExtension.lowercaseString;
+    return ([extension isEqualToString:@"mp4"] || [extension isEqualToString:@"mov"]);
 }
 
 #pragma mark - Focus/Defocus
@@ -315,6 +336,7 @@ static CGFloat const kSwipeOffset = 100;
     imageView.center = center;
     imageView.transform = mediaView.transform;
     imageView.bounds = mediaView.bounds;
+    imageView.layer.cornerRadius = mediaView.layer.cornerRadius;
     
     self.isZooming = YES;
     
@@ -372,6 +394,10 @@ static CGFloat const kSwipeOffset = 100;
                          [imageView.layer removeAllAnimations];
                          imageView.transform = CGAffineTransformIdentity;
                          imageView.frame = frame;
+
+                         if (mediaView.layer.cornerRadius > 0) {
+                             [self animateCornerRadiusOfView:imageView withDuration:duration from:mediaView.layer.cornerRadius to:0.0f];
+                         }
                      }
                      completion:^(BOOL finished) {
                          [UIView animateWithDuration:(self.elasticAnimation?self.animationDuration*kAnimateElasticDurationRatio/3:0)
@@ -408,6 +434,16 @@ static CGFloat const kSwipeOffset = 100;
                                                                }];
                                           }];
                      }];
+}
+
+- (void)animateCornerRadiusOfView:(UIView *)view withDuration:(NSTimeInterval)duration from:(float)initialValue to:(float)finalValue {
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"cornerRadius"];
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    animation.fromValue = [NSNumber numberWithFloat:initialValue];
+    animation.toValue = [NSNumber numberWithFloat:finalValue];
+    animation.duration = duration;
+    [view.layer setCornerRadius:finalValue];
+    [view.layer addAnimation:animation forKey:@"cornerRadius"];
 }
 
 - (void)updateAnimatedView:(UIView *)view fromFrame:(CGRect)initialFrame toFrame:(CGRect)finalFrame
@@ -463,6 +499,11 @@ static CGFloat const kSwipeOffset = 100;
                      }];
     
     duration = (self.elasticAnimation?self.animationDuration*(1-kAnimateElasticDurationRatio):self.animationDuration);
+    
+    if (self.mediaView.layer.cornerRadius > 0) {
+        [self animateCornerRadiusOfView:contentView withDuration:duration from:0.0f to:self.mediaView.layer.cornerRadius];
+    }
+    
     [UIView animateWithDuration:duration
                           delay:0
                         options:0
@@ -512,6 +553,14 @@ static CGFloat const kSwipeOffset = 100;
 }
 
 #pragma mark - Gestures
+
+- (void)handlePinchFocusGesture:(UIPinchGestureRecognizer *)gesture
+{
+    if (gesture.state == UIGestureRecognizerStateBegan && !self.isZooming && gesture.scale > 1) {
+        [self startFocusingView:gesture.view];
+    }
+}
+
 - (void)handleFocusGesture:(UIGestureRecognizer *)gesture
 {
     [self startFocusingView:gesture.view];
@@ -520,6 +569,14 @@ static CGFloat const kSwipeOffset = 100;
 - (void)handleDefocusGesture:(UIGestureRecognizer *)gesture
 {
     [self endFocusing];
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if ([gestureRecognizer isKindOfClass:[UIPinchGestureRecognizer class]]) {
+        return self.focusOnPinch;
+    }
+    return YES;
 }
 
 #pragma mark - Dismiss on swipe
@@ -586,6 +643,13 @@ static CGFloat const kSwipeOffset = 100;
                                               }
                                           }];
                      }];
+}
+
+#pragma mark - Customization
+- (void)setDefaultDoneButtonText:(NSString *)text withColor:(UIColor *)color
+{
+    [((ASMediaFocusBasicToolbarController *) self.topAccessoryController).doneButton setTitle:text forState:UIControlStateNormal];
+    [((ASMediaFocusBasicToolbarController *) self.topAccessoryController).doneButton setTitleColor:color forState:UIControlStateNormal];
 }
 
 @end

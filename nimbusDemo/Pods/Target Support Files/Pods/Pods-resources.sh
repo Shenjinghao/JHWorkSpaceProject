@@ -58,35 +58,43 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/ASMediaFocusBasicToolbar.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/ASMediaFocusController.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/ASVideoControlView.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_pause.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_pause@2x.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_play.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_play@2x.png"
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_playbig.png"
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_playbig@2x.png"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "Nimbus/src/overview/resources/NimbusOverviewer.bundle"
   install_resource "Nimbus/src/photos/resources/NimbusPhotos.bundle"
   install_resource "Nimbus/src/webcontroller/resources/NimbusWebController.bundle"
+  install_resource "PEPhotoCropEditor/Resources/PEPhotoCropEditor.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/ASMediaFocusBasicToolbar.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/ASMediaFocusController.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/ASVideoControlView.xib"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_pause.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_pause@2x.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_play.png"
   install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_play@2x.png"
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_playbig.png"
+  install_resource "ASMediaFocusManager/ASMediaFocusManager/Resources/asmedia_playbig@2x.png"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "Nimbus/src/overview/resources/NimbusOverviewer.bundle"
   install_resource "Nimbus/src/photos/resources/NimbusPhotos.bundle"
   install_resource "Nimbus/src/webcontroller/resources/NimbusWebController.bundle"
+  install_resource "PEPhotoCropEditor/Resources/PEPhotoCropEditor.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
-if [[ "${ACTION}" == "install" ]]; then
+if [[ "${ACTION}" == "install" ]] && [[ "${SKIP_INSTALL}" == "NO" ]]; then
   mkdir -p "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
   rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 fi
