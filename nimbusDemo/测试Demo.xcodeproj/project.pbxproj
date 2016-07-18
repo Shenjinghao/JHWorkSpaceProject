@@ -485,6 +485,9 @@
 		A87CD6221D37A93E009A1F13 /* JHNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD61C1D37A93E009A1F13 /* JHNavigationBarViewController.m */; };
 		A87CD6231D37A93E009A1F13 /* navi_bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A87CD61D1D37A93E009A1F13 /* navi_bar.jpg */; };
 		A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */; };
+		A87CD6301D3C7DF1009A1F13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD62B1D3C7DF1009A1F13 /* DetailViewController.m */; };
+		A87CD6311D3C7DF3009A1F13 /* iHasApp.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD62D1D3C7DF1009A1F13 /* iHasApp.m */; };
+		A87CD6321D3C7DF3009A1F13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CD62F1D3C7DF1009A1F13 /* MasterViewController.m */; };
 		A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */; };
 		A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */; };
 		A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */; };
@@ -1160,6 +1163,12 @@
 		A87CD61D1D37A93E009A1F13 /* navi_bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navi_bar.jpg; sourceTree = "<group>"; };
 		A87CD61E1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JHDynamicChangeNavigationBar.h"; sourceTree = "<group>"; };
 		A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JHDynamicChangeNavigationBar.m"; sourceTree = "<group>"; };
+		A87CD62A1D3C7DF1009A1F13 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A87CD62B1D3C7DF1009A1F13 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A87CD62C1D3C7DF1009A1F13 /* iHasApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHasApp.h; sourceTree = "<group>"; };
+		A87CD62D1D3C7DF1009A1F13 /* iHasApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHasApp.m; sourceTree = "<group>"; };
+		A87CD62E1D3C7DF1009A1F13 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A87CD62F1D3C7DF1009A1F13 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		A88285D81C32BA4900390B45 /* MyInformationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyInformationHeaderView.h; path = ../01Home/MyInformationHeaderView.h; sourceTree = "<group>"; };
 		A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyInformationHeaderView.m; path = ../01Home/MyInformationHeaderView.m; sourceTree = "<group>"; };
 		A88285DB1C32BA8100390B45 /* UserCenterInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCenterInfoButton.h; path = ../01Home/UserCenterInfoButton.h; sourceTree = "<group>"; };
@@ -1980,6 +1989,7 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A87CD6291D3C7DF1009A1F13 /* AppsInfo */,
 				A87CD6161D37A93E009A1F13 /* NavigationBar */,
 				A887FC421D2F4B9B00746CDD /* JHFontSetting */,
 				A887FC2A1D2BC3F200746CDD /* JHLoading */,
@@ -2332,6 +2342,19 @@
 				A87CD61F1D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m */,
 			);
 			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		A87CD6291D3C7DF1009A1F13 /* AppsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A87CD62A1D3C7DF1009A1F13 /* DetailViewController.h */,
+				A87CD62B1D3C7DF1009A1F13 /* DetailViewController.m */,
+				A87CD62C1D3C7DF1009A1F13 /* iHasApp.h */,
+				A87CD62D1D3C7DF1009A1F13 /* iHasApp.m */,
+				A87CD62E1D3C7DF1009A1F13 /* MasterViewController.h */,
+				A87CD62F1D3C7DF1009A1F13 /* MasterViewController.m */,
+			);
+			path = AppsInfo;
 			sourceTree = "<group>";
 		};
 		A887FC2A1D2BC3F200746CDD /* JHLoading */ = {
@@ -3292,6 +3315,7 @@
 				A87BCEAF1D0D3C76000693BA /* PersonDoctorSeviceListPriceView.m in Sources */,
 				A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */,
 				A87BCE2D1D056509000693BA /* JHAutoFitTextView.m in Sources */,
+				A87CD6301D3C7DF1009A1F13 /* DetailViewController.m in Sources */,
 				A8DE58F31C4DD3450019CB49 /* YYFeedListExample.m in Sources */,
 				A814CE0A1D17E87F006E17C6 /* JHAnimateSlider.m in Sources */,
 				A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */,
@@ -3328,6 +3352,7 @@
 				A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */,
 				A8FEC9C01C21399F007AF43A /* JHModel.m in Sources */,
 				A8DE58FA1C4DD3450019CB49 /* YYModelExample.m in Sources */,
+				A87CD6311D3C7DF3009A1F13 /* iHasApp.m in Sources */,
 				A84D37F51C3115CF005A5CED /* JHTabBarController.m in Sources */,
 				A8DE59411C4DE5420019CB49 /* WBStatusLayout.m in Sources */,
 				A8DE593B1C4DE5420019CB49 /* WBEmoticonInputView.m in Sources */,
@@ -3350,6 +3375,7 @@
 				A8FECA041C2A5620007AF43A /* JHNetworkImageView.m in Sources */,
 				A814CE061D140136006E17C6 /* UIButton+Create.m in Sources */,
 				A8DE59051C4DD3450019CB49 /* YYTextEditExample.m in Sources */,
+				A87CD6321D3C7DF3009A1F13 /* MasterViewController.m in Sources */,
 				A8DB9B4E1CF3FF8600884853 /* JHSimpleDBModel.m in Sources */,
 				A887FC381D2BD12900746CDD /* JHLoadingViewController.m in Sources */,
 				A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */,
