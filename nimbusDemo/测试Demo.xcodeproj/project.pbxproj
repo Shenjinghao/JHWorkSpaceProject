@@ -29,6 +29,11 @@
 		A814CE201D17F815006E17C6 /* jh_slider_round_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE151D17F815006E17C6 /* jh_slider_round_finish.png */; };
 		A814CE211D17F815006E17C6 /* jh_slider_round_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */; };
 		A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */; };
+		A81C28531D3E293000B5BE44 /* JHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C28521D3E293000B5BE44 /* JHCardView.m */; };
+		A81C28561D3E2D5C00B5BE44 /* JHInvitationCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C28551D3E2D5C00B5BE44 /* JHInvitationCard.m */; };
+		A81C28591D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C28581D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m */; };
+		A81C285C1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C285B1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m */; };
+		A81C285F1D3E2FF300B5BE44 /* PKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C285E1D3E2FF300B5BE44 /* PKItem.m */; };
 		A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */; };
 		A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FD1C2D27CD005A5CED /* JHActivityView.m */; };
 		A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D35001C2D2A2C005A5CED /* UIFont+JHCategory.m */; };
@@ -841,6 +846,17 @@
 		A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh_slider_round_finish@2x.png"; sourceTree = "<group>"; };
 		A814CE221D180543006E17C6 /* JHAnimateSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAnimateSliderViewController.h; sourceTree = "<group>"; };
 		A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnimateSliderViewController.m; sourceTree = "<group>"; };
+		A81C28511D3E293000B5BE44 /* JHCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCardView.h; sourceTree = "<group>"; };
+		A81C28521D3E293000B5BE44 /* JHCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCardView.m; sourceTree = "<group>"; };
+		A81C28541D3E2D5C00B5BE44 /* JHInvitationCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInvitationCard.h; sourceTree = "<group>"; };
+		A81C28551D3E2D5C00B5BE44 /* JHInvitationCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInvitationCard.m; sourceTree = "<group>"; };
+		A81C28571D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHStartStepsFriendPKCard.h; sourceTree = "<group>"; };
+		A81C28581D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHStartStepsFriendPKCard.m; sourceTree = "<group>"; };
+		A81C285A1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHStepsPKSummaryCard.h; sourceTree = "<group>"; };
+		A81C285B1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHStepsPKSummaryCard.m; sourceTree = "<group>"; };
+		A81C285D1D3E2FF300B5BE44 /* PKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKItem.h; sourceTree = "<group>"; };
+		A81C285E1D3E2FF300B5BE44 /* PKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKItem.m; sourceTree = "<group>"; };
+		A81C28601D3E34DF00B5BE44 /* StepCounterMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepCounterMacros.h; sourceTree = "<group>"; };
 		A84D34F91C2CE198005A5CED /* JHViewController+NavigationButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHViewController+NavigationButtons.h"; sourceTree = "<group>"; };
 		A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHViewController+NavigationButtons.m"; sourceTree = "<group>"; };
 		A84D34FC1C2D27CD005A5CED /* JHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActivityView.h; sourceTree = "<group>"; };
@@ -2922,6 +2938,16 @@
 				A87CD5F91D3647A6009A1F13 /* StepsFriendPKViewController.m */,
 				A87CD6041D3647B9009A1F13 /* JHStackablePage.h */,
 				A87CD6051D3647B9009A1F13 /* JHStackablePage.m */,
+				A81C28511D3E293000B5BE44 /* JHCardView.h */,
+				A81C28521D3E293000B5BE44 /* JHCardView.m */,
+				A81C28541D3E2D5C00B5BE44 /* JHInvitationCard.h */,
+				A81C28551D3E2D5C00B5BE44 /* JHInvitationCard.m */,
+				A81C28571D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.h */,
+				A81C28581D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m */,
+				A81C285A1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.h */,
+				A81C285B1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m */,
+				A81C285D1D3E2FF300B5BE44 /* PKItem.h */,
+				A81C285E1D3E2FF300B5BE44 /* PKItem.m */,
 			);
 			path = Tab2;
 			sourceTree = "<group>";
@@ -2992,6 +3018,7 @@
 				A87CD4821D34DEE5009A1F13 /* JHUserTopView.m */,
 				A887FC5F1D348BD200746CDD /* JHNavigationView.h */,
 				A887FC601D348BD200746CDD /* JHNavigationView.m */,
+				A81C28601D3E34DF00B5BE44 /* StepCounterMacros.h */,
 			);
 			path = StepCounter;
 			sourceTree = "<group>";
@@ -4072,6 +4099,7 @@
 				A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */,
 				A84D35041C2D4134005A5CED /* UIColor+JHCategory.m in Sources */,
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,
+				A81C285F1D3E2FF300B5BE44 /* PKItem.m in Sources */,
 				A8DE58F51C4DD3450019CB49 /* YYImageBenchmark.m in Sources */,
 				A84D37FD1C312EC1005A5CED /* JHIndexViewController.m in Sources */,
 				A887FC611D348BD200746CDD /* JHNavigationView.m in Sources */,
@@ -4108,6 +4136,7 @@
 				A8DE58F11C4DD3450019CB49 /* YYBPGCoder.m in Sources */,
 				A85D08811B8C904B00F976F2 /* ViewController.m in Sources */,
 				A8DE59011C4DD3450019CB49 /* YYTextAttachmentExample.m in Sources */,
+				A81C28591D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m in Sources */,
 				A8DE58FD1C4DD3450019CB49 /* YYSimpleWebViewController.m in Sources */,
 				A8DE58FB1C4DD3450019CB49 /* YYPhotoGroupView.m in Sources */,
 				A8FEC9E31C2945D5007AF43A /* JHTableItem.m in Sources */,
@@ -4120,6 +4149,7 @@
 				A8DE58FE1C4DD3450019CB49 /* YYTableView.m in Sources */,
 				A87CD6011D3647A6009A1F13 /* StepsFriendPKViewController.m in Sources */,
 				A84D380F1C3176BB005A5CED /* JHLineSeparator.m in Sources */,
+				A81C28531D3E293000B5BE44 /* JHCardView.m in Sources */,
 				A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */,
 				A80A2F3B1C450BE600DBD028 /* JHFilledColorButton.m in Sources */,
 				A8DE58FF1C4DD3450019CB49 /* YYTableViewCell.m in Sources */,
@@ -4134,6 +4164,7 @@
 				A8FEC9CC1C2165E9007AF43A /* JHScrollView.m in Sources */,
 				A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */,
 				A8FEC9C01C21399F007AF43A /* JHModel.m in Sources */,
+				A81C28561D3E2D5C00B5BE44 /* JHInvitationCard.m in Sources */,
 				A8DE58FA1C4DD3450019CB49 /* YYModelExample.m in Sources */,
 				A84D37F51C3115CF005A5CED /* JHTabBarController.m in Sources */,
 				A8DE59411C4DE5420019CB49 /* WBStatusLayout.m in Sources */,
@@ -4145,6 +4176,7 @@
 				A8DE58F71C4DD3450019CB49 /* YYImageExample.m in Sources */,
 				A887FC301D2BC51A00746CDD /* JHLoadingVIew.m in Sources */,
 				A8FEC9DD1C2835E1007AF43A /* JHAPIHost.m in Sources */,
+				A81C285C1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m in Sources */,
 				A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */,
 				A87BCF101D0E5B70000693BA /* JHCollectionViewFlowLayout.m in Sources */,
 				A8FEC9E61C294F41007AF43A /* JHEmptyView.m in Sources */,

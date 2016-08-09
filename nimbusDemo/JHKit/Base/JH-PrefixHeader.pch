@@ -66,8 +66,10 @@
 #import "JHResource.h"
 
 
-
-
+/**
+ *  计步器
+ */
+#import "StepCounterMacros.h"
 
 
 #endif /* JH_PrefixHeader_pch */
