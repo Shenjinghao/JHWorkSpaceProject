@@ -15,6 +15,7 @@
 #import "AppDelegate.h"
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "SJHRootViewController.h"
 
 typedef NS_ENUM(NSInteger, buttonDidClickedTag)
 {
@@ -97,7 +98,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
         [_myHeaderView addSubview:lineView];
         
     }
-    NSArray * titles = @[@"动态navigationbar", @"AppsInfo", @"评价", @"推荐指数"];
+    NSArray * titles = @[@"动态navigationbar", @"AppsInfo", @"GCD", @"推荐指数"];
     NSMutableArray *tempArray = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i ++) {
         //创建自定义button
@@ -289,8 +290,11 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
             
             break;
         }
-        case kBadgeButtonTag + 2:{          //评价
+        case kBadgeButtonTag + 2:{          //GCD
             NIDPRINT(@"s5");
+            
+            SJHRootViewController *VC = [[SJHRootViewController alloc] init];
+            [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:VC animated:YES];
             break;
         }
         case kBadgeButtonTag + 3:{          //推荐指数

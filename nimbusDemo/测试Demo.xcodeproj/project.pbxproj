@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A803791F1D59B88000422FC7 /* JHGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A803791E1D59B88000422FC7 /* JHGCDViewController.m */; };
+		A80379231D59B96500422FC7 /* SJHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80379211D59B96500422FC7 /* SJHRootViewController.m */; };
+		A80379241D59B96500422FC7 /* SJHRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80379221D59B96500422FC7 /* SJHRootViewController.xib */; };
 		A80A2F321C43E03000DBD028 /* JHRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80A2F311C43E03000DBD028 /* JHRACViewController.m */; };
 		A80A2F341C44E82800DBD028 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A80A2F331C44E82800DBD028 /* kitten.jpg */; };
 		A80A2F371C44E84900DBD028 /* JHRACKittenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80A2F361C44E84900DBD028 /* JHRACKittenViewController.m */; };
@@ -634,6 +637,11 @@
 		6362BBBCBB38B3049C96A1FE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7664B76736407A6460742F86 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		98451C5694A6DCBE4855AF4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A803791D1D59B88000422FC7 /* JHGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGCDViewController.h; sourceTree = "<group>"; };
+		A803791E1D59B88000422FC7 /* JHGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHGCDViewController.m; sourceTree = "<group>"; };
+		A80379201D59B96500422FC7 /* SJHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJHRootViewController.h; sourceTree = "<group>"; };
+		A80379211D59B96500422FC7 /* SJHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJHRootViewController.m; sourceTree = "<group>"; };
+		A80379221D59B96500422FC7 /* SJHRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJHRootViewController.xib; sourceTree = "<group>"; };
 		A80A2F301C43E03000DBD028 /* JHRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRACViewController.h; sourceTree = "<group>"; };
 		A80A2F311C43E03000DBD028 /* JHRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRACViewController.m; sourceTree = "<group>"; };
 		A80A2F331C44E82800DBD028 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
@@ -1405,6 +1413,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A803791C1D59B85B00422FC7 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A80379201D59B96500422FC7 /* SJHRootViewController.h */,
+				A80379211D59B96500422FC7 /* SJHRootViewController.m */,
+				A80379221D59B96500422FC7 /* SJHRootViewController.xib */,
+				A803791D1D59B88000422FC7 /* JHGCDViewController.h */,
+				A803791E1D59B88000422FC7 /* JHGCDViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		A80A2F2F1C43DFEF00DBD028 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -2001,6 +2021,7 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A803791C1D59B85B00422FC7 /* GCD */,
 				A81D3D961D3CC17800D7A126 /* SplitPhoto */,
 				A87CD6291D3C7DF1009A1F13 /* AppsInfo */,
 				A87CD6161D37A93E009A1F13 /* NavigationBar */,
@@ -3029,6 +3050,7 @@
 				A84D37601C2D6CE9005A5CED /* clinic_08_icon_c.png in Resources */,
 				A87BCE9F1D0573BA000693BA /* score_gain_bg.png in Resources */,
 				A87BCEFF1D0E59C2000693BA /* clinic_16_icon_c.png in Resources */,
+				A80379241D59B96500422FC7 /* SJHRootViewController.xib in Resources */,
 				A84D378F1C2D6CEA005A5CED /* my_home_page@3x.png in Resources */,
 				A87BCF011D0E59C2000693BA /* clinic_17_icon_c.png in Resources */,
 				A84D37D81C2D6CEA005A5CED /* video_phoneCall@2x.png in Resources */,
@@ -3323,6 +3345,7 @@
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,
 				A8DE58F51C4DD3450019CB49 /* YYImageBenchmark.m in Sources */,
 				A84D37FD1C312EC1005A5CED /* JHIndexViewController.m in Sources */,
+				A803791F1D59B88000422FC7 /* JHGCDViewController.m in Sources */,
 				A8DE59421C4DE5420019CB49 /* WBStatusTimelineViewController.m in Sources */,
 				A8DE593C1C4DE5420019CB49 /* WBModel.m in Sources */,
 				A8DE590D1C4DD3450019CB49 /* YYWebImageExample.m in Sources */,
@@ -3336,6 +3359,7 @@
 				A8DE59391C4DE5420019CB49 /* T1StatusCell.m in Sources */,
 				A84D37EC1C2D7F6C005A5CED /* JHWebViewController.m in Sources */,
 				A8DB9B451CF304A900884853 /* JHDateBase.m in Sources */,
+				A80379231D59B96500422FC7 /* SJHRootViewController.m in Sources */,
 				A8DB9B4B1CF31E8400884853 /* JHDateBaseViewController.m in Sources */,
 				A8DE59001C4DD3450019CB49 /* YYTextAsyncExample.m in Sources */,
 				A8FECA0D1C2A7A85007AF43A /* JHUrlTableViewModel.m in Sources */,
