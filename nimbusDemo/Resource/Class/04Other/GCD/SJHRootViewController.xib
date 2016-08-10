@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJHRootViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89k-Lr-pJb">
+                    <rect key="frame" x="20" y="60" width="560" height="45"/>
+                    <color key="backgroundColor" red="0.21982791099999999" green="1" blue="0.83298395629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="pFc-xg-LUk"/>
+                    </constraints>
+                    <state key="normal" title="GCD---serial queue">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="serialqueueButtonDidClicked:" destination="-1" eventType="touchUpInside" id="qIs-Vn-k09"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF1-tK-LlF">
+                    <rect key="frame" x="20" y="195" width="560" height="45"/>
+                    <color key="backgroundColor" red="1" green="0.66359232759999998" blue="0.90234489330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Dmh-C2-Z5M"/>
+                    </constraints>
+                    <state key="normal" title="GCD---concurrent queue">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="concurrentqueueButtonDidClicked:" destination="-1" eventType="touchUpInside" id="vvR-us-E61"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDj-yJ-RpL">
+                    <rect key="frame" x="20" y="253" width="560" height="45"/>
+                    <color key="backgroundColor" red="1" green="0.66359232759999998" blue="0.90234489330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="XLZ-aa-xpy"/>
+                    </constraints>
+                    <state key="normal" title="GCD---延迟">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="afterButtonDidClicked:" destination="-1" eventType="touchUpInside" id="5Wg-GI-wrR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BZ-IV-0w0">
+                    <rect key="frame" x="20" y="334" width="560" height="45"/>
+                    <color key="backgroundColor" red="1" green="0.66359232759999998" blue="0.90234489330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="MSC-w6-Tu8"/>
+                    </constraints>
+                    <state key="normal" title="GCD---Group">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="groupButtonDidClicked:" destination="-1" eventType="touchUpInside" id="oCs-Or-f4S"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U03-pC-hU2">
+                    <rect key="frame" x="20" y="423" width="560" height="45"/>
+                    <color key="backgroundColor" red="0.21982791099999999" green="1" blue="0.83298395629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Ku8-3q-2lD"/>
+                    </constraints>
+                    <state key="normal" title="GCD---dispachOnce单例模式">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onceButtonDidClecked:" destination="-1" eventType="touchUpInside" id="atL-4o-hfg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-0J-Yaa">
+                    <rect key="frame" x="20" y="494" width="560" height="45"/>
+                    <color key="backgroundColor" red="0.21982791099999999" green="1" blue="0.83298395629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="73P-bC-dHt"/>
+                    </constraints>
+                    <state key="normal" title="GCD---解决数据库读写控制">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sameReadAndWriteButton:" destination="-1" eventType="touchUpInside" id="ChX-uI-F5R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHD-rn-zSk">
+                    <rect key="frame" x="20" y="133" width="560" height="45"/>
+                    <color key="backgroundColor" red="0.21982791099999999" green="1" blue="0.83298395629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="u7i-ne-sHG"/>
+                    </constraints>
+                    <state key="normal" title="GCD---多次执行任务">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="manyTimeAplyButtonDidclicked:" destination="-1" eventType="touchUpInside" id="51l-RI-E0D"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGi-ms-6fY">
+                    <rect key="frame" x="27" y="547" width="168" height="38"/>
+                    <color key="backgroundColor" red="0.90798951429999997" green="1" blue="0.57360558790000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="168" id="sve-Fu-G6z"/>
+                    </constraints>
+                    <state key="normal" title="GCD--ASync和Sync">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="differectButtonDidClicked:" destination="-1" eventType="touchUpInside" id="7Yf-vf-rz7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bl-Ql-4M9">
+                    <rect key="frame" x="412" y="547" width="168" height="38"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="168" id="0i0-t0-KDx"/>
+                    </constraints>
+                    <state key="normal" title="GCD函数指针">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="functionPointerButton:" destination="-1" eventType="touchUpInside" id="cIj-IL-mqp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="89k-Lr-pJb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="0mJ-Hb-Ijs"/>
+                <constraint firstItem="gF1-tK-LlF" firstAttribute="leading" secondItem="89k-Lr-pJb" secondAttribute="leading" id="232-kk-ZkG"/>
+                <constraint firstItem="hvZ-0J-Yaa" firstAttribute="leading" secondItem="U03-pC-hU2" secondAttribute="leading" id="7G0-iy-LC6"/>
+                <constraint firstAttribute="trailing" secondItem="4bl-Ql-4M9" secondAttribute="trailing" constant="20" id="Bq3-2A-2M5"/>
+                <constraint firstItem="U03-pC-hU2" firstAttribute="trailing" secondItem="5BZ-IV-0w0" secondAttribute="trailing" id="DFm-ou-M08"/>
+                <constraint firstAttribute="trailing" secondItem="89k-Lr-pJb" secondAttribute="trailing" constant="20" id="FSK-6g-4uw"/>
+                <constraint firstItem="4bl-Ql-4M9" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottomMargin" id="HDf-5J-TgZ"/>
+                <constraint firstItem="yDj-yJ-RpL" firstAttribute="top" secondItem="gF1-tK-LlF" secondAttribute="bottom" constant="13" id="NEc-Xw-ewg"/>
+                <constraint firstItem="5BZ-IV-0w0" firstAttribute="top" secondItem="yDj-yJ-RpL" secondAttribute="bottom" constant="36" id="OJG-Ep-nN0"/>
+                <constraint firstItem="5BZ-IV-0w0" firstAttribute="trailing" secondItem="yDj-yJ-RpL" secondAttribute="trailing" id="OVk-Rx-4z8"/>
+                <constraint firstItem="yDj-yJ-RpL" firstAttribute="trailing" secondItem="gF1-tK-LlF" secondAttribute="trailing" id="PGq-5Z-Fdg"/>
+                <constraint firstItem="4bl-Ql-4M9" firstAttribute="baseline" secondItem="xGi-ms-6fY" secondAttribute="firstBaseline" id="Uop-PL-2f8"/>
+                <constraint firstItem="LHD-rn-zSk" firstAttribute="leading" secondItem="gF1-tK-LlF" secondAttribute="leading" id="VFH-nt-HoN"/>
+                <constraint firstItem="gF1-tK-LlF" firstAttribute="top" secondItem="89k-Lr-pJb" secondAttribute="bottom" constant="90" id="VUn-mF-31n"/>
+                <constraint firstItem="U03-pC-hU2" firstAttribute="leading" secondItem="5BZ-IV-0w0" secondAttribute="leading" id="WgT-vB-yys"/>
+                <constraint firstItem="4bl-Ql-4M9" firstAttribute="top" secondItem="hvZ-0J-Yaa" secondAttribute="bottom" constant="15" id="XlT-bC-iDf"/>
+                <constraint firstItem="4bl-Ql-4M9" firstAttribute="firstBaseline" secondItem="xGi-ms-6fY" secondAttribute="baseline" id="Ykk-5Q-ygw"/>
+                <constraint firstItem="yDj-yJ-RpL" firstAttribute="leading" secondItem="gF1-tK-LlF" secondAttribute="leading" id="hsu-pu-0Jg"/>
+                <constraint firstItem="U03-pC-hU2" firstAttribute="top" secondItem="5BZ-IV-0w0" secondAttribute="bottom" constant="44" id="i8I-Io-Mel"/>
+                <constraint firstItem="LHD-rn-zSk" firstAttribute="trailing" secondItem="gF1-tK-LlF" secondAttribute="trailing" id="irI-n6-Guw"/>
+                <constraint firstItem="xGi-ms-6fY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="mW1-Jo-ZFv"/>
+                <constraint firstItem="89k-Lr-pJb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="mdi-TU-lGL"/>
+                <constraint firstItem="gF1-tK-LlF" firstAttribute="trailing" secondItem="89k-Lr-pJb" secondAttribute="trailing" id="nvz-N8-vdG"/>
+                <constraint firstItem="gF1-tK-LlF" firstAttribute="top" secondItem="LHD-rn-zSk" secondAttribute="bottom" constant="17" id="pzB-tv-hHd"/>
+                <constraint firstItem="4bl-Ql-4M9" firstAttribute="top" secondItem="xGi-ms-6fY" secondAttribute="top" id="qWd-tB-e1F"/>
+                <constraint firstItem="5BZ-IV-0w0" firstAttribute="leading" secondItem="yDj-yJ-RpL" secondAttribute="leading" id="qlX-Pi-Ufz"/>
+                <constraint firstItem="hvZ-0J-Yaa" firstAttribute="top" secondItem="U03-pC-hU2" secondAttribute="bottom" constant="26" id="rmc-0u-Jpg"/>
+                <constraint firstItem="hvZ-0J-Yaa" firstAttribute="trailing" secondItem="U03-pC-hU2" secondAttribute="trailing" id="y3f-TI-IGD"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
