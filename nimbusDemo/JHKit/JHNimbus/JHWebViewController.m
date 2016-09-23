@@ -79,6 +79,7 @@
 
 - (void) webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     [self showLoading: NO];
+    
 }
 
 - (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request

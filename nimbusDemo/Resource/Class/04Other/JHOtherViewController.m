@@ -32,6 +32,8 @@
 #import "JHLoadingViewController.h"
 //font设置
 #import "JHFontSettingViewController.h"
+//AR
+#import "AROverlayViewController.h"
 
 @implementation JHOtherViewController
 
@@ -221,6 +223,9 @@
             break;
         case kOtherServiceBtnDoctorGroup:{
             NIDPRINT(@"21");
+            AROverlayViewController *VC = [[AROverlayViewController alloc] init];
+            [self.navigationController pushViewController:VC animated:YES];
+            
          }
             break;
             

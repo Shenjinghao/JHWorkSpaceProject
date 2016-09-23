@@ -16,6 +16,7 @@
 #import "MasterViewController.h"
 #import "DetailViewController.h"
 #import "SJHRootViewController.h"
+#import "JHJSViewController.h"
 
 typedef NS_ENUM(NSInteger, buttonDidClickedTag)
 {
@@ -98,7 +99,7 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
         [_myHeaderView addSubview:lineView];
         
     }
-    NSArray * titles = @[@"动态navigationbar", @"AppsInfo", @"GCD", @"推荐指数"];
+    NSArray * titles = @[@"动态navigationbar", @"AppsInfo", @"GCD", @"JavaScript"];
     NSMutableArray *tempArray = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i ++) {
         //创建自定义button
@@ -297,8 +298,10 @@ typedef NS_ENUM(NSInteger, buttonDidClickedTag)
             [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:VC animated:YES];
             break;
         }
-        case kBadgeButtonTag + 3:{          //推荐指数
+        case kBadgeButtonTag + 3:{          //JavaScript
             NIDPRINT(@"s6");
+            JHJSViewController *VC = [[JHJSViewController alloc] initWithUrl:@"http://blog.csdn.net/lwjok2007/article/details/47058101" title:@"JavaScript"];
+            [[AppDelegate sharedInstance].topViewController.navigationController pushViewController:VC animated:YES];
             break;
         }
             

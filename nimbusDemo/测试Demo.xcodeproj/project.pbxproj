@@ -10,6 +10,7 @@
 		A803791F1D59B88000422FC7 /* JHGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A803791E1D59B88000422FC7 /* JHGCDViewController.m */; };
 		A80379231D59B96500422FC7 /* SJHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80379211D59B96500422FC7 /* SJHRootViewController.m */; };
 		A80379241D59B96500422FC7 /* SJHRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80379221D59B96500422FC7 /* SJHRootViewController.xib */; };
+		A80379281D5C767E00422FC7 /* JHJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80379271D5C767E00422FC7 /* JHJSViewController.m */; };
 		A80A2F321C43E03000DBD028 /* JHRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80A2F311C43E03000DBD028 /* JHRACViewController.m */; };
 		A80A2F341C44E82800DBD028 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A80A2F331C44E82800DBD028 /* kitten.jpg */; };
 		A80A2F371C44E84900DBD028 /* JHRACKittenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80A2F361C44E84900DBD028 /* JHRACKittenViewController.m */; };
@@ -43,7 +44,6 @@
 		A84D36851C2D6CE9005A5CED /* icon_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D350A1C2D6CE9005A5CED /* icon_smile.png */; };
 		A84D36861C2D6CE9005A5CED /* navi_white_left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D350B1C2D6CE9005A5CED /* navi_white_left_arrow.png */; };
 		A84D36871C2D6CE9005A5CED /* navi_white_left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D350C1C2D6CE9005A5CED /* navi_white_left_arrow@2x.png */; };
-		A84D36881C2D6CE9005A5CED /* ugly_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D350D1C2D6CE9005A5CED /* ugly_face.png */; };
 		A84D36891C2D6CE9005A5CED /* asset_chose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D350F1C2D6CE9005A5CED /* asset_chose@2x.png */; };
 		A84D368A1C2D6CE9005A5CED /* asset_chose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35101C2D6CE9005A5CED /* asset_chose@3x.png */; };
 		A84D368B1C2D6CE9005A5CED /* asset_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35111C2D6CE9005A5CED /* asset_close@2x.png */; };
@@ -193,51 +193,6 @@
 		A84D374E1C2D6CE9005A5CED /* award_bigicon_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E01C2D6CE9005A5CED /* award_bigicon_6.png */; };
 		A84D374F1C2D6CE9005A5CED /* btn_upload_pic_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E11C2D6CE9005A5CED /* btn_upload_pic_normal.png */; };
 		A84D37501C2D6CE9005A5CED /* btn_upload_pic_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E21C2D6CE9005A5CED /* btn_upload_pic_pressed.png */; };
-		A84D37511C2D6CE9005A5CED /* clinic_00_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E41C2D6CE9005A5CED /* clinic_00_icon.png */; };
-		A84D37521C2D6CE9005A5CED /* clinic_01_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E51C2D6CE9005A5CED /* clinic_01_icon.png */; };
-		A84D37531C2D6CE9005A5CED /* clinic_01_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E61C2D6CE9005A5CED /* clinic_01_icon_c.png */; };
-		A84D37541C2D6CE9005A5CED /* clinic_02_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E71C2D6CE9005A5CED /* clinic_02_icon.png */; };
-		A84D37551C2D6CE9005A5CED /* clinic_02_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E81C2D6CE9005A5CED /* clinic_02_icon_c.png */; };
-		A84D37561C2D6CE9005A5CED /* clinic_03_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35E91C2D6CE9005A5CED /* clinic_03_icon.png */; };
-		A84D37571C2D6CE9005A5CED /* clinic_03_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35EA1C2D6CE9005A5CED /* clinic_03_icon_c.png */; };
-		A84D37581C2D6CE9005A5CED /* clinic_04_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35EB1C2D6CE9005A5CED /* clinic_04_icon.png */; };
-		A84D37591C2D6CE9005A5CED /* clinic_04_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35EC1C2D6CE9005A5CED /* clinic_04_icon_c.png */; };
-		A84D375A1C2D6CE9005A5CED /* clinic_05_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35ED1C2D6CE9005A5CED /* clinic_05_icon.png */; };
-		A84D375B1C2D6CE9005A5CED /* clinic_06_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35EE1C2D6CE9005A5CED /* clinic_06_icon.png */; };
-		A84D375C1C2D6CE9005A5CED /* clinic_06_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35EF1C2D6CE9005A5CED /* clinic_06_icon_c.png */; };
-		A84D375D1C2D6CE9005A5CED /* clinic_07_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F01C2D6CE9005A5CED /* clinic_07_icon.png */; };
-		A84D375E1C2D6CE9005A5CED /* clinic_07_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F11C2D6CE9005A5CED /* clinic_07_icon_c.png */; };
-		A84D375F1C2D6CE9005A5CED /* clinic_08_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F21C2D6CE9005A5CED /* clinic_08_icon.png */; };
-		A84D37601C2D6CE9005A5CED /* clinic_08_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F31C2D6CE9005A5CED /* clinic_08_icon_c.png */; };
-		A84D37611C2D6CE9005A5CED /* clinic_09_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F41C2D6CE9005A5CED /* clinic_09_icon.png */; };
-		A84D37621C2D6CE9005A5CED /* clinic_09_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F51C2D6CE9005A5CED /* clinic_09_icon_c.png */; };
-		A84D37631C2D6CE9005A5CED /* clinic_10_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F61C2D6CE9005A5CED /* clinic_10_icon.png */; };
-		A84D37641C2D6CE9005A5CED /* clinic_11_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F71C2D6CE9005A5CED /* clinic_11_icon.png */; };
-		A84D37651C2D6CE9005A5CED /* clinic_11_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F81C2D6CE9005A5CED /* clinic_11_icon_c.png */; };
-		A84D37661C2D6CE9005A5CED /* clinic_12_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35F91C2D6CE9005A5CED /* clinic_12_icon.png */; };
-		A84D37671C2D6CE9005A5CED /* clinic_12_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FA1C2D6CE9005A5CED /* clinic_12_icon_c.png */; };
-		A84D37681C2D6CE9005A5CED /* clinic_13_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FB1C2D6CE9005A5CED /* clinic_13_icon.png */; };
-		A84D37691C2D6CE9005A5CED /* clinic_13_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FC1C2D6CE9005A5CED /* clinic_13_icon_c.png */; };
-		A84D376A1C2D6CE9005A5CED /* clinic_14_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FD1C2D6CE9005A5CED /* clinic_14_icon.png */; };
-		A84D376B1C2D6CE9005A5CED /* clinic_14_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FE1C2D6CE9005A5CED /* clinic_14_icon_c.png */; };
-		A84D376C1C2D6CE9005A5CED /* clinic_15_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D35FF1C2D6CE9005A5CED /* clinic_15_icon.png */; };
-		A84D376D1C2D6CE9005A5CED /* clinic_15_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36001C2D6CE9005A5CED /* clinic_15_icon_c.png */; };
-		A84D376E1C2D6CE9005A5CED /* clinic_16_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36011C2D6CE9005A5CED /* clinic_16_icon.png */; };
-		A84D376F1C2D6CE9005A5CED /* clinic_16_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36021C2D6CE9005A5CED /* clinic_16_icon_c.png */; };
-		A84D37701C2D6CE9005A5CED /* clinic_17_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36031C2D6CE9005A5CED /* clinic_17_icon.png */; };
-		A84D37711C2D6CE9005A5CED /* clinic_17_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36041C2D6CE9005A5CED /* clinic_17_icon_c.png */; };
-		A84D37721C2D6CEA005A5CED /* clinic_18_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36051C2D6CE9005A5CED /* clinic_18_icon.png */; };
-		A84D37731C2D6CEA005A5CED /* clinic_19_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36061C2D6CE9005A5CED /* clinic_19_icon.png */; };
-		A84D37741C2D6CEA005A5CED /* clinic_19_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36071C2D6CE9005A5CED /* clinic_19_icon_c.png */; };
-		A84D37751C2D6CEA005A5CED /* clinic_20_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36081C2D6CE9005A5CED /* clinic_20_icon.png */; };
-		A84D37761C2D6CEA005A5CED /* clinic_21_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36091C2D6CE9005A5CED /* clinic_21_icon.png */; };
-		A84D37771C2D6CEA005A5CED /* clinic_21_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D360A1C2D6CE9005A5CED /* clinic_21_icon_c.png */; };
-		A84D37781C2D6CEA005A5CED /* clinic_22_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D360B1C2D6CE9005A5CED /* clinic_22_icon.png */; };
-		A84D37791C2D6CEA005A5CED /* clinic_22_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D360C1C2D6CE9005A5CED /* clinic_22_icon_c.png */; };
-		A84D377A1C2D6CEA005A5CED /* clinic_bkg_normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84D360D1C2D6CE9005A5CED /* clinic_bkg_normal.jpg */; };
-		A84D377B1C2D6CEA005A5CED /* clinic_bkg_pressed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84D360E1C2D6CE9005A5CED /* clinic_bkg_pressed.jpg */; };
-		A84D377C1C2D6CEA005A5CED /* clinic_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D360F1C2D6CE9005A5CED /* clinic_camera.png */; };
-		A84D377D1C2D6CEA005A5CED /* clinic_default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36101C2D6CE9005A5CED /* clinic_default_icon.png */; };
 		A84D377E1C2D6CEA005A5CED /* clinic_share.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84D36111C2D6CE9005A5CED /* clinic_share.jpg */; };
 		A84D377F1C2D6CEA005A5CED /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36121C2D6CE9005A5CED /* default_avatar.png */; };
 		A84D37801C2D6CEA005A5CED /* doctor_group_empty_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A84D36131C2D6CE9005A5CED /* doctor_group_empty_image.png */; };
@@ -505,6 +460,54 @@
 		A887FC4B1D2F4C1100746CDD /* JHFontSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC4A1D2F4C1100746CDD /* JHFontSettingViewController.m */; };
 		A887FC4E1D2F7E5B00746CDD /* JHFontSettingArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FC4D1D2F7E5B00746CDD /* JHFontSettingArrowView.m */; };
 		A888FBFB1CF5499E005F7749 /* JHTopYellowBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */; };
+		A8CB36B61D94FE4900575B27 /* clinic_00_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36891D94FE4900575B27 /* clinic_00_icon.png */; };
+		A8CB36B71D94FE4900575B27 /* clinic_01_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368A1D94FE4900575B27 /* clinic_01_icon.png */; };
+		A8CB36B81D94FE4900575B27 /* clinic_01_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368B1D94FE4900575B27 /* clinic_01_icon_c.png */; };
+		A8CB36B91D94FE4900575B27 /* clinic_02_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368C1D94FE4900575B27 /* clinic_02_icon.png */; };
+		A8CB36BA1D94FE4900575B27 /* clinic_02_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368D1D94FE4900575B27 /* clinic_02_icon_c.png */; };
+		A8CB36BB1D94FE4900575B27 /* clinic_03_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368E1D94FE4900575B27 /* clinic_03_icon.png */; };
+		A8CB36BC1D94FE4900575B27 /* clinic_03_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB368F1D94FE4900575B27 /* clinic_03_icon_c.png */; };
+		A8CB36BD1D94FE4900575B27 /* clinic_04_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36901D94FE4900575B27 /* clinic_04_icon.png */; };
+		A8CB36BE1D94FE4900575B27 /* clinic_04_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36911D94FE4900575B27 /* clinic_04_icon_c.png */; };
+		A8CB36BF1D94FE4900575B27 /* clinic_05_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36921D94FE4900575B27 /* clinic_05_icon.png */; };
+		A8CB36C01D94FE4900575B27 /* clinic_06_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36931D94FE4900575B27 /* clinic_06_icon.png */; };
+		A8CB36C11D94FE4900575B27 /* clinic_06_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36941D94FE4900575B27 /* clinic_06_icon_c.png */; };
+		A8CB36C21D94FE4900575B27 /* clinic_07_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36951D94FE4900575B27 /* clinic_07_icon.png */; };
+		A8CB36C31D94FE4900575B27 /* clinic_07_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36961D94FE4900575B27 /* clinic_07_icon_c.png */; };
+		A8CB36C41D94FE4900575B27 /* clinic_08_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36971D94FE4900575B27 /* clinic_08_icon.png */; };
+		A8CB36C51D94FE4900575B27 /* clinic_08_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36981D94FE4900575B27 /* clinic_08_icon_c.png */; };
+		A8CB36C71D94FE4900575B27 /* clinic_09_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369A1D94FE4900575B27 /* clinic_09_icon_c.png */; };
+		A8CB36C81D94FE4900575B27 /* clinic_10_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369B1D94FE4900575B27 /* clinic_10_icon.png */; };
+		A8CB36C91D94FE4900575B27 /* clinic_11_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369C1D94FE4900575B27 /* clinic_11_icon.png */; };
+		A8CB36CA1D94FE4900575B27 /* clinic_11_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369D1D94FE4900575B27 /* clinic_11_icon_c.png */; };
+		A8CB36CB1D94FE4900575B27 /* clinic_12_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369E1D94FE4900575B27 /* clinic_12_icon.png */; };
+		A8CB36CC1D94FE4900575B27 /* clinic_12_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB369F1D94FE4900575B27 /* clinic_12_icon_c.png */; };
+		A8CB36CD1D94FE4900575B27 /* clinic_13_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A01D94FE4900575B27 /* clinic_13_icon.png */; };
+		A8CB36CE1D94FE4900575B27 /* clinic_13_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A11D94FE4900575B27 /* clinic_13_icon_c.png */; };
+		A8CB36CF1D94FE4900575B27 /* clinic_14_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A21D94FE4900575B27 /* clinic_14_icon.png */; };
+		A8CB36D01D94FE4900575B27 /* clinic_14_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A31D94FE4900575B27 /* clinic_14_icon_c.png */; };
+		A8CB36D11D94FE4900575B27 /* clinic_15_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A41D94FE4900575B27 /* clinic_15_icon.png */; };
+		A8CB36D21D94FE4900575B27 /* clinic_15_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A51D94FE4900575B27 /* clinic_15_icon_c.png */; };
+		A8CB36D31D94FE4900575B27 /* clinic_16_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A61D94FE4900575B27 /* clinic_16_icon.png */; };
+		A8CB36D41D94FE4900575B27 /* clinic_16_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A71D94FE4900575B27 /* clinic_16_icon_c.png */; };
+		A8CB36D51D94FE4900575B27 /* clinic_17_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A81D94FE4900575B27 /* clinic_17_icon.png */; };
+		A8CB36D61D94FE4900575B27 /* clinic_17_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36A91D94FE4900575B27 /* clinic_17_icon_c.png */; };
+		A8CB36D71D94FE4900575B27 /* clinic_18_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AA1D94FE4900575B27 /* clinic_18_icon.png */; };
+		A8CB36D81D94FE4900575B27 /* clinic_19_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AB1D94FE4900575B27 /* clinic_19_icon.png */; };
+		A8CB36D91D94FE4900575B27 /* clinic_19_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AC1D94FE4900575B27 /* clinic_19_icon_c.png */; };
+		A8CB36DA1D94FE4900575B27 /* clinic_20_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AD1D94FE4900575B27 /* clinic_20_icon.png */; };
+		A8CB36DB1D94FE4900575B27 /* clinic_21_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AE1D94FE4900575B27 /* clinic_21_icon.png */; };
+		A8CB36DC1D94FE4900575B27 /* clinic_21_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36AF1D94FE4900575B27 /* clinic_21_icon_c.png */; };
+		A8CB36DD1D94FE4900575B27 /* clinic_22_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B01D94FE4900575B27 /* clinic_22_icon.png */; };
+		A8CB36DE1D94FE4900575B27 /* clinic_22_icon_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B11D94FE4900575B27 /* clinic_22_icon_c.png */; };
+		A8CB36DF1D94FE4900575B27 /* clinic_bkg_normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B21D94FE4900575B27 /* clinic_bkg_normal.jpg */; };
+		A8CB36E01D94FE4900575B27 /* clinic_bkg_pressed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B31D94FE4900575B27 /* clinic_bkg_pressed.jpg */; };
+		A8CB36E11D94FE4900575B27 /* clinic_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B41D94FE4900575B27 /* clinic_camera.png */; };
+		A8CB36E21D94FE4900575B27 /* clinic_default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36B51D94FE4900575B27 /* clinic_default_icon.png */; };
+		A8CB36EA1D94FF0100575B27 /* AROverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB36E51D94FF0100575B27 /* AROverlayViewController.m */; };
+		A8CB36EB1D94FF0100575B27 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB36E71D94FF0100575B27 /* CaptureSessionManager.m */; };
+		A8CB36EC1D94FF0100575B27 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36E81D94FF0100575B27 /* overlaygraphic.png */; };
+		A8CB36ED1D94FF0100575B27 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB36E91D94FF0100575B27 /* scanbutton.png */; };
 		A8DB9B451CF304A900884853 /* JHDateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B441CF304A900884853 /* JHDateBase.m */; };
 		A8DB9B481CF3183100884853 /* JHDateBaseSimpleUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B471CF3183100884853 /* JHDateBaseSimpleUse.m */; };
 		A8DB9B4B1CF31E8400884853 /* JHDateBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B4A1CF31E8400884853 /* JHDateBaseViewController.m */; };
@@ -642,6 +645,8 @@
 		A80379201D59B96500422FC7 /* SJHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJHRootViewController.h; sourceTree = "<group>"; };
 		A80379211D59B96500422FC7 /* SJHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJHRootViewController.m; sourceTree = "<group>"; };
 		A80379221D59B96500422FC7 /* SJHRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJHRootViewController.xib; sourceTree = "<group>"; };
+		A80379261D5C767E00422FC7 /* JHJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHJSViewController.h; sourceTree = "<group>"; };
+		A80379271D5C767E00422FC7 /* JHJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHJSViewController.m; sourceTree = "<group>"; };
 		A80A2F301C43E03000DBD028 /* JHRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRACViewController.h; sourceTree = "<group>"; };
 		A80A2F311C43E03000DBD028 /* JHRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRACViewController.m; sourceTree = "<group>"; };
 		A80A2F331C44E82800DBD028 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
@@ -690,7 +695,6 @@
 		A84D350A1C2D6CE9005A5CED /* icon_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_smile.png; sourceTree = "<group>"; };
 		A84D350B1C2D6CE9005A5CED /* navi_white_left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi_white_left_arrow.png; sourceTree = "<group>"; };
 		A84D350C1C2D6CE9005A5CED /* navi_white_left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_white_left_arrow@2x.png"; sourceTree = "<group>"; };
-		A84D350D1C2D6CE9005A5CED /* ugly_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugly_face.png; sourceTree = "<group>"; };
 		A84D350F1C2D6CE9005A5CED /* asset_chose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset_chose@2x.png"; sourceTree = "<group>"; };
 		A84D35101C2D6CE9005A5CED /* asset_chose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset_chose@3x.png"; sourceTree = "<group>"; };
 		A84D35111C2D6CE9005A5CED /* asset_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset_close@2x.png"; sourceTree = "<group>"; };
@@ -840,51 +844,6 @@
 		A84D35E01C2D6CE9005A5CED /* award_bigicon_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = award_bigicon_6.png; sourceTree = "<group>"; };
 		A84D35E11C2D6CE9005A5CED /* btn_upload_pic_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_upload_pic_normal.png; sourceTree = "<group>"; };
 		A84D35E21C2D6CE9005A5CED /* btn_upload_pic_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_upload_pic_pressed.png; sourceTree = "<group>"; };
-		A84D35E41C2D6CE9005A5CED /* clinic_00_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_00_icon.png; sourceTree = "<group>"; };
-		A84D35E51C2D6CE9005A5CED /* clinic_01_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_01_icon.png; sourceTree = "<group>"; };
-		A84D35E61C2D6CE9005A5CED /* clinic_01_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_01_icon_c.png; sourceTree = "<group>"; };
-		A84D35E71C2D6CE9005A5CED /* clinic_02_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_02_icon.png; sourceTree = "<group>"; };
-		A84D35E81C2D6CE9005A5CED /* clinic_02_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_02_icon_c.png; sourceTree = "<group>"; };
-		A84D35E91C2D6CE9005A5CED /* clinic_03_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_03_icon.png; sourceTree = "<group>"; };
-		A84D35EA1C2D6CE9005A5CED /* clinic_03_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_03_icon_c.png; sourceTree = "<group>"; };
-		A84D35EB1C2D6CE9005A5CED /* clinic_04_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_04_icon.png; sourceTree = "<group>"; };
-		A84D35EC1C2D6CE9005A5CED /* clinic_04_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_04_icon_c.png; sourceTree = "<group>"; };
-		A84D35ED1C2D6CE9005A5CED /* clinic_05_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_05_icon.png; sourceTree = "<group>"; };
-		A84D35EE1C2D6CE9005A5CED /* clinic_06_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_06_icon.png; sourceTree = "<group>"; };
-		A84D35EF1C2D6CE9005A5CED /* clinic_06_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_06_icon_c.png; sourceTree = "<group>"; };
-		A84D35F01C2D6CE9005A5CED /* clinic_07_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_07_icon.png; sourceTree = "<group>"; };
-		A84D35F11C2D6CE9005A5CED /* clinic_07_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_07_icon_c.png; sourceTree = "<group>"; };
-		A84D35F21C2D6CE9005A5CED /* clinic_08_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_08_icon.png; sourceTree = "<group>"; };
-		A84D35F31C2D6CE9005A5CED /* clinic_08_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_08_icon_c.png; sourceTree = "<group>"; };
-		A84D35F41C2D6CE9005A5CED /* clinic_09_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_09_icon.png; sourceTree = "<group>"; };
-		A84D35F51C2D6CE9005A5CED /* clinic_09_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_09_icon_c.png; sourceTree = "<group>"; };
-		A84D35F61C2D6CE9005A5CED /* clinic_10_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_10_icon.png; sourceTree = "<group>"; };
-		A84D35F71C2D6CE9005A5CED /* clinic_11_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_11_icon.png; sourceTree = "<group>"; };
-		A84D35F81C2D6CE9005A5CED /* clinic_11_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_11_icon_c.png; sourceTree = "<group>"; };
-		A84D35F91C2D6CE9005A5CED /* clinic_12_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_12_icon.png; sourceTree = "<group>"; };
-		A84D35FA1C2D6CE9005A5CED /* clinic_12_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_12_icon_c.png; sourceTree = "<group>"; };
-		A84D35FB1C2D6CE9005A5CED /* clinic_13_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_13_icon.png; sourceTree = "<group>"; };
-		A84D35FC1C2D6CE9005A5CED /* clinic_13_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_13_icon_c.png; sourceTree = "<group>"; };
-		A84D35FD1C2D6CE9005A5CED /* clinic_14_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_14_icon.png; sourceTree = "<group>"; };
-		A84D35FE1C2D6CE9005A5CED /* clinic_14_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_14_icon_c.png; sourceTree = "<group>"; };
-		A84D35FF1C2D6CE9005A5CED /* clinic_15_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_15_icon.png; sourceTree = "<group>"; };
-		A84D36001C2D6CE9005A5CED /* clinic_15_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_15_icon_c.png; sourceTree = "<group>"; };
-		A84D36011C2D6CE9005A5CED /* clinic_16_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_16_icon.png; sourceTree = "<group>"; };
-		A84D36021C2D6CE9005A5CED /* clinic_16_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_16_icon_c.png; sourceTree = "<group>"; };
-		A84D36031C2D6CE9005A5CED /* clinic_17_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_17_icon.png; sourceTree = "<group>"; };
-		A84D36041C2D6CE9005A5CED /* clinic_17_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_17_icon_c.png; sourceTree = "<group>"; };
-		A84D36051C2D6CE9005A5CED /* clinic_18_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_18_icon.png; sourceTree = "<group>"; };
-		A84D36061C2D6CE9005A5CED /* clinic_19_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_19_icon.png; sourceTree = "<group>"; };
-		A84D36071C2D6CE9005A5CED /* clinic_19_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_19_icon_c.png; sourceTree = "<group>"; };
-		A84D36081C2D6CE9005A5CED /* clinic_20_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_20_icon.png; sourceTree = "<group>"; };
-		A84D36091C2D6CE9005A5CED /* clinic_21_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_21_icon.png; sourceTree = "<group>"; };
-		A84D360A1C2D6CE9005A5CED /* clinic_21_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_21_icon_c.png; sourceTree = "<group>"; };
-		A84D360B1C2D6CE9005A5CED /* clinic_22_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_22_icon.png; sourceTree = "<group>"; };
-		A84D360C1C2D6CE9005A5CED /* clinic_22_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_22_icon_c.png; sourceTree = "<group>"; };
-		A84D360D1C2D6CE9005A5CED /* clinic_bkg_normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinic_bkg_normal.jpg; sourceTree = "<group>"; };
-		A84D360E1C2D6CE9005A5CED /* clinic_bkg_pressed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinic_bkg_pressed.jpg; sourceTree = "<group>"; };
-		A84D360F1C2D6CE9005A5CED /* clinic_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_camera.png; sourceTree = "<group>"; };
-		A84D36101C2D6CE9005A5CED /* clinic_default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_default_icon.png; sourceTree = "<group>"; };
 		A84D36111C2D6CE9005A5CED /* clinic_share.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinic_share.jpg; sourceTree = "<group>"; };
 		A84D36121C2D6CE9005A5CED /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar.png; sourceTree = "<group>"; };
 		A84D36131C2D6CE9005A5CED /* doctor_group_empty_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor_group_empty_image.png; sourceTree = "<group>"; };
@@ -1204,6 +1163,56 @@
 		A887FC4D1D2F7E5B00746CDD /* JHFontSettingArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFontSettingArrowView.m; sourceTree = "<group>"; };
 		A888FBF91CF5499E005F7749 /* JHTopYellowBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopYellowBannerManager.h; sourceTree = "<group>"; };
 		A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopYellowBannerManager.m; sourceTree = "<group>"; };
+		A8CB36891D94FE4900575B27 /* clinic_00_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_00_icon.png; sourceTree = "<group>"; };
+		A8CB368A1D94FE4900575B27 /* clinic_01_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_01_icon.png; sourceTree = "<group>"; };
+		A8CB368B1D94FE4900575B27 /* clinic_01_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_01_icon_c.png; sourceTree = "<group>"; };
+		A8CB368C1D94FE4900575B27 /* clinic_02_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_02_icon.png; sourceTree = "<group>"; };
+		A8CB368D1D94FE4900575B27 /* clinic_02_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_02_icon_c.png; sourceTree = "<group>"; };
+		A8CB368E1D94FE4900575B27 /* clinic_03_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_03_icon.png; sourceTree = "<group>"; };
+		A8CB368F1D94FE4900575B27 /* clinic_03_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_03_icon_c.png; sourceTree = "<group>"; };
+		A8CB36901D94FE4900575B27 /* clinic_04_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_04_icon.png; sourceTree = "<group>"; };
+		A8CB36911D94FE4900575B27 /* clinic_04_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_04_icon_c.png; sourceTree = "<group>"; };
+		A8CB36921D94FE4900575B27 /* clinic_05_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_05_icon.png; sourceTree = "<group>"; };
+		A8CB36931D94FE4900575B27 /* clinic_06_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_06_icon.png; sourceTree = "<group>"; };
+		A8CB36941D94FE4900575B27 /* clinic_06_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_06_icon_c.png; sourceTree = "<group>"; };
+		A8CB36951D94FE4900575B27 /* clinic_07_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_07_icon.png; sourceTree = "<group>"; };
+		A8CB36961D94FE4900575B27 /* clinic_07_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_07_icon_c.png; sourceTree = "<group>"; };
+		A8CB36971D94FE4900575B27 /* clinic_08_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_08_icon.png; sourceTree = "<group>"; };
+		A8CB36981D94FE4900575B27 /* clinic_08_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_08_icon_c.png; sourceTree = "<group>"; };
+		A8CB369A1D94FE4900575B27 /* clinic_09_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_09_icon_c.png; sourceTree = "<group>"; };
+		A8CB369B1D94FE4900575B27 /* clinic_10_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_10_icon.png; sourceTree = "<group>"; };
+		A8CB369C1D94FE4900575B27 /* clinic_11_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_11_icon.png; sourceTree = "<group>"; };
+		A8CB369D1D94FE4900575B27 /* clinic_11_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_11_icon_c.png; sourceTree = "<group>"; };
+		A8CB369E1D94FE4900575B27 /* clinic_12_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_12_icon.png; sourceTree = "<group>"; };
+		A8CB369F1D94FE4900575B27 /* clinic_12_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_12_icon_c.png; sourceTree = "<group>"; };
+		A8CB36A01D94FE4900575B27 /* clinic_13_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_13_icon.png; sourceTree = "<group>"; };
+		A8CB36A11D94FE4900575B27 /* clinic_13_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_13_icon_c.png; sourceTree = "<group>"; };
+		A8CB36A21D94FE4900575B27 /* clinic_14_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_14_icon.png; sourceTree = "<group>"; };
+		A8CB36A31D94FE4900575B27 /* clinic_14_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_14_icon_c.png; sourceTree = "<group>"; };
+		A8CB36A41D94FE4900575B27 /* clinic_15_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_15_icon.png; sourceTree = "<group>"; };
+		A8CB36A51D94FE4900575B27 /* clinic_15_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_15_icon_c.png; sourceTree = "<group>"; };
+		A8CB36A61D94FE4900575B27 /* clinic_16_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_16_icon.png; sourceTree = "<group>"; };
+		A8CB36A71D94FE4900575B27 /* clinic_16_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_16_icon_c.png; sourceTree = "<group>"; };
+		A8CB36A81D94FE4900575B27 /* clinic_17_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_17_icon.png; sourceTree = "<group>"; };
+		A8CB36A91D94FE4900575B27 /* clinic_17_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_17_icon_c.png; sourceTree = "<group>"; };
+		A8CB36AA1D94FE4900575B27 /* clinic_18_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_18_icon.png; sourceTree = "<group>"; };
+		A8CB36AB1D94FE4900575B27 /* clinic_19_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_19_icon.png; sourceTree = "<group>"; };
+		A8CB36AC1D94FE4900575B27 /* clinic_19_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_19_icon_c.png; sourceTree = "<group>"; };
+		A8CB36AD1D94FE4900575B27 /* clinic_20_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_20_icon.png; sourceTree = "<group>"; };
+		A8CB36AE1D94FE4900575B27 /* clinic_21_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_21_icon.png; sourceTree = "<group>"; };
+		A8CB36AF1D94FE4900575B27 /* clinic_21_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_21_icon_c.png; sourceTree = "<group>"; };
+		A8CB36B01D94FE4900575B27 /* clinic_22_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_22_icon.png; sourceTree = "<group>"; };
+		A8CB36B11D94FE4900575B27 /* clinic_22_icon_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_22_icon_c.png; sourceTree = "<group>"; };
+		A8CB36B21D94FE4900575B27 /* clinic_bkg_normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinic_bkg_normal.jpg; sourceTree = "<group>"; };
+		A8CB36B31D94FE4900575B27 /* clinic_bkg_pressed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinic_bkg_pressed.jpg; sourceTree = "<group>"; };
+		A8CB36B41D94FE4900575B27 /* clinic_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_camera.png; sourceTree = "<group>"; };
+		A8CB36B51D94FE4900575B27 /* clinic_default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic_default_icon.png; sourceTree = "<group>"; };
+		A8CB36E41D94FF0100575B27 /* AROverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AROverlayViewController.h; sourceTree = "<group>"; };
+		A8CB36E51D94FF0100575B27 /* AROverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AROverlayViewController.m; sourceTree = "<group>"; };
+		A8CB36E61D94FF0100575B27 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		A8CB36E71D94FF0100575B27 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		A8CB36E81D94FF0100575B27 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		A8CB36E91D94FF0100575B27 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 		A8DB9B431CF304A900884853 /* JHDateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBase.h; sourceTree = "<group>"; };
 		A8DB9B441CF304A900884853 /* JHDateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDateBase.m; sourceTree = "<group>"; };
 		A8DB9B461CF3183100884853 /* JHDateBaseSimpleUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBaseSimpleUse.h; sourceTree = "<group>"; };
@@ -1425,6 +1434,15 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		A80379251D5C765900422FC7 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				A80379261D5C767E00422FC7 /* JHJSViewController.h */,
+				A80379271D5C767E00422FC7 /* JHJSViewController.m */,
+			);
+			path = JavaScript;
+			sourceTree = "<group>";
+		};
 		A80A2F2F1C43DFEF00DBD028 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -1524,7 +1542,6 @@
 				A84D350A1C2D6CE9005A5CED /* icon_smile.png */,
 				A84D350B1C2D6CE9005A5CED /* navi_white_left_arrow.png */,
 				A84D350C1C2D6CE9005A5CED /* navi_white_left_arrow@2x.png */,
-				A84D350D1C2D6CE9005A5CED /* ugly_face.png */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -1754,6 +1771,7 @@
 		A84D35D81C2D6CE9005A5CED /* MyInformation */ = {
 			isa = PBXGroup;
 			children = (
+				A8CB36881D94FE4900575B27 /* clinic_icons */,
 				A84D35D91C2D6CE9005A5CED /* academic_add_image_bg@2x.png */,
 				A84D35DA1C2D6CE9005A5CED /* academic_remove_image_btn@2x.png */,
 				A84D35DB1C2D6CE9005A5CED /* accounts_help.png */,
@@ -1764,7 +1782,6 @@
 				A84D35E01C2D6CE9005A5CED /* award_bigicon_6.png */,
 				A84D35E11C2D6CE9005A5CED /* btn_upload_pic_normal.png */,
 				A84D35E21C2D6CE9005A5CED /* btn_upload_pic_pressed.png */,
-				A84D35E31C2D6CE9005A5CED /* clinic_icons */,
 				A84D36111C2D6CE9005A5CED /* clinic_share.jpg */,
 				A84D36121C2D6CE9005A5CED /* default_avatar.png */,
 				A84D36131C2D6CE9005A5CED /* doctor_group_empty_image.png */,
@@ -1814,58 +1831,6 @@
 				A84D363F1C2D6CE9005A5CED /* user_center_setting.png */,
 			);
 			path = MyInformation;
-			sourceTree = "<group>";
-		};
-		A84D35E31C2D6CE9005A5CED /* clinic_icons */ = {
-			isa = PBXGroup;
-			children = (
-				A84D35E41C2D6CE9005A5CED /* clinic_00_icon.png */,
-				A84D35E51C2D6CE9005A5CED /* clinic_01_icon.png */,
-				A84D35E61C2D6CE9005A5CED /* clinic_01_icon_c.png */,
-				A84D35E71C2D6CE9005A5CED /* clinic_02_icon.png */,
-				A84D35E81C2D6CE9005A5CED /* clinic_02_icon_c.png */,
-				A84D35E91C2D6CE9005A5CED /* clinic_03_icon.png */,
-				A84D35EA1C2D6CE9005A5CED /* clinic_03_icon_c.png */,
-				A84D35EB1C2D6CE9005A5CED /* clinic_04_icon.png */,
-				A84D35EC1C2D6CE9005A5CED /* clinic_04_icon_c.png */,
-				A84D35ED1C2D6CE9005A5CED /* clinic_05_icon.png */,
-				A84D35EE1C2D6CE9005A5CED /* clinic_06_icon.png */,
-				A84D35EF1C2D6CE9005A5CED /* clinic_06_icon_c.png */,
-				A84D35F01C2D6CE9005A5CED /* clinic_07_icon.png */,
-				A84D35F11C2D6CE9005A5CED /* clinic_07_icon_c.png */,
-				A84D35F21C2D6CE9005A5CED /* clinic_08_icon.png */,
-				A84D35F31C2D6CE9005A5CED /* clinic_08_icon_c.png */,
-				A84D35F41C2D6CE9005A5CED /* clinic_09_icon.png */,
-				A84D35F51C2D6CE9005A5CED /* clinic_09_icon_c.png */,
-				A84D35F61C2D6CE9005A5CED /* clinic_10_icon.png */,
-				A84D35F71C2D6CE9005A5CED /* clinic_11_icon.png */,
-				A84D35F81C2D6CE9005A5CED /* clinic_11_icon_c.png */,
-				A84D35F91C2D6CE9005A5CED /* clinic_12_icon.png */,
-				A84D35FA1C2D6CE9005A5CED /* clinic_12_icon_c.png */,
-				A84D35FB1C2D6CE9005A5CED /* clinic_13_icon.png */,
-				A84D35FC1C2D6CE9005A5CED /* clinic_13_icon_c.png */,
-				A84D35FD1C2D6CE9005A5CED /* clinic_14_icon.png */,
-				A84D35FE1C2D6CE9005A5CED /* clinic_14_icon_c.png */,
-				A84D35FF1C2D6CE9005A5CED /* clinic_15_icon.png */,
-				A84D36001C2D6CE9005A5CED /* clinic_15_icon_c.png */,
-				A84D36011C2D6CE9005A5CED /* clinic_16_icon.png */,
-				A84D36021C2D6CE9005A5CED /* clinic_16_icon_c.png */,
-				A84D36031C2D6CE9005A5CED /* clinic_17_icon.png */,
-				A84D36041C2D6CE9005A5CED /* clinic_17_icon_c.png */,
-				A84D36051C2D6CE9005A5CED /* clinic_18_icon.png */,
-				A84D36061C2D6CE9005A5CED /* clinic_19_icon.png */,
-				A84D36071C2D6CE9005A5CED /* clinic_19_icon_c.png */,
-				A84D36081C2D6CE9005A5CED /* clinic_20_icon.png */,
-				A84D36091C2D6CE9005A5CED /* clinic_21_icon.png */,
-				A84D360A1C2D6CE9005A5CED /* clinic_21_icon_c.png */,
-				A84D360B1C2D6CE9005A5CED /* clinic_22_icon.png */,
-				A84D360C1C2D6CE9005A5CED /* clinic_22_icon_c.png */,
-				A84D360D1C2D6CE9005A5CED /* clinic_bkg_normal.jpg */,
-				A84D360E1C2D6CE9005A5CED /* clinic_bkg_pressed.jpg */,
-				A84D360F1C2D6CE9005A5CED /* clinic_camera.png */,
-				A84D36101C2D6CE9005A5CED /* clinic_default_icon.png */,
-			);
-			path = clinic_icons;
 			sourceTree = "<group>";
 		};
 		A84D36401C2D6CE9005A5CED /* patient */ = {
@@ -2021,6 +1986,8 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A8CB36E31D94FF0100575B27 /* AR */,
+				A80379251D5C765900422FC7 /* JavaScript */,
 				A803791C1D59B85B00422FC7 /* GCD */,
 				A81D3D961D3CC17800D7A126 /* SplitPhoto */,
 				A87CD6291D3C7DF1009A1F13 /* AppsInfo */,
@@ -2439,6 +2406,70 @@
 			path = TopYellowBanner;
 			sourceTree = "<group>";
 		};
+		A8CB36881D94FE4900575B27 /* clinic_icons */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB36891D94FE4900575B27 /* clinic_00_icon.png */,
+				A8CB368A1D94FE4900575B27 /* clinic_01_icon.png */,
+				A8CB368B1D94FE4900575B27 /* clinic_01_icon_c.png */,
+				A8CB368C1D94FE4900575B27 /* clinic_02_icon.png */,
+				A8CB368D1D94FE4900575B27 /* clinic_02_icon_c.png */,
+				A8CB368E1D94FE4900575B27 /* clinic_03_icon.png */,
+				A8CB368F1D94FE4900575B27 /* clinic_03_icon_c.png */,
+				A8CB36901D94FE4900575B27 /* clinic_04_icon.png */,
+				A8CB36911D94FE4900575B27 /* clinic_04_icon_c.png */,
+				A8CB36921D94FE4900575B27 /* clinic_05_icon.png */,
+				A8CB36931D94FE4900575B27 /* clinic_06_icon.png */,
+				A8CB36941D94FE4900575B27 /* clinic_06_icon_c.png */,
+				A8CB36951D94FE4900575B27 /* clinic_07_icon.png */,
+				A8CB36961D94FE4900575B27 /* clinic_07_icon_c.png */,
+				A8CB36971D94FE4900575B27 /* clinic_08_icon.png */,
+				A8CB36981D94FE4900575B27 /* clinic_08_icon_c.png */,
+				A8CB369A1D94FE4900575B27 /* clinic_09_icon_c.png */,
+				A8CB369B1D94FE4900575B27 /* clinic_10_icon.png */,
+				A8CB369C1D94FE4900575B27 /* clinic_11_icon.png */,
+				A8CB369D1D94FE4900575B27 /* clinic_11_icon_c.png */,
+				A8CB369E1D94FE4900575B27 /* clinic_12_icon.png */,
+				A8CB369F1D94FE4900575B27 /* clinic_12_icon_c.png */,
+				A8CB36A01D94FE4900575B27 /* clinic_13_icon.png */,
+				A8CB36A11D94FE4900575B27 /* clinic_13_icon_c.png */,
+				A8CB36A21D94FE4900575B27 /* clinic_14_icon.png */,
+				A8CB36A31D94FE4900575B27 /* clinic_14_icon_c.png */,
+				A8CB36A41D94FE4900575B27 /* clinic_15_icon.png */,
+				A8CB36A51D94FE4900575B27 /* clinic_15_icon_c.png */,
+				A8CB36A61D94FE4900575B27 /* clinic_16_icon.png */,
+				A8CB36A71D94FE4900575B27 /* clinic_16_icon_c.png */,
+				A8CB36A81D94FE4900575B27 /* clinic_17_icon.png */,
+				A8CB36A91D94FE4900575B27 /* clinic_17_icon_c.png */,
+				A8CB36AA1D94FE4900575B27 /* clinic_18_icon.png */,
+				A8CB36AB1D94FE4900575B27 /* clinic_19_icon.png */,
+				A8CB36AC1D94FE4900575B27 /* clinic_19_icon_c.png */,
+				A8CB36AD1D94FE4900575B27 /* clinic_20_icon.png */,
+				A8CB36AE1D94FE4900575B27 /* clinic_21_icon.png */,
+				A8CB36AF1D94FE4900575B27 /* clinic_21_icon_c.png */,
+				A8CB36B01D94FE4900575B27 /* clinic_22_icon.png */,
+				A8CB36B11D94FE4900575B27 /* clinic_22_icon_c.png */,
+				A8CB36B21D94FE4900575B27 /* clinic_bkg_normal.jpg */,
+				A8CB36B31D94FE4900575B27 /* clinic_bkg_pressed.jpg */,
+				A8CB36B41D94FE4900575B27 /* clinic_camera.png */,
+				A8CB36B51D94FE4900575B27 /* clinic_default_icon.png */,
+			);
+			path = clinic_icons;
+			sourceTree = "<group>";
+		};
+		A8CB36E31D94FF0100575B27 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB36E41D94FF0100575B27 /* AROverlayViewController.h */,
+				A8CB36E51D94FF0100575B27 /* AROverlayViewController.m */,
+				A8CB36E61D94FF0100575B27 /* CaptureSessionManager.h */,
+				A8CB36E71D94FF0100575B27 /* CaptureSessionManager.m */,
+				A8CB36E81D94FF0100575B27 /* overlaygraphic.png */,
+				A8CB36E91D94FF0100575B27 /* scanbutton.png */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
 		A8DB9B421CF3048800884853 /* JHDateBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -2741,9 +2772,11 @@
 				TargetAttributes = {
 					A85D08711B8C904B00F976F2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KN3N6ZJA53;
 					};
 					A85D088D1B8C904B00F976F2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KN3N6ZJA53;
 						TestTargetID = A85D08711B8C904B00F976F2;
 					};
 				};
@@ -2774,7 +2807,6 @@
 			files = (
 				A814CE1C1D17F815006E17C6 /* jh_slider_loading_circle_alpha.png in Resources */,
 				A84D37301C2D6CE9005A5CED /* recommended_new.png in Resources */,
-				A84D37531C2D6CE9005A5CED /* clinic_01_icon_c.png in Resources */,
 				A84D36961C2D6CE9005A5CED /* message_phone_hint_failure.png in Resources */,
 				A84D379D1C2D6CEA005A5CED /* my_today_news@3x.png in Resources */,
 				A8DE58EF1C4DD3450019CB49 /* weibo_7.json in Resources */,
@@ -2792,18 +2824,16 @@
 				A84D37BC1C2D6CEA005A5CED /* title_ic_more@2x.png in Resources */,
 				A8DE58C11C4DD3450019CB49 /* ermilio_q85.webp in Resources */,
 				A84D369F1C2D6CE9005A5CED /* patient_phone_icon.png in Resources */,
-				A84D37721C2D6CEA005A5CED /* clinic_18_icon.png in Resources */,
 				A8DE58D11C4DD3450019CB49 /* pia@2x.png in Resources */,
 				A84D37A01C2D6CEA005A5CED /* news_share.jpg in Resources */,
-				A84D37681C2D6CE9005A5CED /* clinic_13_icon.png in Resources */,
 				A87BCF081D0E59C2000693BA /* clinic_22_icon.png in Resources */,
 				A87BCE771D0573BA000693BA /* chatinput_more@2x.png in Resources */,
+				A8CB36BE1D94FE4900575B27 /* clinic_04_icon_c.png in Resources */,
 				A87BCEEE1D0E59C2000693BA /* clinic_07_icon_c.png in Resources */,
 				A84D370D1C2D6CE9005A5CED /* home_register@2x.png in Resources */,
 				A87BCE8E1D0573BA000693BA /* edit_field_bg@2x.png in Resources */,
 				A84D37441C2D6CE9005A5CED /* register_wait_tel.png in Resources */,
 				A84D36AE1C2D6CE9005A5CED /* tabbar_mine@2x.png in Resources */,
-				A84D37671C2D6CE9005A5CED /* clinic_12_icon_c.png in Resources */,
 				A84D379E1C2D6CEA005A5CED /* my_topic@2x.png in Resources */,
 				A84D36FB1C2D6CE9005A5CED /* home_badge@3x.png in Resources */,
 				A84D37CB1C2D6CEA005A5CED /* services_icon_text_ask@2x.png in Resources */,
@@ -2818,18 +2848,15 @@
 				A87BCEE31D0E59C2000693BA /* clinic_01_icon_c.png in Resources */,
 				A8DE58BA1C4DD3450019CB49 /* dribbble64_imageio.png in Resources */,
 				A84D37161C2D6CE9005A5CED /* home_video@2x.png in Resources */,
+				A8CB36C21D94FE4900575B27 /* clinic_07_icon.png in Resources */,
 				A87BCEE51D0E59C2000693BA /* clinic_02_icon_c.png in Resources */,
 				A87BCEFD1D0E59C2000693BA /* clinic_15_icon_c.png in Resources */,
 				A84D368A1C2D6CE9005A5CED /* asset_chose@3x.png in Resources */,
 				A84D37201C2D6CE9005A5CED /* home_doc_pull_doc@3x.png in Resources */,
 				A87BCEA41D0573BA000693BA /* unselected_combo_box.png in Resources */,
-				A84D37761C2D6CEA005A5CED /* clinic_21_icon.png in Resources */,
 				A84D37021C2D6CE9005A5CED /* home_list_fans@2x.png in Resources */,
-				A84D37791C2D6CEA005A5CED /* clinic_22_icon_c.png in Resources */,
 				A84D37A71C2D6CEA005A5CED /* star_doctor_banner.jpg in Resources */,
-				A84D37591C2D6CE9005A5CED /* clinic_04_icon_c.png in Resources */,
 				A84D37B41C2D6CEA005A5CED /* ic_patient_add_successful@3x.png in Resources */,
-				A84D375F1C2D6CE9005A5CED /* clinic_08_icon.png in Resources */,
 				A84D37901C2D6CEA005A5CED /* my_income@2x.png in Resources */,
 				A8DE58C61C4DD3450019CB49 /* google@2x.webp in Resources */,
 				A84D37221C2D6CE9005A5CED /* home_doc_pull_user@3x.png in Resources */,
@@ -2850,23 +2877,22 @@
 				A84D37E91C2D6CEA005A5CED /* web_share@2x.png in Resources */,
 				A84D37841C2D6CEA005A5CED /* doctor_group_sort_arrow_down@2x.png in Resources */,
 				A8DE58DC1C4DD3450019CB49 /* twitter_2.json in Resources */,
+				A8CB36D51D94FE4900575B27 /* clinic_17_icon.png in Resources */,
+				A8CB36B81D94FE4900575B27 /* clinic_01_icon_c.png in Resources */,
 				A84D379A1C2D6CEA005A5CED /* my_strategy@2x.png in Resources */,
 				A84D37D31C2D6CEA005A5CED /* text_ask_start_image@2x.png in Resources */,
+				A8CB36C71D94FE4900575B27 /* clinic_09_icon_c.png in Resources */,
 				A8DE58C41C4DD3450019CB49 /* EmoticonQQ.bundle in Resources */,
 				A84D368C1C2D6CE9005A5CED /* asset_close@3x.png in Resources */,
 				A8DE58BF1C4DD3450019CB49 /* ermilio_q15.bpg in Resources */,
 				A84D37861C2D6CEA005A5CED /* income_left_tab1.png in Resources */,
-				A84D37621C2D6CE9005A5CED /* clinic_09_icon_c.png in Resources */,
 				A84D37241C2D6CE9005A5CED /* outpatient_success@2x.png in Resources */,
 				A84D37061C2D6CE9005A5CED /* home_list_phone@2x.png in Resources */,
 				A84D37111C2D6CE9005A5CED /* home_score@2x.png in Resources */,
 				A87BCEA21D0573BA000693BA /* take_logo.png in Resources */,
 				A84D372D1C2D6CE9005A5CED /* recommended@3x.png in Resources */,
 				A84D37051C2D6CE9005A5CED /* home_list_pay@2x.png in Resources */,
-				A84D376E1C2D6CE9005A5CED /* clinic_16_icon.png in Resources */,
 				A84D36F91C2D6CE9005A5CED /* user_center_voluteer_open.png in Resources */,
-				A84D37741C2D6CEA005A5CED /* clinic_19_icon_c.png in Resources */,
-				A84D37561C2D6CE9005A5CED /* clinic_03_icon.png in Resources */,
 				A87BCE6C1D0573BA000693BA /* beige_button@2x.png in Resources */,
 				A84D36A91C2D6CE9005A5CED /* navigation_button@2x.png in Resources */,
 				A84D36A11C2D6CE9005A5CED /* problem_patient_txt.png in Resources */,
@@ -2882,48 +2908,47 @@
 				A84D37331C2D6CE9005A5CED /* scanning_highlighted@2x.png in Resources */,
 				A84D373A1C2D6CE9005A5CED /* fdj.png in Resources */,
 				A84D378E1C2D6CEA005A5CED /* my_home_page@2x.png in Resources */,
-				A84D37691C2D6CE9005A5CED /* clinic_13_icon_c.png in Resources */,
 				A87BCE871D0573BA000693BA /* comments_questioned.png in Resources */,
-				A84D36881C2D6CE9005A5CED /* ugly_face.png in Resources */,
 				A85D08891B8C904B00F976F2 /* LaunchScreen.xib in Resources */,
 				A84D36A21C2D6CE9005A5CED /* setting_arrow_down.png in Resources */,
 				A87BCF0B1D0E59C2000693BA /* clinic_bkg_pressed.jpg in Resources */,
 				A84D378B1C2D6CEA005A5CED /* message_center_right@3x.png in Resources */,
-				A84D37771C2D6CEA005A5CED /* clinic_21_icon_c.png in Resources */,
+				A8CB36C51D94FE4900575B27 /* clinic_08_icon_c.png in Resources */,
+				A8CB36C91D94FE4900575B27 /* clinic_11_icon.png in Resources */,
+				A8CB36BD1D94FE4900575B27 /* clinic_04_icon.png in Resources */,
 				A84D37451C2D6CE9005A5CED /* white_bubble.png in Resources */,
+				A8CB36DD1D94FE4900575B27 /* clinic_22_icon.png in Resources */,
+				A8CB36BC1D94FE4900575B27 /* clinic_03_icon_c.png in Resources */,
 				A84D370B1C2D6CE9005A5CED /* home_phone_disable@2x.png in Resources */,
-				A84D37701C2D6CE9005A5CED /* clinic_17_icon.png in Resources */,
 				A87BCE8C1D0573BA000693BA /* docrot_arbiter.png in Resources */,
 				A8DE58E71C4DD3450019CB49 /* Weibo@3x.jpg in Resources */,
 				A84D36A31C2D6CE9005A5CED /* setting_arrow_down@2x.png in Resources */,
 				A87BCEFE1D0E59C2000693BA /* clinic_16_icon.png in Resources */,
 				A8DE58CB1C4DD3450019CB49 /* mew_baseline.png in Resources */,
 				A87BCE941D0573BA000693BA /* problem_bottom_item@2x.png in Resources */,
+				A8CB36C01D94FE4900575B27 /* clinic_06_icon.png in Resources */,
 				A84D37D01C2D6CEA005A5CED /* services_status_icon_soldout@2x.png in Resources */,
-				A84D37551C2D6CE9005A5CED /* clinic_02_icon_c.png in Resources */,
 				A814CE181D17F815006E17C6 /* jh_slider_arrow.png in Resources */,
 				A8DE58C51C4DD3450019CB49 /* EmoticonWeibo.bundle in Resources */,
 				A84D36921C2D6CE9005A5CED /* problem_tool_voice.png in Resources */,
 				A87BCEF31D0E59C2000693BA /* clinic_10_icon.png in Resources */,
 				A84D374F1C2D6CE9005A5CED /* btn_upload_pic_normal.png in Resources */,
-				A84D376B1C2D6CE9005A5CED /* clinic_14_icon_c.png in Resources */,
 				A87BCEFB1D0E59C2000693BA /* clinic_14_icon_c.png in Resources */,
 				A84D37981C2D6CEA005A5CED /* my_star_doctor@2x.png in Resources */,
 				A87BCE7D1D0573BA000693BA /* chatinput_record@2x.png in Resources */,
+				A8CB36E11D94FE4900575B27 /* clinic_camera.png in Resources */,
 				A84D37941C2D6CEA005A5CED /* my_order@2x.png in Resources */,
 				A85D08861B8C904B00F976F2 /* Images.xcassets in Resources */,
 				A8DE58D91C4DD3450019CB49 /* Twitter@3x.jpg in Resources */,
 				A84D368D1C2D6CE9005A5CED /* advan_ask_image.png in Resources */,
+				A8CB36D71D94FE4900575B27 /* clinic_18_icon.png in Resources */,
 				A84D36A51C2D6CE9005A5CED /* white_sound_animation_0.png in Resources */,
-				A84D37571C2D6CE9005A5CED /* clinic_03_icon_c.png in Resources */,
 				A84D36991C2D6CE9005A5CED /* patient_center_char_icon@2x.png in Resources */,
 				A84D37011C2D6CE9005A5CED /* home_hospital_guide_disable@3x.png in Resources */,
 				A84D37911C2D6CEA005A5CED /* my_income@3x.png in Resources */,
 				A84D37171C2D6CE9005A5CED /* home_video@3x.png in Resources */,
 				A84D37CE1C2D6CEA005A5CED /* services_status_icon_new@2x.png in Resources */,
-				A84D377A1C2D6CEA005A5CED /* clinic_bkg_normal.jpg in Resources */,
 				A8DE58BE1C4DD3450019CB49 /* ermilio_lossless.webp in Resources */,
-				A84D37521C2D6CE9005A5CED /* clinic_01_icon.png in Resources */,
 				A84D373E1C2D6CE9005A5CED /* portrait_example.png in Resources */,
 				A8DE58CE1C4DD3450019CB49 /* mew_progressive.jpg in Resources */,
 				A84D37C21C2D6CEA005A5CED /* price_arrow_down.png in Resources */,
@@ -2942,36 +2967,36 @@
 				A87BCE8F1D0573BA000693BA /* field_bg.png in Resources */,
 				A84D36AA1C2D6CE9005A5CED /* navigation_button_pressed.png in Resources */,
 				A84D37481C2D6CE9005A5CED /* academic_remove_image_btn@2x.png in Resources */,
+				A8CB36CA1D94FE4900575B27 /* clinic_11_icon_c.png in Resources */,
 				A87BCF151D0EC4C7000693BA /* Collection_List.plist in Resources */,
 				A84D374A1C2D6CE9005A5CED /* accounts_help@2x.png in Resources */,
-				A84D37781C2D6CEA005A5CED /* clinic_22_icon.png in Resources */,
 				A84D37B61C2D6CEA005A5CED /* ic_patient_attention@3x.png in Resources */,
 				A87BCE971D0573BA000693BA /* problem_list_error_alert@2x.png in Resources */,
 				A84D374B1C2D6CE9005A5CED /* add_model_cell_bg.png in Resources */,
 				A814CE171D17F815006E17C6 /* clear_blank.png in Resources */,
-				A84D37651C2D6CE9005A5CED /* clinic_11_icon_c.png in Resources */,
 				A84D37CD1C2D6CEA005A5CED /* services_icon_volunteer@2x.png in Resources */,
+				A8CB36E21D94FE4900575B27 /* clinic_default_icon.png in Resources */,
 				A87BCEF71D0E59C2000693BA /* clinic_12_icon_c.png in Resources */,
 				A84D37C31C2D6CEA005A5CED /* services_icon_arbitration@2x.png in Resources */,
 				A84D37091C2D6CE9005A5CED /* home_phone@2x.png in Resources */,
 				A84D37A61C2D6CEA005A5CED /* send_coupon@3x.png in Resources */,
 				A84D37E11C2D6CEA005A5CED /* tools_share_qq.png in Resources */,
 				A87BCF001D0E59C2000693BA /* clinic_17_icon.png in Resources */,
+				A8CB36B61D94FE4900575B27 /* clinic_00_icon.png in Resources */,
 				A87BCF061D0E59C2000693BA /* clinic_21_icon.png in Resources */,
 				A8DE58EB1C4DD3450019CB49 /* weibo_3.json in Resources */,
 				A84D36831C2D6CE9005A5CED /* comments_right_arrow@2x.png in Resources */,
 				A84D37801C2D6CEA005A5CED /* doctor_group_empty_image.png in Resources */,
+				A8CB36C41D94FE4900575B27 /* clinic_08_icon.png in Resources */,
 				A87BCF071D0E59C2000693BA /* clinic_21_icon_c.png in Resources */,
 				A87BCE921D0573BA000693BA /* left_bubble@2x.png in Resources */,
 				A84D37B01C2D6CEA005A5CED /* arrow_right@2x.png in Resources */,
 				A84D36871C2D6CE9005A5CED /* navi_white_left_arrow@2x.png in Resources */,
-				A84D377D1C2D6CEA005A5CED /* clinic_default_icon.png in Resources */,
 				A87BCEED1D0E59C2000693BA /* clinic_07_icon.png in Resources */,
+				A8CB36DE1D94FE4900575B27 /* clinic_22_icon_c.png in Resources */,
 				A84D37461C2D6CE9005A5CED /* white_bubble@2x.png in Resources */,
-				A84D37641C2D6CE9005A5CED /* clinic_11_icon.png in Resources */,
 				A87BCEF61D0E59C2000693BA /* clinic_12_icon.png in Resources */,
 				A84D37991C2D6CEA005A5CED /* my_star_doctor@3x.png in Resources */,
-				A84D375D1C2D6CE9005A5CED /* clinic_07_icon.png in Resources */,
 				A84D37951C2D6CEA005A5CED /* my_order@3x.png in Resources */,
 				A84D374D1C2D6CE9005A5CED /* add_model_cell_icon.png in Resources */,
 				A8DE58DE1C4DD3450019CB49 /* wall-e@2x.webp in Resources */,
@@ -2982,17 +3007,16 @@
 				A87BCE761D0573BA000693BA /* chatinput_modul@3x.png in Resources */,
 				A84D37D41C2D6CEA005A5CED /* btn_ask_doc_video_ask.png in Resources */,
 				A84D36B41C2D6CE9005A5CED /* default_chat.png in Resources */,
+				A8CB36D41D94FE4900575B27 /* clinic_16_icon_c.png in Resources */,
 				A84D37421C2D6CE9005A5CED /* protocal_read_checkbox_checked@3x.png in Resources */,
 				A87BCE781D0573BA000693BA /* chatinput_more@3x.png in Resources */,
 				A84D37E81C2D6CEA005A5CED /* web_share.png in Resources */,
 				A87BCE9D1D0573BA000693BA /* right_bubble.png in Resources */,
+				A8CB36BA1D94FE4900575B27 /* clinic_02_icon_c.png in Resources */,
 				A8DE58E81C4DD3450019CB49 /* weibo_0.json in Resources */,
-				A84D37541C2D6CE9005A5CED /* clinic_02_icon.png in Resources */,
 				A87BCE801D0573BA000693BA /* chatinput_topic@2x.png in Resources */,
 				A84D37181C2D6CE9005A5CED /* home_video_disable@2x.png in Resources */,
-				A84D377C1C2D6CEA005A5CED /* clinic_camera.png in Resources */,
 				A87BCEE11D0E59C2000693BA /* clinic_00_icon.png in Resources */,
-				A84D375B1C2D6CE9005A5CED /* clinic_06_icon.png in Resources */,
 				A84D36AC1C2D6CE9005A5CED /* tabbar_home@2x.png in Resources */,
 				A84D37DA1C2D6CEA005A5CED /* volunteer_family.png in Resources */,
 				A84D37D51C2D6CEA005A5CED /* chunyu_video_ring.m4a in Resources */,
@@ -3007,7 +3031,6 @@
 				A84D37B51C2D6CEA005A5CED /* ic_patient_attention@2x.png in Resources */,
 				A84D37001C2D6CE9005A5CED /* home_hospital_guide_disable@2x.png in Resources */,
 				A84D36FD1C2D6CE9005A5CED /* home_doctor@2x.png in Resources */,
-				A84D37711C2D6CE9005A5CED /* clinic_17_icon_c.png in Resources */,
 				A84D379C1C2D6CEA005A5CED /* my_today_news@2x.png in Resources */,
 				A84D37B81C2D6CEA005A5CED /* ic_patient_check@3x.png in Resources */,
 				A84D372E1C2D6CE9005A5CED /* recommended_circle@2x.png in Resources */,
@@ -3027,6 +3050,7 @@
 				A84D37151C2D6CE9005A5CED /* home_user_notice@3x.png in Resources */,
 				A87BCE981D0573BA000693BA /* problem_summary_help.png in Resources */,
 				A84D371F1C2D6CE9005A5CED /* home_doc_pull_doc@2x.png in Resources */,
+				A8CB36D81D94FE4900575B27 /* clinic_19_icon.png in Resources */,
 				A84D37291C2D6CE9005A5CED /* phone_highlighted@3x.png in Resources */,
 				A87BCEE61D0E59C2000693BA /* clinic_03_icon.png in Resources */,
 				A8DE58BC1C4DD3450019CB49 /* ermilio.png in Resources */,
@@ -3036,35 +3060,35 @@
 				A84D37141C2D6CE9005A5CED /* home_user_notice@2x.png in Resources */,
 				A84D37AE1C2D6CEA005A5CED /* arrow_left@2x.png in Resources */,
 				A84D37411C2D6CE9005A5CED /* protocal_read_checkbox_checked@2x.png in Resources */,
-				A84D37751C2D6CEA005A5CED /* clinic_20_icon.png in Resources */,
 				A8DE58DD1C4DD3450019CB49 /* twitter_3.json in Resources */,
 				A8DE58B81C4DD3450019CB49 /* dribbble256_imageio.png in Resources */,
 				A87BCE831D0573BA000693BA /* comments_credits.png in Resources */,
 				A8DE58EA1C4DD3450019CB49 /* weibo_2.json in Resources */,
+				A8CB36DC1D94FE4900575B27 /* clinic_21_icon_c.png in Resources */,
 				A84D36A81C2D6CE9005A5CED /* navigation_button.png in Resources */,
-				A84D376C1C2D6CE9005A5CED /* clinic_15_icon.png in Resources */,
 				A84D37391C2D6CE9005A5CED /* add_extra_region.png in Resources */,
 				A84D371B1C2D6CE9005A5CED /* home_advice_new@2x.png in Resources */,
 				A8DE58BB1C4DD3450019CB49 /* ermilio.gif in Resources */,
 				A87BCE891D0573BA000693BA /* comments_useful@2x.png in Resources */,
-				A84D37601C2D6CE9005A5CED /* clinic_08_icon_c.png in Resources */,
 				A87BCE9F1D0573BA000693BA /* score_gain_bg.png in Resources */,
 				A87BCEFF1D0E59C2000693BA /* clinic_16_icon_c.png in Resources */,
 				A80379241D59B96500422FC7 /* SJHRootViewController.xib in Resources */,
 				A84D378F1C2D6CEA005A5CED /* my_home_page@3x.png in Resources */,
 				A87BCF011D0E59C2000693BA /* clinic_17_icon_c.png in Resources */,
 				A84D37D81C2D6CEA005A5CED /* video_phoneCall@2x.png in Resources */,
+				A8CB36D61D94FE4900575B27 /* clinic_17_icon_c.png in Resources */,
 				A84D37DD1C2D6CEA005A5CED /* volunteer_recruit.png in Resources */,
 				A84D370A1C2D6CE9005A5CED /* home_phone@3x.png in Resources */,
-				A84D37631C2D6CE9005A5CED /* clinic_10_icon.png in Resources */,
 				A84D37D21C2D6CEA005A5CED /* switch_on.png in Resources */,
 				A84D37351C2D6CE9005A5CED /* scanning_normal@2x.png in Resources */,
 				A87BCE731D0573BA000693BA /* chatinput_assistant@2x.png in Resources */,
 				A8DE58EE1C4DD3450019CB49 /* weibo_6.json in Resources */,
 				A84D37401C2D6CE9005A5CED /* protocal_read_checkbox@3x.png in Resources */,
 				A84D371A1C2D6CE9005A5CED /* patient_sq_default@2x.png in Resources */,
+				A8CB36EC1D94FF0100575B27 /* overlaygraphic.png in Resources */,
 				A84D368E1C2D6CE9005A5CED /* advan_ask_image@2x.png in Resources */,
 				A8DE58C31C4DD3450019CB49 /* cube@2x.png in Resources */,
+				A8CB36D31D94FE4900575B27 /* clinic_16_icon.png in Resources */,
 				A84D370C1C2D6CE9005A5CED /* home_phone_disable@3x.png in Resources */,
 				A84D37371C2D6CE9005A5CED /* top_msg@2x.png in Resources */,
 				A84D37491C2D6CE9005A5CED /* accounts_help.png in Resources */,
@@ -3074,6 +3098,7 @@
 				A84D373F1C2D6CE9005A5CED /* protocal_read_checkbox@2x.png in Resources */,
 				A87BCEE81D0E59C2000693BA /* clinic_04_icon.png in Resources */,
 				A8DE58CD1C4DD3450019CB49 /* mew_interlaced.png in Resources */,
+				A8CB36CC1D94FE4900575B27 /* clinic_12_icon_c.png in Resources */,
 				A84D37D11C2D6CEA005A5CED /* services_status_icon_unopen@2x.png in Resources */,
 				A87BCE751D0573BA000693BA /* chatinput_modul@2x.png in Resources */,
 				A87BCEFA1D0E59C2000693BA /* clinic_14_icon.png in Resources */,
@@ -3084,20 +3109,21 @@
 				A8DE58B71C4DD3450019CB49 /* dribbble128_imageio.png in Resources */,
 				A84D37DE1C2D6CEA005A5CED /* volunteer_right.png in Resources */,
 				A84D37C51C2D6CEA005A5CED /* services_icon_family_doc@2x.png in Resources */,
+				A8CB36E01D94FE4900575B27 /* clinic_bkg_pressed.jpg in Resources */,
 				A84D37A91C2D6CEA005A5CED /* star_doctor_popular.png in Resources */,
 				A8DE58EC1C4DD3450019CB49 /* weibo_4.json in Resources */,
 				A84D36F81C2D6CE9005A5CED /* user_center_voluteer_close.png in Resources */,
 				A84D37191C2D6CE9005A5CED /* home_video_disable@3x.png in Resources */,
 				A84D37AF1C2D6CEA005A5CED /* arrow_right1.png in Resources */,
+				A8CB36D11D94FE4900575B27 /* clinic_15_icon.png in Resources */,
 				A84D36931C2D6CE9005A5CED /* problem_tool_voice@2x.png in Resources */,
 				A87BCF031D0E59C2000693BA /* clinic_19_icon.png in Resources */,
-				A84D37611C2D6CE9005A5CED /* clinic_09_icon.png in Resources */,
 				A84D371E1C2D6CE9005A5CED /* home_arrow_blue@3x.png in Resources */,
 				A87BCEA01D0573BA000693BA /* selected_combo_box.png in Resources */,
 				A84D37041C2D6CE9005A5CED /* home_list_inquiry@2x.png in Resources */,
 				A87BCE7F1D0573BA000693BA /* chatinput_special_service@2x.png in Resources */,
-				A84D37581C2D6CE9005A5CED /* clinic_04_icon.png in Resources */,
 				A8DE58CA1C4DD3450019CB49 /* mew_baseline.jpg in Resources */,
+				A8CB36ED1D94FF0100575B27 /* scanbutton.png in Resources */,
 				A84D37121C2D6CE9005A5CED /* home_suggestion@2x.png in Resources */,
 				A87BCF0A1D0E59C2000693BA /* clinic_bkg_normal.jpg in Resources */,
 				A84D373C1C2D6CE9005A5CED /* income_arrow.png in Resources */,
@@ -3105,7 +3131,6 @@
 				A84D37E31C2D6CEA005A5CED /* tools_share_sina@2x.png in Resources */,
 				A84D37971C2D6CEA005A5CED /* my_reward_wall@3x.png in Resources */,
 				A84D37AD1C2D6CEA005A5CED /* arrow_left1.png in Resources */,
-				A84D37731C2D6CEA005A5CED /* clinic_19_icon.png in Resources */,
 				A84D36981C2D6CE9005A5CED /* message_record_hint_icon.png in Resources */,
 				A8DE591B1C4DE48C0019CB49 /* WebP.sh in Resources */,
 				A84D37A51C2D6CEA005A5CED /* send_coupon@2x.png in Resources */,
@@ -3113,10 +3138,11 @@
 				A84D36971C2D6CE9005A5CED /* message_phone_hint_success.png in Resources */,
 				A84D36F61C2D6CE9005A5CED /* star_gray.png in Resources */,
 				A84D368F1C2D6CE9005A5CED /* advan_ask_keyboard.png in Resources */,
+				A8CB36DF1D94FE4900575B27 /* clinic_bkg_normal.jpg in Resources */,
 				A87BCEA11D0573BA000693BA /* selected_combo_box@2x.png in Resources */,
 				A84D37C91C2D6CEA005A5CED /* services_icon_plus@2x.png in Resources */,
 				A84D37CA1C2D6CEA005A5CED /* services_icon_point_problem@2x.png in Resources */,
-				A84D376A1C2D6CE9005A5CED /* clinic_14_icon.png in Resources */,
+				A8CB36C81D94FE4900575B27 /* clinic_10_icon.png in Resources */,
 				A87BCE701D0573BA000693BA /* chatinput_appointment@2x.png in Resources */,
 				A87BCE851D0573BA000693BA /* comments_my_question.png in Resources */,
 				A84D36A61C2D6CE9005A5CED /* white_sound_animation_1.png in Resources */,
@@ -3128,6 +3154,7 @@
 				A84D36BA1C2D6CE9005A5CED /* group_close@2x.png in Resources */,
 				A84D373B1C2D6CE9005A5CED /* fdj@2x.png in Resources */,
 				A87BCEE41D0E59C2000693BA /* clinic_02_icon.png in Resources */,
+				A8CB36D01D94FE4900575B27 /* clinic_14_icon_c.png in Resources */,
 				A8DE58DA1C4DD3450019CB49 /* twitter_0.json in Resources */,
 				A84D37A41C2D6CEA005A5CED /* previous_day_pressed.png in Resources */,
 				A84D37E21C2D6CEA005A5CED /* tools_share_qq@2x.png in Resources */,
@@ -3140,9 +3167,11 @@
 				A84D37DF1C2D6CEA005A5CED /* volunteer_suprise.png in Resources */,
 				A84D37A11C2D6CEA005A5CED /* next_day_normal.png in Resources */,
 				A84D37C81C2D6CEA005A5CED /* services_icon_phone_ask@2x.png in Resources */,
+				A8CB36B91D94FE4900575B27 /* clinic_02_icon.png in Resources */,
 				A84D37B71C2D6CEA005A5CED /* ic_patient_check@2x.png in Resources */,
 				A84D36B31C2D6CE9005A5CED /* tabbar_service_disable@2x.png in Resources */,
 				A84D378C1C2D6CEA005A5CED /* my_doctor_card@2x.png in Resources */,
+				A8CB36D91D94FE4900575B27 /* clinic_19_icon_c.png in Resources */,
 				A84D37231C2D6CE9005A5CED /* icon7@2x.png in Resources */,
 				A84D36AB1C2D6CE9005A5CED /* navigation_button_pressed@2x.png in Resources */,
 				A84D36851C2D6CE9005A5CED /* icon_smile.png in Resources */,
@@ -3152,15 +3181,17 @@
 				A84D372C1C2D6CE9005A5CED /* recommended@2x.png in Resources */,
 				A84D37BD1C2D6CEA005A5CED /* title_ic_more@3x.png in Resources */,
 				A84D37871C2D6CEA005A5CED /* income_left_tab2.png in Resources */,
+				A8CB36CE1D94FE4900575B27 /* clinic_13_icon_c.png in Resources */,
 				A84D37101C2D6CE9005A5CED /* home_register_disable@3x.png in Resources */,
 				A87BCE6F1D0573BA000693BA /* chatinput_again@2x.png in Resources */,
 				A87BCEF21D0E59C2000693BA /* clinic_09_icon_c.png in Resources */,
 				A84D36901C2D6CE9005A5CED /* advan_ask_keyboard@2x.png in Resources */,
-				A84D376D1C2D6CE9005A5CED /* clinic_15_icon_c.png in Resources */,
 				A84D36891C2D6CE9005A5CED /* asset_chose@2x.png in Resources */,
 				A84D374C1C2D6CE9005A5CED /* add_model_cell_bg@2x.png in Resources */,
 				A87BCF0D1D0E59C2000693BA /* clinic_default_icon.png in Resources */,
+				A8CB36CB1D94FE4900575B27 /* clinic_12_icon.png in Resources */,
 				A87BCE7E1D0573BA000693BA /* chatInput_record@3.png in Resources */,
+				A8CB36DA1D94FE4900575B27 /* clinic_20_icon.png in Resources */,
 				A84D37931C2D6CEA005A5CED /* my_invite@3x.png in Resources */,
 				A87BCEE21D0E59C2000693BA /* clinic_01_icon.png in Resources */,
 				A87BCF021D0E59C2000693BA /* clinic_18_icon.png in Resources */,
@@ -3175,12 +3206,12 @@
 				A84D37131C2D6CE9005A5CED /* home_tabbar_badge@2x.png in Resources */,
 				A84D37E61C2D6CEA005A5CED /* tools_share_weixin_friend.png in Resources */,
 				A84D37E51C2D6CEA005A5CED /* tools_share_weixin@2x.png in Resources */,
-				A84D377B1C2D6CEA005A5CED /* clinic_bkg_pressed.jpg in Resources */,
+				A8CB36C31D94FE4900575B27 /* clinic_07_icon_c.png in Resources */,
 				A87BCEF91D0E59C2000693BA /* clinic_13_icon_c.png in Resources */,
 				A84D373D1C2D6CE9005A5CED /* income_upload_image.png in Resources */,
 				A84D36B81C2D6CE9005A5CED /* group_activity_icon@2x.png in Resources */,
+				A8CB36CD1D94FE4900575B27 /* clinic_13_icon.png in Resources */,
 				A84D37211C2D6CE9005A5CED /* home_doc_pull_user@2x.png in Resources */,
-				A84D375C1C2D6CE9005A5CED /* clinic_06_icon_c.png in Resources */,
 				A87BCE9E1D0573BA000693BA /* right_bubble@2x.png in Resources */,
 				A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */,
 				A814CE1A1D17F815006E17C6 /* jh_slider_loading_circle.png in Resources */,
@@ -3188,32 +3219,29 @@
 				A84D37E01C2D6CEA005A5CED /* tools_setting.png in Resources */,
 				A84D37E71C2D6CEA005A5CED /* tools_share_weixin_friend@2x.png in Resources */,
 				A887FC341D2BCA8300746CDD /* loading_bkgnd.png in Resources */,
-				A84D37661C2D6CE9005A5CED /* clinic_12_icon.png in Resources */,
 				A87BCEF81D0E59C2000693BA /* clinic_13_icon.png in Resources */,
 				A84D37921C2D6CEA005A5CED /* my_invite@2x.png in Resources */,
 				A87BCEEF1D0E59C2000693BA /* clinic_08_icon.png in Resources */,
+				A8CB36DB1D94FE4900575B27 /* clinic_21_icon.png in Resources */,
 				A84D37381C2D6CE9005A5CED /* top_msg@3x.png in Resources */,
 				A84D379B1C2D6CEA005A5CED /* my_strategy@3x.png in Resources */,
 				A84D37261C2D6CE9005A5CED /* invite_doctor@2x.png in Resources */,
 				A87BCF091D0E59C2000693BA /* clinic_22_icon_c.png in Resources */,
+				A8CB36B71D94FE4900575B27 /* clinic_01_icon.png in Resources */,
 				A84D37B91C2D6CEA005A5CED /* ic_patient_consultation@2x.png in Resources */,
 				A84D36AF1C2D6CE9005A5CED /* tabbar_mine_disable@2x.png in Resources */,
 				A84D36941C2D6CE9005A5CED /* default_user@2x.png in Resources */,
 				A84D37B21C2D6CEA005A5CED /* ic_patient_add@3x.png in Resources */,
 				A84D36951C2D6CE9005A5CED /* doctor_default@2x.png in Resources */,
 				A84D36F71C2D6CE9005A5CED /* star_highlighted.png in Resources */,
-				A84D375E1C2D6CE9005A5CED /* clinic_07_icon_c.png in Resources */,
 				A814CE1E1D17F815006E17C6 /* jh_slider_round.png in Resources */,
 				A8DE58CC1C4DD3450019CB49 /* mew_interlaced.gif in Resources */,
-				A84D376F1C2D6CE9005A5CED /* clinic_16_icon_c.png in Resources */,
 				A87BCE7A1D0573BA000693BA /* chatinput_photo@3x.png in Resources */,
 				A84D37321C2D6CE9005A5CED /* recommended_square@3x.png in Resources */,
 				A814CE1D1D17F815006E17C6 /* jh_slider_loading_circle_alpha@2x.png in Resources */,
 				A87CD6231D37A93E009A1F13 /* navi_bar.jpg in Resources */,
-				A84D375A1C2D6CE9005A5CED /* clinic_05_icon.png in Resources */,
 				A84D36BE1C2D6CE9005A5CED /* group_header.png in Resources */,
 				A84D37C01C2D6CEA005A5CED /* check_selected.png in Resources */,
-				A84D37511C2D6CE9005A5CED /* clinic_00_icon.png in Resources */,
 				A8DE58C91C4DD3450019CB49 /* mew_baseline.gif in Resources */,
 				A87BCE911D0573BA000693BA /* left_bubble.png in Resources */,
 				A84D36B91C2D6CE9005A5CED /* group_activity_icon@3x.png in Resources */,
@@ -3226,9 +3254,12 @@
 				A84D369C1C2D6CE9005A5CED /* patient_center_item_arrow@2x.png in Resources */,
 				A84D37D91C2D6CEA005A5CED /* video_phoneIcon@2x.png in Resources */,
 				A87BCEEA1D0E59C2000693BA /* clinic_05_icon.png in Resources */,
+				A8CB36BB1D94FE4900575B27 /* clinic_03_icon.png in Resources */,
 				A84D37471C2D6CE9005A5CED /* academic_add_image_bg@2x.png in Resources */,
 				A8DE58D21C4DD3450019CB49 /* ResourceTwitter.bundle in Resources */,
+				A8CB36BF1D94FE4900575B27 /* clinic_05_icon.png in Resources */,
 				A8DE58ED1C4DD3450019CB49 /* weibo_5.json in Resources */,
+				A8CB36CF1D94FE4900575B27 /* clinic_14_icon.png in Resources */,
 				A84D37AB1C2D6CEA005A5CED /* star_doctor_star.png in Resources */,
 				A84D369B1C2D6CE9005A5CED /* patient_center_item_arrow.png in Resources */,
 				A84D37281C2D6CE9005A5CED /* phone_highlighted@2x.png in Resources */,
@@ -3243,8 +3274,10 @@
 				A84D37A21C2D6CEA005A5CED /* next_day_pressed.png in Resources */,
 				A84D37C61C2D6CEA005A5CED /* services_icon_hospital_guide@2x.png in Resources */,
 				A84D37431C2D6CE9005A5CED /* protrait_bk.png in Resources */,
+				A8CB36D21D94FE4900575B27 /* clinic_15_icon_c.png in Resources */,
 				A84D370E1C2D6CE9005A5CED /* home_register@3x.png in Resources */,
 				A84D37851C2D6CEA005A5CED /* doctor_group_sort_arrow_up@2x.png in Resources */,
+				A8CB36C11D94FE4900575B27 /* clinic_06_icon_c.png in Resources */,
 				A87BCEEC1D0E59C2000693BA /* clinic_06_icon_c.png in Resources */,
 				A87BCEF01D0E59C2000693BA /* clinic_08_icon_c.png in Resources */,
 				A84D37E41C2D6CEA005A5CED /* tools_share_weixin.png in Resources */,
@@ -3391,7 +3424,9 @@
 				A8DE59041C4DD3450019CB49 /* YYTextCopyPasteExample.m in Sources */,
 				A8DE58FE1C4DD3450019CB49 /* YYTableView.m in Sources */,
 				A84D380F1C3176BB005A5CED /* JHLineSeparator.m in Sources */,
+				A8CB36EB1D94FF0100575B27 /* CaptureSessionManager.m in Sources */,
 				A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */,
+				A80379281D5C767E00422FC7 /* JHJSViewController.m in Sources */,
 				A80A2F3B1C450BE600DBD028 /* JHFilledColorButton.m in Sources */,
 				A8DE58FF1C4DD3450019CB49 /* YYTableViewCell.m in Sources */,
 				A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */,
@@ -3440,6 +3475,7 @@
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
+				A8CB36EA1D94FF0100575B27 /* AROverlayViewController.m in Sources */,
 				A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */,
 				A8DE590C1C4DD3450019CB49 /* YYTextUndoRedoExample.m in Sources */,
 				A85D08781B8C904B00F976F2 /* main.m in Sources */,
@@ -3573,6 +3609,7 @@
 			baseConfigurationReference = 6362BBBCBB38B3049C96A1FE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN3N6ZJA53;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3647,6 +3684,7 @@
 			baseConfigurationReference = 7664B76736407A6460742F86 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KN3N6ZJA53;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3720,6 +3758,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KN3N6ZJA53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3739,6 +3778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KN3N6ZJA53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
