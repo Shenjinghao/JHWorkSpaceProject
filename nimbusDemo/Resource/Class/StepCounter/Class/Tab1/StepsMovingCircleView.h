@@ -10,4 +10,6 @@
 
 @interface StepsMovingCircleView : UIView
 
+@property (nonatomic) NSInteger steps;      // 当前的步数
+
 @end

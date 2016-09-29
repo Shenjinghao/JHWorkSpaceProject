@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Shenjinghao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "UICountingLabel.h"
 
-@interface JHCountingLabel : UILabel
+@interface JHCountingLabel : UICountingLabel
 
 @end
