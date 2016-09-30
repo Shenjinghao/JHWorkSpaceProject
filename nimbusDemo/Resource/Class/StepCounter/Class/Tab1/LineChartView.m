@@ -10,12 +10,25 @@
 
 @implementation LineChartView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        NSMutableArray *xValues = [NSMutableArray array];
+        NSMutableArray *yValuse = [NSMutableArray array];
+        NSMutableArray *xLabels = [NSMutableArray array];
+        for (NSInteger i = 0; i < 24; i ++) {
+            [xValues addObject:@(i)];
+            [yValuse addObject:@(i * 10000)];
+            [xLabels addObject:[NSString stringWithFormat:@"%ld",i]];
+        }
+        
+        self.xValues = xValues;
+        self.yValues = yValuse;
+        self.xLabels = xLabels;
+    }
+    return self;
 }
-*/
 
 @end

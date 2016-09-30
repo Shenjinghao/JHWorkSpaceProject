@@ -36,6 +36,8 @@
     lineChartTop -= 3;
     CGFloat lineChartHeight = IS_iPhone4 ? 83 : 103 * kViewRatio;
     _lineChartView = [[LineChartView alloc] initWithFrame:CGRectMake(0, lineChartTop, viewWidth() , lineChartHeight)];
+    [_lineChartView strokeChartWithAnimation:YES];
+    
     [self.view addSubview: _lineChartView];
 }
 
