@@ -43,6 +43,78 @@
 		A81C28591D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C28581D3E2F6000B5BE44 /* JHStartStepsFriendPKCard.m */; };
 		A81C285C1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C285B1D3E2F9600B5BE44 /* JHStepsPKSummaryCard.m */; };
 		A81C285F1D3E2FF300B5BE44 /* PKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C285E1D3E2FF300B5BE44 /* PKItem.m */; };
+		A82A22AD1DB5CB2900700B39 /* StepSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A22AC1DB5CB2900700B39 /* StepSettingItem.m */; };
+		A82A22AF1DB5F5FE00700B39 /* ugly_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A82A22AE1DB5F5FE00700B39 /* ugly_face.png */; };
+		A82EDC6F1D9E4E5800C5885F /* btn_account_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2B1D9E4E5800C5885F /* btn_account_green.png */; };
+		A82EDC701D9E4E5800C5885F /* btn_account_green_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2C1D9E4E5800C5885F /* btn_account_green_pressed.png */; };
+		A82EDC711D9E4E5800C5885F /* doted-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2D1D9E4E5800C5885F /* doted-pattern.png */; };
+		A82EDC721D9E4E5800C5885F /* feedback-replyer.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2E1D9E4E5800C5885F /* feedback-replyer.png */; };
+		A82EDC731D9E4E5800C5885F /* gender_setting_boy.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2F1D9E4E5800C5885F /* gender_setting_boy.png */; };
+		A82EDC741D9E4E5800C5885F /* gender_setting_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC301D9E4E5800C5885F /* gender_setting_girl.png */; };
+		A82EDC751D9E4E5800C5885F /* height_setting_image_female.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC311D9E4E5800C5885F /* height_setting_image_female.png */; };
+		A82EDC761D9E4E5800C5885F /* height_setting_image_male.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC321D9E4E5800C5885F /* height_setting_image_male.png */; };
+		A82EDC771D9E4E5800C5885F /* icon-trash.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC331D9E4E5800C5885F /* icon-trash.png */; };
+		A82EDC781D9E4E5800C5885F /* icon-trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC341D9E4E5800C5885F /* icon-trash@2x.png */; };
+		A82EDC791D9E4E5800C5885F /* list_arrow_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC351D9E4E5800C5885F /* list_arrow_icon.png */; };
+		A82EDC7A1D9E4E5800C5885F /* ruler_cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC361D9E4E5800C5885F /* ruler_cursor.png */; };
+		A82EDC7B1D9E4E5800C5885F /* sat_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC371D9E4E5800C5885F /* sat_msg.png */; };
+		A82EDC7C1D9E4E5800C5885F /* setting-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC381D9E4E5800C5885F /* setting-icon.png */; };
+		A82EDC7D1D9E4E5800C5885F /* setting-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC391D9E4E5800C5885F /* setting-icon@2x.png */; };
+		A82EDC7E1D9E4E5800C5885F /* steps-about-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3A1D9E4E5800C5885F /* steps-about-image.jpg */; };
+		A82EDC7F1D9E4E5800C5885F /* steps-feedback-send-enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3B1D9E4E5800C5885F /* steps-feedback-send-enabled.png */; };
+		A82EDC801D9E4E5800C5885F /* steps-feedback-send-enabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3C1D9E4E5800C5885F /* steps-feedback-send-enabled@2x.png */; };
+		A82EDC811D9E4E5800C5885F /* steps-feedback-send.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3D1D9E4E5800C5885F /* steps-feedback-send.png */; };
+		A82EDC821D9E4E5800C5885F /* steps-feedback-send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3E1D9E4E5800C5885F /* steps-feedback-send@2x.png */; };
+		A82EDC831D9E4E5800C5885F /* steps-setting-about-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC3F1D9E4E5800C5885F /* steps-setting-about-icon.png */; };
+		A82EDC841D9E4E5800C5885F /* steps-setting-about-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC401D9E4E5800C5885F /* steps-setting-about-icon@2x.png */; };
+		A82EDC851D9E4E5800C5885F /* steps-setting-about-page-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC411D9E4E5800C5885F /* steps-setting-about-page-icon.png */; };
+		A82EDC861D9E4E5800C5885F /* steps-setting-app-intro-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC421D9E4E5800C5885F /* steps-setting-app-intro-icon.png */; };
+		A82EDC871D9E4E5800C5885F /* steps-setting-app-intro-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC431D9E4E5800C5885F /* steps-setting-app-intro-icon@2x.png */; };
+		A82EDC881D9E4E5800C5885F /* steps-setting-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC441D9E4E5800C5885F /* steps-setting-arrow.png */; };
+		A82EDC891D9E4E5800C5885F /* steps-setting-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC451D9E4E5800C5885F /* steps-setting-arrow@2x.png */; };
+		A82EDC8A1D9E4E5800C5885F /* steps-setting-askdoc-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC461D9E4E5800C5885F /* steps-setting-askdoc-icon.png */; };
+		A82EDC8B1D9E4E5800C5885F /* steps-setting-askdoc-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC471D9E4E5800C5885F /* steps-setting-askdoc-icon@2x.png */; };
+		A82EDC8C1D9E4E5800C5885F /* steps-setting-download-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC481D9E4E5800C5885F /* steps-setting-download-icon.png */; };
+		A82EDC8D1D9E4E5800C5885F /* steps-setting-download-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC491D9E4E5800C5885F /* steps-setting-download-icon@2x.png */; };
+		A82EDC8E1D9E4E5800C5885F /* steps-setting-feedback-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4A1D9E4E5800C5885F /* steps-setting-feedback-icon.png */; };
+		A82EDC8F1D9E4E5800C5885F /* steps-setting-feedback-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4B1D9E4E5800C5885F /* steps-setting-feedback-icon@2x.png */; };
+		A82EDC901D9E4E5800C5885F /* steps-setting-knob.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4C1D9E4E5800C5885F /* steps-setting-knob.png */; };
+		A82EDC911D9E4E5800C5885F /* steps-setting-knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4D1D9E4E5800C5885F /* steps-setting-knob@2x.png */; };
+		A82EDC921D9E4E5800C5885F /* steps-setting-logout-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4E1D9E4E5800C5885F /* steps-setting-logout-icon.png */; };
+		A82EDC931D9E4E5800C5885F /* steps-setting-logout-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC4F1D9E4E5800C5885F /* steps-setting-logout-icon@2x.png */; };
+		A82EDC941D9E4E5800C5885F /* steps-setting-off.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC501D9E4E5800C5885F /* steps-setting-off.png */; };
+		A82EDC951D9E4E5800C5885F /* steps-setting-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC511D9E4E5800C5885F /* steps-setting-off@2x.png */; };
+		A82EDC961D9E4E5800C5885F /* steps-setting-on.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC521D9E4E5800C5885F /* steps-setting-on.png */; };
+		A82EDC971D9E4E5800C5885F /* steps-setting-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC531D9E4E5800C5885F /* steps-setting-on@2x.png */; };
+		A82EDC981D9E4E5800C5885F /* steps-setting-pk-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC541D9E4E5800C5885F /* steps-setting-pk-icon.png */; };
+		A82EDC991D9E4E5800C5885F /* steps-setting-pk-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC551D9E4E5800C5885F /* steps-setting-pk-icon@2x.png */; };
+		A82EDC9A1D9E4E5800C5885F /* steps-setting-qqhealth-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC561D9E4E5800C5885F /* steps-setting-qqhealth-icon.png */; };
+		A82EDC9B1D9E4E5800C5885F /* steps-setting-qqhealth-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC571D9E4E5800C5885F /* steps-setting-qqhealth-icon@2x.png */; };
+		A82EDC9C1D9E4E5800C5885F /* steps-setting-reload-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC581D9E4E5800C5885F /* steps-setting-reload-icon.png */; };
+		A82EDC9D1D9E4E5800C5885F /* steps-setting-reload-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC591D9E4E5800C5885F /* steps-setting-reload-icon@2x.png */; };
+		A82EDC9E1D9E4E5800C5885F /* steps-setting-result-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5A1D9E4E5800C5885F /* steps-setting-result-icon.png */; };
+		A82EDC9F1D9E4E5800C5885F /* steps-setting-result-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5B1D9E4E5800C5885F /* steps-setting-result-icon@2x.png */; };
+		A82EDCA01D9E4E5800C5885F /* steps-setting-star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5C1D9E4E5800C5885F /* steps-setting-star-icon.png */; };
+		A82EDCA11D9E4E5800C5885F /* steps-setting-star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5D1D9E4E5800C5885F /* steps-setting-star-icon@2x.png */; };
+		A82EDCA21D9E4E5800C5885F /* steps-setting-track-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5E1D9E4E5800C5885F /* steps-setting-track-icon.png */; };
+		A82EDCA31D9E4E5800C5885F /* steps-setting-track-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC5F1D9E4E5800C5885F /* steps-setting-track-icon@2x.png */; };
+		A82EDCA41D9E4E5800C5885F /* steps-setting-wx-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC601D9E4E5800C5885F /* steps-setting-wx-icon.png */; };
+		A82EDCA51D9E4E5800C5885F /* steps-setting-wx-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC611D9E4E5800C5885F /* steps-setting-wx-icon@2x.png */; };
+		A82EDCA61D9E4E5800C5885F /* table_row_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC621D9E4E5800C5885F /* table_row_arrow.png */; };
+		A82EDCA71D9E4E5800C5885F /* text_bkgnd_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC631D9E4E5800C5885F /* text_bkgnd_1.png */; };
+		A82EDCA81D9E4E5800C5885F /* text_bkgnd_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC641D9E4E5800C5885F /* text_bkgnd_2.png */; };
+		A82EDCA91D9E4E5800C5885F /* usercenter_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC651D9E4E5800C5885F /* usercenter_badge.png */; };
+		A82EDCAA1D9E4E5800C5885F /* usercenter_middle_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC661D9E4E5800C5885F /* usercenter_middle_normal.png */; };
+		A82EDCAB1D9E4E5800C5885F /* usercenter_middle_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC671D9E4E5800C5885F /* usercenter_middle_pressed.png */; };
+		A82EDCAC1D9E4E5800C5885F /* usercenter_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC681D9E4E5800C5885F /* usercenter_shadow.png */; };
+		A82EDCAD1D9E4E5800C5885F /* usercenter_top_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC691D9E4E5800C5885F /* usercenter_top_normal.png */; };
+		A82EDCAE1D9E4E5800C5885F /* usercenter_top_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC6A1D9E4E5800C5885F /* usercenter_top_pressed.png */; };
+		A82EDCAF1D9E4E5800C5885F /* usercenter_under_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC6B1D9E4E5800C5885F /* usercenter_under_normal.png */; };
+		A82EDCB01D9E4E5800C5885F /* usercenter_under_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC6C1D9E4E5800C5885F /* usercenter_under_pressed.png */; };
+		A82EDCB11D9E4E5800C5885F /* weight_setting_image_female.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC6D1D9E4E5800C5885F /* weight_setting_image_female.png */; };
+		A82EDCB21D9E4E5800C5885F /* weight_setting_image_male.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC6E1D9E4E5800C5885F /* weight_setting_image_male.png */; };
+		A82EDCB61D9E4FB100C5885F /* AgeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82EDCB51D9E4FB100C5885F /* AgeSettingViewController.m */; };
+		A82EDCB91D9E530100C5885F /* ScrollChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A82EDCB81D9E530100C5885F /* ScrollChooseView.m */; };
 		A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */; };
 		A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FD1C2D27CD005A5CED /* JHActivityView.m */; };
 		A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D35001C2D2A2C005A5CED /* UIFont+JHCategory.m */; };
@@ -440,7 +512,6 @@
 		A87BCEA01D0573BA000693BA /* selected_combo_box.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE661D0573BA000693BA /* selected_combo_box.png */; };
 		A87BCEA11D0573BA000693BA /* selected_combo_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE671D0573BA000693BA /* selected_combo_box@2x.png */; };
 		A87BCEA21D0573BA000693BA /* take_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE681D0573BA000693BA /* take_logo.png */; };
-		A87BCEA31D0573BA000693BA /* ugly_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE691D0573BA000693BA /* ugly_face.png */; };
 		A87BCEA41D0573BA000693BA /* unselected_combo_box.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE6A1D0573BA000693BA /* unselected_combo_box.png */; };
 		A87BCEA51D0573BA000693BA /* unselected_combo_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A87BCE6B1D0573BA000693BA /* unselected_combo_box@2x.png */; };
 		A87BCEAE1D0D3C76000693BA /* JHPopWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87BCEAB1D0D3C76000693BA /* JHPopWindowView.m */; };
@@ -883,6 +954,81 @@
 		A81C285D1D3E2FF300B5BE44 /* PKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKItem.h; sourceTree = "<group>"; };
 		A81C285E1D3E2FF300B5BE44 /* PKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKItem.m; sourceTree = "<group>"; };
 		A81C28601D3E34DF00B5BE44 /* StepCounterMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepCounterMacros.h; sourceTree = "<group>"; };
+		A82A22AB1DB5CB2900700B39 /* StepSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepSettingItem.h; sourceTree = "<group>"; };
+		A82A22AC1DB5CB2900700B39 /* StepSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepSettingItem.m; sourceTree = "<group>"; };
+		A82A22AE1DB5F5FE00700B39 /* ugly_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugly_face.png; sourceTree = "<group>"; };
+		A82EDC2B1D9E4E5800C5885F /* btn_account_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_account_green.png; sourceTree = "<group>"; };
+		A82EDC2C1D9E4E5800C5885F /* btn_account_green_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_account_green_pressed.png; sourceTree = "<group>"; };
+		A82EDC2D1D9E4E5800C5885F /* doted-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doted-pattern.png"; sourceTree = "<group>"; };
+		A82EDC2E1D9E4E5800C5885F /* feedback-replyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback-replyer.png"; sourceTree = "<group>"; };
+		A82EDC2F1D9E4E5800C5885F /* gender_setting_boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gender_setting_boy.png; sourceTree = "<group>"; };
+		A82EDC301D9E4E5800C5885F /* gender_setting_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gender_setting_girl.png; sourceTree = "<group>"; };
+		A82EDC311D9E4E5800C5885F /* height_setting_image_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height_setting_image_female.png; sourceTree = "<group>"; };
+		A82EDC321D9E4E5800C5885F /* height_setting_image_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height_setting_image_male.png; sourceTree = "<group>"; };
+		A82EDC331D9E4E5800C5885F /* icon-trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-trash.png"; sourceTree = "<group>"; };
+		A82EDC341D9E4E5800C5885F /* icon-trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-trash@2x.png"; sourceTree = "<group>"; };
+		A82EDC351D9E4E5800C5885F /* list_arrow_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_arrow_icon.png; sourceTree = "<group>"; };
+		A82EDC361D9E4E5800C5885F /* ruler_cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler_cursor.png; sourceTree = "<group>"; };
+		A82EDC371D9E4E5800C5885F /* sat_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sat_msg.png; sourceTree = "<group>"; };
+		A82EDC381D9E4E5800C5885F /* setting-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-icon.png"; sourceTree = "<group>"; };
+		A82EDC391D9E4E5800C5885F /* setting-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC3A1D9E4E5800C5885F /* steps-about-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "steps-about-image.jpg"; sourceTree = "<group>"; };
+		A82EDC3B1D9E4E5800C5885F /* steps-feedback-send-enabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-feedback-send-enabled.png"; sourceTree = "<group>"; };
+		A82EDC3C1D9E4E5800C5885F /* steps-feedback-send-enabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-feedback-send-enabled@2x.png"; sourceTree = "<group>"; };
+		A82EDC3D1D9E4E5800C5885F /* steps-feedback-send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-feedback-send.png"; sourceTree = "<group>"; };
+		A82EDC3E1D9E4E5800C5885F /* steps-feedback-send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-feedback-send@2x.png"; sourceTree = "<group>"; };
+		A82EDC3F1D9E4E5800C5885F /* steps-setting-about-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-about-icon.png"; sourceTree = "<group>"; };
+		A82EDC401D9E4E5800C5885F /* steps-setting-about-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-about-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC411D9E4E5800C5885F /* steps-setting-about-page-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-about-page-icon.png"; sourceTree = "<group>"; };
+		A82EDC421D9E4E5800C5885F /* steps-setting-app-intro-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-app-intro-icon.png"; sourceTree = "<group>"; };
+		A82EDC431D9E4E5800C5885F /* steps-setting-app-intro-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-app-intro-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC441D9E4E5800C5885F /* steps-setting-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-arrow.png"; sourceTree = "<group>"; };
+		A82EDC451D9E4E5800C5885F /* steps-setting-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-arrow@2x.png"; sourceTree = "<group>"; };
+		A82EDC461D9E4E5800C5885F /* steps-setting-askdoc-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-askdoc-icon.png"; sourceTree = "<group>"; };
+		A82EDC471D9E4E5800C5885F /* steps-setting-askdoc-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-askdoc-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC481D9E4E5800C5885F /* steps-setting-download-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-download-icon.png"; sourceTree = "<group>"; };
+		A82EDC491D9E4E5800C5885F /* steps-setting-download-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-download-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC4A1D9E4E5800C5885F /* steps-setting-feedback-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-feedback-icon.png"; sourceTree = "<group>"; };
+		A82EDC4B1D9E4E5800C5885F /* steps-setting-feedback-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-feedback-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC4C1D9E4E5800C5885F /* steps-setting-knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-knob.png"; sourceTree = "<group>"; };
+		A82EDC4D1D9E4E5800C5885F /* steps-setting-knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-knob@2x.png"; sourceTree = "<group>"; };
+		A82EDC4E1D9E4E5800C5885F /* steps-setting-logout-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-logout-icon.png"; sourceTree = "<group>"; };
+		A82EDC4F1D9E4E5800C5885F /* steps-setting-logout-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-logout-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC501D9E4E5800C5885F /* steps-setting-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-off.png"; sourceTree = "<group>"; };
+		A82EDC511D9E4E5800C5885F /* steps-setting-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-off@2x.png"; sourceTree = "<group>"; };
+		A82EDC521D9E4E5800C5885F /* steps-setting-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-on.png"; sourceTree = "<group>"; };
+		A82EDC531D9E4E5800C5885F /* steps-setting-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-on@2x.png"; sourceTree = "<group>"; };
+		A82EDC541D9E4E5800C5885F /* steps-setting-pk-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-pk-icon.png"; sourceTree = "<group>"; };
+		A82EDC551D9E4E5800C5885F /* steps-setting-pk-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-pk-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC561D9E4E5800C5885F /* steps-setting-qqhealth-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-qqhealth-icon.png"; sourceTree = "<group>"; };
+		A82EDC571D9E4E5800C5885F /* steps-setting-qqhealth-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-qqhealth-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC581D9E4E5800C5885F /* steps-setting-reload-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-reload-icon.png"; sourceTree = "<group>"; };
+		A82EDC591D9E4E5800C5885F /* steps-setting-reload-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-reload-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC5A1D9E4E5800C5885F /* steps-setting-result-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-result-icon.png"; sourceTree = "<group>"; };
+		A82EDC5B1D9E4E5800C5885F /* steps-setting-result-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-result-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC5C1D9E4E5800C5885F /* steps-setting-star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-star-icon.png"; sourceTree = "<group>"; };
+		A82EDC5D1D9E4E5800C5885F /* steps-setting-star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-star-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC5E1D9E4E5800C5885F /* steps-setting-track-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-track-icon.png"; sourceTree = "<group>"; };
+		A82EDC5F1D9E4E5800C5885F /* steps-setting-track-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-track-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC601D9E4E5800C5885F /* steps-setting-wx-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-wx-icon.png"; sourceTree = "<group>"; };
+		A82EDC611D9E4E5800C5885F /* steps-setting-wx-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "steps-setting-wx-icon@2x.png"; sourceTree = "<group>"; };
+		A82EDC621D9E4E5800C5885F /* table_row_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_row_arrow.png; sourceTree = "<group>"; };
+		A82EDC631D9E4E5800C5885F /* text_bkgnd_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_bkgnd_1.png; sourceTree = "<group>"; };
+		A82EDC641D9E4E5800C5885F /* text_bkgnd_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_bkgnd_2.png; sourceTree = "<group>"; };
+		A82EDC651D9E4E5800C5885F /* usercenter_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_badge.png; sourceTree = "<group>"; };
+		A82EDC661D9E4E5800C5885F /* usercenter_middle_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_middle_normal.png; sourceTree = "<group>"; };
+		A82EDC671D9E4E5800C5885F /* usercenter_middle_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_middle_pressed.png; sourceTree = "<group>"; };
+		A82EDC681D9E4E5800C5885F /* usercenter_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_shadow.png; sourceTree = "<group>"; };
+		A82EDC691D9E4E5800C5885F /* usercenter_top_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_top_normal.png; sourceTree = "<group>"; };
+		A82EDC6A1D9E4E5800C5885F /* usercenter_top_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_top_pressed.png; sourceTree = "<group>"; };
+		A82EDC6B1D9E4E5800C5885F /* usercenter_under_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_under_normal.png; sourceTree = "<group>"; };
+		A82EDC6C1D9E4E5800C5885F /* usercenter_under_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usercenter_under_pressed.png; sourceTree = "<group>"; };
+		A82EDC6D1D9E4E5800C5885F /* weight_setting_image_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight_setting_image_female.png; sourceTree = "<group>"; };
+		A82EDC6E1D9E4E5800C5885F /* weight_setting_image_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight_setting_image_male.png; sourceTree = "<group>"; };
+		A82EDCB41D9E4FB100C5885F /* AgeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeSettingViewController.h; sourceTree = "<group>"; };
+		A82EDCB51D9E4FB100C5885F /* AgeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeSettingViewController.m; sourceTree = "<group>"; };
+		A82EDCB71D9E530100C5885F /* ScrollChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollChooseView.h; sourceTree = "<group>"; };
+		A82EDCB81D9E530100C5885F /* ScrollChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollChooseView.m; sourceTree = "<group>"; };
 		A84D34F91C2CE198005A5CED /* JHViewController+NavigationButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHViewController+NavigationButtons.h"; sourceTree = "<group>"; };
 		A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHViewController+NavigationButtons.m"; sourceTree = "<group>"; };
 		A84D34FC1C2D27CD005A5CED /* JHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActivityView.h; sourceTree = "<group>"; };
@@ -1313,7 +1459,6 @@
 		A87BCE661D0573BA000693BA /* selected_combo_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_combo_box.png; sourceTree = "<group>"; };
 		A87BCE671D0573BA000693BA /* selected_combo_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_combo_box@2x.png"; sourceTree = "<group>"; };
 		A87BCE681D0573BA000693BA /* take_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_logo.png; sourceTree = "<group>"; };
-		A87BCE691D0573BA000693BA /* ugly_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugly_face.png; sourceTree = "<group>"; };
 		A87BCE6A1D0573BA000693BA /* unselected_combo_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unselected_combo_box.png; sourceTree = "<group>"; };
 		A87BCE6B1D0573BA000693BA /* unselected_combo_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected_combo_box@2x.png"; sourceTree = "<group>"; };
 		A87BCEAA1D0D3C76000693BA /* JHPopWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPopWindowView.h; sourceTree = "<group>"; };
@@ -1885,6 +2030,95 @@
 				A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */,
 			);
 			path = JHAnimateSlider;
+			sourceTree = "<group>";
+		};
+		A82EDC2A1D9E4E5800C5885F /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				A82EDC2B1D9E4E5800C5885F /* btn_account_green.png */,
+				A82EDC2C1D9E4E5800C5885F /* btn_account_green_pressed.png */,
+				A82EDC2D1D9E4E5800C5885F /* doted-pattern.png */,
+				A82EDC2E1D9E4E5800C5885F /* feedback-replyer.png */,
+				A82EDC2F1D9E4E5800C5885F /* gender_setting_boy.png */,
+				A82EDC301D9E4E5800C5885F /* gender_setting_girl.png */,
+				A82EDC311D9E4E5800C5885F /* height_setting_image_female.png */,
+				A82EDC321D9E4E5800C5885F /* height_setting_image_male.png */,
+				A82EDC331D9E4E5800C5885F /* icon-trash.png */,
+				A82EDC341D9E4E5800C5885F /* icon-trash@2x.png */,
+				A82EDC351D9E4E5800C5885F /* list_arrow_icon.png */,
+				A82EDC361D9E4E5800C5885F /* ruler_cursor.png */,
+				A82EDC371D9E4E5800C5885F /* sat_msg.png */,
+				A82EDC381D9E4E5800C5885F /* setting-icon.png */,
+				A82EDC391D9E4E5800C5885F /* setting-icon@2x.png */,
+				A82EDC3A1D9E4E5800C5885F /* steps-about-image.jpg */,
+				A82EDC3B1D9E4E5800C5885F /* steps-feedback-send-enabled.png */,
+				A82EDC3C1D9E4E5800C5885F /* steps-feedback-send-enabled@2x.png */,
+				A82EDC3D1D9E4E5800C5885F /* steps-feedback-send.png */,
+				A82EDC3E1D9E4E5800C5885F /* steps-feedback-send@2x.png */,
+				A82EDC3F1D9E4E5800C5885F /* steps-setting-about-icon.png */,
+				A82EDC401D9E4E5800C5885F /* steps-setting-about-icon@2x.png */,
+				A82EDC411D9E4E5800C5885F /* steps-setting-about-page-icon.png */,
+				A82EDC421D9E4E5800C5885F /* steps-setting-app-intro-icon.png */,
+				A82EDC431D9E4E5800C5885F /* steps-setting-app-intro-icon@2x.png */,
+				A82EDC441D9E4E5800C5885F /* steps-setting-arrow.png */,
+				A82EDC451D9E4E5800C5885F /* steps-setting-arrow@2x.png */,
+				A82EDC461D9E4E5800C5885F /* steps-setting-askdoc-icon.png */,
+				A82EDC471D9E4E5800C5885F /* steps-setting-askdoc-icon@2x.png */,
+				A82EDC481D9E4E5800C5885F /* steps-setting-download-icon.png */,
+				A82EDC491D9E4E5800C5885F /* steps-setting-download-icon@2x.png */,
+				A82EDC4A1D9E4E5800C5885F /* steps-setting-feedback-icon.png */,
+				A82EDC4B1D9E4E5800C5885F /* steps-setting-feedback-icon@2x.png */,
+				A82EDC4C1D9E4E5800C5885F /* steps-setting-knob.png */,
+				A82EDC4D1D9E4E5800C5885F /* steps-setting-knob@2x.png */,
+				A82EDC4E1D9E4E5800C5885F /* steps-setting-logout-icon.png */,
+				A82EDC4F1D9E4E5800C5885F /* steps-setting-logout-icon@2x.png */,
+				A82EDC501D9E4E5800C5885F /* steps-setting-off.png */,
+				A82EDC511D9E4E5800C5885F /* steps-setting-off@2x.png */,
+				A82EDC521D9E4E5800C5885F /* steps-setting-on.png */,
+				A82EDC531D9E4E5800C5885F /* steps-setting-on@2x.png */,
+				A82EDC541D9E4E5800C5885F /* steps-setting-pk-icon.png */,
+				A82EDC551D9E4E5800C5885F /* steps-setting-pk-icon@2x.png */,
+				A82EDC561D9E4E5800C5885F /* steps-setting-qqhealth-icon.png */,
+				A82EDC571D9E4E5800C5885F /* steps-setting-qqhealth-icon@2x.png */,
+				A82EDC581D9E4E5800C5885F /* steps-setting-reload-icon.png */,
+				A82EDC591D9E4E5800C5885F /* steps-setting-reload-icon@2x.png */,
+				A82EDC5A1D9E4E5800C5885F /* steps-setting-result-icon.png */,
+				A82EDC5B1D9E4E5800C5885F /* steps-setting-result-icon@2x.png */,
+				A82EDC5C1D9E4E5800C5885F /* steps-setting-star-icon.png */,
+				A82EDC5D1D9E4E5800C5885F /* steps-setting-star-icon@2x.png */,
+				A82EDC5E1D9E4E5800C5885F /* steps-setting-track-icon.png */,
+				A82EDC5F1D9E4E5800C5885F /* steps-setting-track-icon@2x.png */,
+				A82EDC601D9E4E5800C5885F /* steps-setting-wx-icon.png */,
+				A82EDC611D9E4E5800C5885F /* steps-setting-wx-icon@2x.png */,
+				A82EDC621D9E4E5800C5885F /* table_row_arrow.png */,
+				A82EDC631D9E4E5800C5885F /* text_bkgnd_1.png */,
+				A82EDC641D9E4E5800C5885F /* text_bkgnd_2.png */,
+				A82EDC651D9E4E5800C5885F /* usercenter_badge.png */,
+				A82EDC661D9E4E5800C5885F /* usercenter_middle_normal.png */,
+				A82EDC671D9E4E5800C5885F /* usercenter_middle_pressed.png */,
+				A82EDC681D9E4E5800C5885F /* usercenter_shadow.png */,
+				A82EDC691D9E4E5800C5885F /* usercenter_top_normal.png */,
+				A82EDC6A1D9E4E5800C5885F /* usercenter_top_pressed.png */,
+				A82EDC6B1D9E4E5800C5885F /* usercenter_under_normal.png */,
+				A82EDC6C1D9E4E5800C5885F /* usercenter_under_pressed.png */,
+				A82EDC6D1D9E4E5800C5885F /* weight_setting_image_female.png */,
+				A82EDC6E1D9E4E5800C5885F /* weight_setting_image_male.png */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		A82EDCB31D9E4EF100C5885F /* SettingTab */ = {
+			isa = PBXGroup;
+			children = (
+				A82EDCB41D9E4FB100C5885F /* AgeSettingViewController.h */,
+				A82EDCB51D9E4FB100C5885F /* AgeSettingViewController.m */,
+				A82EDCB71D9E530100C5885F /* ScrollChooseView.h */,
+				A82EDCB81D9E530100C5885F /* ScrollChooseView.m */,
+				A82A22AB1DB5CB2900700B39 /* StepSettingItem.h */,
+				A82A22AC1DB5CB2900700B39 /* StepSettingItem.m */,
+			);
+			name = SettingTab;
+			path = Tab4/SettingTab;
 			sourceTree = "<group>";
 		};
 		A84D35051C2D6CE9005A5CED /* Resource */ = {
@@ -2626,6 +2860,7 @@
 		A87BCE311D0573BA000693BA /* chat */ = {
 			isa = PBXGroup;
 			children = (
+				A82A22AE1DB5F5FE00700B39 /* ugly_face.png */,
 				A87BCE321D0573BA000693BA /* beige_button@2x.png */,
 				A87BCE331D0573BA000693BA /* bottom_green_btn.png */,
 				A87BCE341D0573BA000693BA /* bottom_green_btn_pressed.png */,
@@ -2681,7 +2916,6 @@
 				A87BCE661D0573BA000693BA /* selected_combo_box.png */,
 				A87BCE671D0573BA000693BA /* selected_combo_box@2x.png */,
 				A87BCE681D0573BA000693BA /* take_logo.png */,
-				A87BCE691D0573BA000693BA /* ugly_face.png */,
 				A87BCE6A1D0573BA000693BA /* unselected_combo_box.png */,
 				A87BCE6B1D0573BA000693BA /* unselected_combo_box@2x.png */,
 			);
@@ -2756,6 +2990,7 @@
 		A87CD47F1D34D8C2009A1F13 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A82EDCB31D9E4EF100C5885F /* SettingTab */,
 				A807698E1D9BB53800A41579 /* Tab1 */,
 				A87CD5F71D3647A6009A1F13 /* Tab2 */,
 				A87CD5FA1D3647A6009A1F13 /* Tab3 */,
@@ -2767,6 +3002,7 @@
 		A87CD4801D34D8C2009A1F13 /* Resoource */ = {
 			isa = PBXGroup;
 			children = (
+				A82EDC2A1D9E4E5800C5885F /* settings */,
 				A87CD5C91D35EACE009A1F13 /* Pedometer */,
 				A87CD4AF1D35E9D9009A1F13 /* Assistant */,
 				A87CD4FD1D35E9D9009A1F13 /* friends-pk */,
@@ -3425,6 +3661,7 @@
 				A87CD5B61D35E9D9009A1F13 /* steps-pk-tab-new-icon@2x.png in Resources */,
 				A84D36961C2D6CE9005A5CED /* message_phone_hint_failure.png in Resources */,
 				A84D379D1C2D6CEA005A5CED /* my_today_news@3x.png in Resources */,
+				A82EDC971D9E4E5800C5885F /* steps-setting-on@2x.png in Resources */,
 				A87CD4AE1D35E6FA009A1F13 /* tab-data-center@2x.png in Resources */,
 				A8DE58EF1C4DD3450019CB49 /* weibo_7.json in Resources */,
 				A87BCE821D0573BA000693BA /* choose_icon_selected.png in Resources */,
@@ -3449,17 +3686,21 @@
 				A84D37A01C2D6CEA005A5CED /* news_share.jpg in Resources */,
 				A84D37681C2D6CE9005A5CED /* clinic_13_icon.png in Resources */,
 				A87BCF081D0E59C2000693BA /* clinic_22_icon.png in Resources */,
+				A82EDC851D9E4E5800C5885F /* steps-setting-about-page-icon.png in Resources */,
 				A87CD4AB1D35E6FA009A1F13 /* tab-data-center-selected.png in Resources */,
+				A82EDC9D1D9E4E5800C5885F /* steps-setting-reload-icon@2x.png in Resources */,
 				A87BCE771D0573BA000693BA /* chatinput_more@2x.png in Resources */,
 				A87BCEEE1D0E59C2000693BA /* clinic_07_icon_c.png in Resources */,
 				A87CD55D1D35E9D9009A1F13 /* intelAssist_sleep_icon@3x.png in Resources */,
 				A84D370D1C2D6CE9005A5CED /* home_register@2x.png in Resources */,
+				A82EDCAD1D9E4E5800C5885F /* usercenter_top_normal.png in Resources */,
 				A87BCE8E1D0573BA000693BA /* edit_field_bg@2x.png in Resources */,
 				A87CD58D1D35E9D9009A1F13 /* icon-delete-friend@2x.png in Resources */,
 				A87CD5721D35E9D9009A1F13 /* intelAssist_weather_img_snowy@2x.png in Resources */,
 				A87CD5AD1D35E9D9009A1F13 /* steps-pk-page-indicator@2x.png in Resources */,
 				A84D37441C2D6CE9005A5CED /* register_wait_tel.png in Resources */,
 				A84D36AE1C2D6CE9005A5CED /* tabbar_mine@2x.png in Resources */,
+				A82EDC881D9E4E5800C5885F /* steps-setting-arrow.png in Resources */,
 				A84D37671C2D6CE9005A5CED /* clinic_12_icon_c.png in Resources */,
 				A84D379E1C2D6CEA005A5CED /* my_topic@2x.png in Resources */,
 				A87CD5571D35E9D9009A1F13 /* intelAssist_runwalk_backgound@2x.png in Resources */,
@@ -3479,9 +3720,11 @@
 				A87BCEE31D0E59C2000693BA /* clinic_01_icon_c.png in Resources */,
 				A8DE58BA1C4DD3450019CB49 /* dribbble64_imageio.png in Resources */,
 				A84D37161C2D6CE9005A5CED /* home_video@2x.png in Resources */,
+				A82A22AF1DB5F5FE00700B39 /* ugly_face.png in Resources */,
 				A87BCEE51D0E59C2000693BA /* clinic_02_icon_c.png in Resources */,
 				A87BCEFD1D0E59C2000693BA /* clinic_15_icon_c.png in Resources */,
 				A84D368A1C2D6CE9005A5CED /* asset_chose@3x.png in Resources */,
+				A82EDC701D9E4E5800C5885F /* btn_account_green_pressed.png in Resources */,
 				A87CD49E1D35E6FA009A1F13 /* dc-figure-no-gender.png in Resources */,
 				A84D37201C2D6CE9005A5CED /* home_doc_pull_doc@3x.png in Resources */,
 				A87BCEA41D0573BA000693BA /* unselected_combo_box.png in Resources */,
@@ -3492,11 +3735,13 @@
 				A84D37591C2D6CE9005A5CED /* clinic_04_icon_c.png in Resources */,
 				A87CD5AF1D35E9D9009A1F13 /* steps-pk-percent-vs-line6.png in Resources */,
 				A87CD4A01D35E6FA009A1F13 /* dc-icon-calory.png in Resources */,
+				A82EDC7F1D9E4E5800C5885F /* steps-feedback-send-enabled.png in Resources */,
 				A84D37B41C2D6CEA005A5CED /* ic_patient_add_successful@3x.png in Resources */,
 				A84D375F1C2D6CE9005A5CED /* clinic_08_icon.png in Resources */,
 				A87CD5761D35E9D9009A1F13 /* intelAssist_whiteMoon_icon@2x.png in Resources */,
 				A84D37901C2D6CEA005A5CED /* my_income@2x.png in Resources */,
 				A87CD5781D35E9D9009A1F13 /* login_bg@3x.png in Resources */,
+				A82EDCA91D9E4E5800C5885F /* usercenter_badge.png in Resources */,
 				A87CD59A1D35E9D9009A1F13 /* steps-pk-dash.png in Resources */,
 				A8DE58C61C4DD3450019CB49 /* google@2x.webp in Resources */,
 				A84D37221C2D6CE9005A5CED /* home_doc_pull_user@3x.png in Resources */,
@@ -3510,6 +3755,7 @@
 				A87CD5E51D35EACE009A1F13 /* tab-pedometer-selected@2x.png in Resources */,
 				A85D08841B8C904B00F976F2 /* Main.storyboard in Resources */,
 				A84D36841C2D6CE9005A5CED /* depression_face.png in Resources */,
+				A82EDC781D9E4E5800C5885F /* icon-trash@2x.png in Resources */,
 				A87BCE841D0573BA000693BA /* comments_doubt_question.png in Resources */,
 				A84D37BF1C2D6CEA005A5CED /* check_normal@2x.png in Resources */,
 				A87CD5741D35E9D9009A1F13 /* intelAssist_weather_img_sunny@2x.png in Resources */,
@@ -3524,6 +3770,7 @@
 				A87CD5931D35E9D9009A1F13 /* steps-pk-card-share-icon@2x.png in Resources */,
 				A87CD5BA1D35E9D9009A1F13 /* steps-pk-title-separator@2x.png in Resources */,
 				A84D379A1C2D6CEA005A5CED /* my_strategy@2x.png in Resources */,
+				A82EDC8A1D9E4E5800C5885F /* steps-setting-askdoc-icon.png in Resources */,
 				A84D37D31C2D6CEA005A5CED /* text_ask_start_image@2x.png in Resources */,
 				A8DE58C41C4DD3450019CB49 /* EmoticonQQ.bundle in Resources */,
 				A84D368C1C2D6CE9005A5CED /* asset_close@3x.png in Resources */,
@@ -3532,6 +3779,7 @@
 				A84D37621C2D6CE9005A5CED /* clinic_09_icon_c.png in Resources */,
 				A84D37241C2D6CE9005A5CED /* outpatient_success@2x.png in Resources */,
 				A84D37061C2D6CE9005A5CED /* home_list_phone@2x.png in Resources */,
+				A82EDC831D9E4E5800C5885F /* steps-setting-about-icon.png in Resources */,
 				A84D37111C2D6CE9005A5CED /* home_score@2x.png in Resources */,
 				A87CD5E71D35EACE009A1F13 /* tab-pedometer@2x.png in Resources */,
 				A87CD5E41D35EACE009A1F13 /* tab-pedometer-selected.png in Resources */,
@@ -3552,28 +3800,35 @@
 				A87CD5531D35E9D9009A1F13 /* IntelAssist_robot_head@2x.png in Resources */,
 				A84D37341C2D6CE9005A5CED /* scanning_highlighted@3x.png in Resources */,
 				A84D372F1C2D6CE9005A5CED /* recommended_circle@3x.png in Resources */,
+				A82EDC7D1D9E4E5800C5885F /* setting-icon@2x.png in Resources */,
 				A84D37CF1C2D6CEA005A5CED /* services_status_icon_open@2x.png in Resources */,
 				A87BCE6D1D0573BA000693BA /* bottom_green_btn.png in Resources */,
 				A87CD5A71D35E9D9009A1F13 /* steps-pk-invitation-funny-pic.png in Resources */,
 				A84D36AD1C2D6CE9005A5CED /* tabbar_home_disable@2x.png in Resources */,
+				A82EDC801D9E4E5800C5885F /* steps-feedback-send-enabled@2x.png in Resources */,
 				A84D37BA1C2D6CEA005A5CED /* ic_patient_consultation@3x.png in Resources */,
 				A84D36FF1C2D6CE9005A5CED /* home_hospital_guide@3x.png in Resources */,
 				A84D37821C2D6CEA005A5CED /* doctor_group_more_image.png in Resources */,
 				A87CD5891D35E9D9009A1F13 /* white_sound_animation_2.png in Resources */,
+				A82EDC9F1D9E4E5800C5885F /* steps-setting-result-icon@2x.png in Resources */,
+				A82EDCA21D9E4E5800C5885F /* steps-setting-track-icon.png in Resources */,
 				A84D37331C2D6CE9005A5CED /* scanning_highlighted@2x.png in Resources */,
 				A87CD5601D35E9D9009A1F13 /* intelAssist_sleepBlue_img@2x.png in Resources */,
 				A84D373A1C2D6CE9005A5CED /* fdj.png in Resources */,
 				A84D378E1C2D6CEA005A5CED /* my_home_page@2x.png in Resources */,
 				A87CD5A81D35E9D9009A1F13 /* steps-pk-invitation-funny-pic@2x.png in Resources */,
 				A84D37691C2D6CE9005A5CED /* clinic_13_icon_c.png in Resources */,
+				A82EDCAA1D9E4E5800C5885F /* usercenter_middle_normal.png in Resources */,
 				A87CD5DC1D35EACE009A1F13 /* steps-step-icon.png in Resources */,
 				A87BCE871D0573BA000693BA /* comments_questioned.png in Resources */,
 				A84D36881C2D6CE9005A5CED /* ugly_face.png in Resources */,
+				A82EDC7A1D9E4E5800C5885F /* ruler_cursor.png in Resources */,
 				A85D08891B8C904B00F976F2 /* LaunchScreen.xib in Resources */,
 				A87CD5841D35E9D9009A1F13 /* tab-assistant-selected@3x.png in Resources */,
 				A84D36A21C2D6CE9005A5CED /* setting_arrow_down.png in Resources */,
 				A87BCF0B1D0E59C2000693BA /* clinic_bkg_pressed.jpg in Resources */,
 				A84D378B1C2D6CEA005A5CED /* message_center_right@3x.png in Resources */,
+				A82EDC7E1D9E4E5800C5885F /* steps-about-image.jpg in Resources */,
 				A87CD5AC1D35E9D9009A1F13 /* steps-pk-page-indicator.png in Resources */,
 				A84D37771C2D6CEA005A5CED /* clinic_21_icon_c.png in Resources */,
 				A87CD5971D35E9D9009A1F13 /* steps-pk-circle-red@2x.png in Resources */,
@@ -3585,6 +3840,7 @@
 				A87BCE8C1D0573BA000693BA /* docrot_arbiter.png in Resources */,
 				A87CD5C51D35E9D9009A1F13 /* steps-pk-waiting-result.png in Resources */,
 				A8DE58E71C4DD3450019CB49 /* Weibo@3x.jpg in Resources */,
+				A82EDC961D9E4E5800C5885F /* steps-setting-on.png in Resources */,
 				A87CD4A31D35E6FA009A1F13 /* dc-icon-distance@2x.png in Resources */,
 				A87CD4A21D35E6FA009A1F13 /* dc-icon-distance.png in Resources */,
 				A84D36A31C2D6CE9005A5CED /* setting_arrow_down@2x.png in Resources */,
@@ -3596,6 +3852,7 @@
 				A84D37D01C2D6CEA005A5CED /* services_status_icon_soldout@2x.png in Resources */,
 				A84D37551C2D6CE9005A5CED /* clinic_02_icon_c.png in Resources */,
 				A87CD5811D35E9D9009A1F13 /* stepcounter_bottom_logo@2x.png in Resources */,
+				A82EDC811D9E4E5800C5885F /* steps-feedback-send.png in Resources */,
 				A814CE181D17F815006E17C6 /* jh_slider_arrow.png in Resources */,
 				A87CD5641D35E9D9009A1F13 /* intelAssist_sleepSun_small_icon@2x.png in Resources */,
 				A8DE58C51C4DD3450019CB49 /* EmoticonWeibo.bundle in Resources */,
@@ -3604,6 +3861,7 @@
 				A84D374F1C2D6CE9005A5CED /* btn_upload_pic_normal.png in Resources */,
 				A87CD5DE1D35EACE009A1F13 /* steps-target-progress-circle.png in Resources */,
 				A84D376B1C2D6CE9005A5CED /* clinic_14_icon_c.png in Resources */,
+				A82EDCA51D9E4E5800C5885F /* steps-setting-wx-icon@2x.png in Resources */,
 				A87CD5901D35E9D9009A1F13 /* steps-pk-card-info-icon.png in Resources */,
 				A87BCEFB1D0E59C2000693BA /* clinic_14_icon_c.png in Resources */,
 				A84D37981C2D6CEA005A5CED /* my_star_doctor@2x.png in Resources */,
@@ -3617,6 +3875,7 @@
 				A84D37571C2D6CE9005A5CED /* clinic_03_icon_c.png in Resources */,
 				A87CD5611D35E9D9009A1F13 /* intelAssist_sleepBlue_img@3x.png in Resources */,
 				A87CD5991D35E9D9009A1F13 /* steps-pk-current-leading.png in Resources */,
+				A82EDCA81D9E4E5800C5885F /* text_bkgnd_2.png in Resources */,
 				A84D36991C2D6CE9005A5CED /* patient_center_char_icon@2x.png in Resources */,
 				A84D37011C2D6CE9005A5CED /* home_hospital_guide_disable@3x.png in Resources */,
 				A84D37911C2D6CEA005A5CED /* my_income@3x.png in Resources */,
@@ -3627,6 +3886,7 @@
 				A84D37521C2D6CE9005A5CED /* clinic_01_icon.png in Resources */,
 				A84D373E1C2D6CE9005A5CED /* portrait_example.png in Resources */,
 				A87CD55E1D35E9D9009A1F13 /* intelAssist_sleep_modify_img@2x.png in Resources */,
+				A82EDC901D9E4E5800C5885F /* steps-setting-knob.png in Resources */,
 				A8DE58CE1C4DD3450019CB49 /* mew_progressive.jpg in Resources */,
 				A84D37C21C2D6CEA005A5CED /* price_arrow_down.png in Resources */,
 				A87CD59B1D35E9D9009A1F13 /* steps-pk-dash@2x.png in Resources */,
@@ -3649,6 +3909,8 @@
 				A84D37071C2D6CE9005A5CED /* home_list_reading@2x.png in Resources */,
 				A87BCE8F1D0573BA000693BA /* field_bg.png in Resources */,
 				A87CD56D1D35E9D9009A1F13 /* intelAssist_weather_img@2x.png in Resources */,
+				A82EDCA01D9E4E5800C5885F /* steps-setting-star-icon.png in Resources */,
+				A82EDC9E1D9E4E5800C5885F /* steps-setting-result-icon.png in Resources */,
 				A84D36AA1C2D6CE9005A5CED /* navigation_button_pressed.png in Resources */,
 				A87CD5E31D35EACE009A1F13 /* tab-friends-pk@2x.png in Resources */,
 				A84D37481C2D6CE9005A5CED /* academic_remove_image_btn@2x.png in Resources */,
@@ -3681,7 +3943,9 @@
 				A84D36831C2D6CE9005A5CED /* comments_right_arrow@2x.png in Resources */,
 				A87CD5871D35E9D9009A1F13 /* white_sound_animation_0.png in Resources */,
 				A87CD53D1D35E9D9009A1F13 /* bulge_blue@2x.png in Resources */,
+				A82EDC751D9E4E5800C5885F /* height_setting_image_female.png in Resources */,
 				A84D37801C2D6CEA005A5CED /* doctor_group_empty_image.png in Resources */,
+				A82EDCAF1D9E4E5800C5885F /* usercenter_under_normal.png in Resources */,
 				A87BCF071D0E59C2000693BA /* clinic_21_icon_c.png in Resources */,
 				A87CD5461D35E9D9009A1F13 /* intelAssist_calories_icon@3x.png in Resources */,
 				A87CD5B11D35E9D9009A1F13 /* steps-pk-percent-vs-line8.png in Resources */,
@@ -3715,6 +3979,7 @@
 				A84D37D41C2D6CEA005A5CED /* btn_ask_doc_video_ask.png in Resources */,
 				A84D36B41C2D6CE9005A5CED /* default_chat.png in Resources */,
 				A84D37421C2D6CE9005A5CED /* protocal_read_checkbox_checked@3x.png in Resources */,
+				A82EDCB01D9E4E5800C5885F /* usercenter_under_pressed.png in Resources */,
 				A87BCE781D0573BA000693BA /* chatinput_more@3x.png in Resources */,
 				A84D37E81C2D6CEA005A5CED /* web_share.png in Resources */,
 				A87BCE9D1D0573BA000693BA /* right_bubble.png in Resources */,
@@ -3723,6 +3988,7 @@
 				A87BCE801D0573BA000693BA /* chatinput_topic@2x.png in Resources */,
 				A84D37181C2D6CE9005A5CED /* home_video_disable@2x.png in Resources */,
 				A84D377C1C2D6CEA005A5CED /* clinic_camera.png in Resources */,
+				A82EDC791D9E4E5800C5885F /* list_arrow_icon.png in Resources */,
 				A87CD5E11D35EACE009A1F13 /* tab-friends-pk-selected@2x.png in Resources */,
 				A87BCEE11D0E59C2000693BA /* clinic_00_icon.png in Resources */,
 				A84D375B1C2D6CE9005A5CED /* clinic_06_icon.png in Resources */,
@@ -3744,12 +4010,14 @@
 				A84D371C1C2D6CE9005A5CED /* home_advice_new@3x.png in Resources */,
 				A84D37B51C2D6CEA005A5CED /* ic_patient_attention@2x.png in Resources */,
 				A84D37001C2D6CE9005A5CED /* home_hospital_guide_disable@2x.png in Resources */,
+				A82EDC981D9E4E5800C5885F /* steps-setting-pk-icon.png in Resources */,
 				A84D36FD1C2D6CE9005A5CED /* home_doctor@2x.png in Resources */,
 				A84D37711C2D6CE9005A5CED /* clinic_17_icon_c.png in Resources */,
 				A84D379C1C2D6CEA005A5CED /* my_today_news@2x.png in Resources */,
 				A87CD5B91D35E9D9009A1F13 /* steps-pk-title-separator.png in Resources */,
 				A84D37B81C2D6CEA005A5CED /* ic_patient_check@3x.png in Resources */,
 				A84D372E1C2D6CE9005A5CED /* recommended_circle@2x.png in Resources */,
+				A82EDCA11D9E4E5800C5885F /* steps-setting-star-icon@2x.png in Resources */,
 				A84D37501C2D6CE9005A5CED /* btn_upload_pic_pressed.png in Resources */,
 				A87CD59E1D35E9D9009A1F13 /* steps-pk-default-figure.png in Resources */,
 				A84D36861C2D6CE9005A5CED /* navi_white_left_arrow.png in Resources */,
@@ -3760,14 +4028,18 @@
 				A87CD5541D35E9D9009A1F13 /* IntelAssist_robot_head@3x.png in Resources */,
 				A84D36B21C2D6CE9005A5CED /* tabbar_service@2x.png in Resources */,
 				A84D378A1C2D6CEA005A5CED /* message_center_right@2x.png in Resources */,
+				A82EDC7B1D9E4E5800C5885F /* sat_msg.png in Resources */,
 				A84D37361C2D6CE9005A5CED /* scanning_normal@3x.png in Resources */,
 				A87BCE711D0573BA000693BA /* chatinput_asset@2x.png in Resources */,
 				A87BCE721D0573BA000693BA /* chatinput_asset@3x.png in Resources */,
+				A82EDC891D9E4E5800C5885F /* steps-setting-arrow@2x.png in Resources */,
 				A84D37CC1C2D6CEA005A5CED /* services_icon_video_ask@2x.png in Resources */,
 				A84D36911C2D6CE9005A5CED /* ask_upload_error.png in Resources */,
 				A87BCE931D0573BA000693BA /* other_logo.png in Resources */,
+				A82EDC9A1D9E4E5800C5885F /* steps-setting-qqhealth-icon.png in Resources */,
 				A87BCE8A1D0573BA000693BA /* comments_useless@2x.png in Resources */,
 				A84D37151C2D6CE9005A5CED /* home_user_notice@3x.png in Resources */,
+				A82EDC861D9E4E5800C5885F /* steps-setting-app-intro-icon.png in Resources */,
 				A87BCE981D0573BA000693BA /* problem_summary_help.png in Resources */,
 				A84D371F1C2D6CE9005A5CED /* home_doc_pull_doc@2x.png in Resources */,
 				A84D37291C2D6CE9005A5CED /* phone_highlighted@3x.png in Resources */,
@@ -3777,16 +4049,19 @@
 				A84D37A31C2D6CEA005A5CED /* previous_day_normal.png in Resources */,
 				A84D37AC1C2D6CEA005A5CED /* user_center_setting.png in Resources */,
 				A84D36C11C2D6CE9005A5CED /* no_academic.png in Resources */,
+				A82EDC741D9E4E5800C5885F /* gender_setting_girl.png in Resources */,
 				A87CD59F1D35E9D9009A1F13 /* steps-pk-default-runner.png in Resources */,
 				A87CD5451D35E9D9009A1F13 /* intelAssist_calories_icon@2x.png in Resources */,
 				A84D37141C2D6CE9005A5CED /* home_user_notice@2x.png in Resources */,
 				A84D37AE1C2D6CEA005A5CED /* arrow_left@2x.png in Resources */,
 				A87CD5501D35E9D9009A1F13 /* intelAssist_login_icon@2x.png in Resources */,
+				A82EDC6F1D9E4E5800C5885F /* btn_account_green.png in Resources */,
 				A84D37411C2D6CE9005A5CED /* protocal_read_checkbox_checked@2x.png in Resources */,
 				A84D37751C2D6CEA005A5CED /* clinic_20_icon.png in Resources */,
 				A8DE58DD1C4DD3450019CB49 /* twitter_3.json in Resources */,
 				A8DE58B81C4DD3450019CB49 /* dribbble256_imageio.png in Resources */,
 				A87BCE831D0573BA000693BA /* comments_credits.png in Resources */,
+				A82EDC761D9E4E5800C5885F /* height_setting_image_male.png in Resources */,
 				A87CD5C31D35E9D9009A1F13 /* steps-pk-vs-line@2x.png in Resources */,
 				A8DE58EA1C4DD3450019CB49 /* weibo_2.json in Resources */,
 				A84D36A81C2D6CE9005A5CED /* navigation_button.png in Resources */,
@@ -3813,8 +4088,10 @@
 				A84D370A1C2D6CE9005A5CED /* home_phone@3x.png in Resources */,
 				A84D37631C2D6CE9005A5CED /* clinic_10_icon.png in Resources */,
 				A84D37D21C2D6CEA005A5CED /* switch_on.png in Resources */,
+				A82EDC931D9E4E5800C5885F /* steps-setting-logout-icon@2x.png in Resources */,
 				A87CD5471D35E9D9009A1F13 /* intelAssist_calories_white_icon@2x.png in Resources */,
 				A87CD49B1D35E6FA009A1F13 /* dc-figure-female@2x.png in Resources */,
+				A82EDC721D9E4E5800C5885F /* feedback-replyer.png in Resources */,
 				A84D37351C2D6CE9005A5CED /* scanning_normal@2x.png in Resources */,
 				A87BCE731D0573BA000693BA /* chatinput_assistant@2x.png in Resources */,
 				A8DE58EE1C4DD3450019CB49 /* weibo_6.json in Resources */,
@@ -3851,10 +4128,13 @@
 				A84D37C51C2D6CEA005A5CED /* services_icon_family_doc@2x.png in Resources */,
 				A84D37A91C2D6CEA005A5CED /* star_doctor_popular.png in Resources */,
 				A87CD4AA1D35E6FA009A1F13 /* dc-icon-steps@2x.png in Resources */,
+				A82EDC821D9E4E5800C5885F /* steps-feedback-send@2x.png in Resources */,
 				A87CD5431D35E9D9009A1F13 /* card_background190140@2x.png in Resources */,
 				A87CD5A31D35E9D9009A1F13 /* steps-pk-gps-guide2.jpg in Resources */,
 				A8DE58EC1C4DD3450019CB49 /* weibo_4.json in Resources */,
+				A82EDCAB1D9E4E5800C5885F /* usercenter_middle_pressed.png in Resources */,
 				A87CD56A1D35E9D9009A1F13 /* intelAssist_wake_icon@3x.png in Resources */,
+				A82EDCA41D9E4E5800C5885F /* steps-setting-wx-icon.png in Resources */,
 				A87CD5951D35E9D9009A1F13 /* steps-pk-circle-blue@2x.png in Resources */,
 				A84D36F81C2D6CE9005A5CED /* user_center_voluteer_close.png in Resources */,
 				A84D37191C2D6CE9005A5CED /* home_video_disable@3x.png in Resources */,
@@ -3866,6 +4146,7 @@
 				A84D371E1C2D6CE9005A5CED /* home_arrow_blue@3x.png in Resources */,
 				A87BCEA01D0573BA000693BA /* selected_combo_box.png in Resources */,
 				A84D37041C2D6CE9005A5CED /* home_list_inquiry@2x.png in Resources */,
+				A82EDC711D9E4E5800C5885F /* doted-pattern.png in Resources */,
 				A87BCE7F1D0573BA000693BA /* chatinput_special_service@2x.png in Resources */,
 				A84D37581C2D6CE9005A5CED /* clinic_04_icon.png in Resources */,
 				A87CD4A51D35E6FA009A1F13 /* dc-icon-female@2x.png in Resources */,
@@ -3873,6 +4154,9 @@
 				A84D37121C2D6CE9005A5CED /* home_suggestion@2x.png in Resources */,
 				A87BCF0A1D0E59C2000693BA /* clinic_bkg_normal.jpg in Resources */,
 				A84D373C1C2D6CE9005A5CED /* income_arrow.png in Resources */,
+				A82EDCB11D9E4E5800C5885F /* weight_setting_image_female.png in Resources */,
+				A82EDC8C1D9E4E5800C5885F /* steps-setting-download-icon.png in Resources */,
+				A82EDC8B1D9E4E5800C5885F /* steps-setting-askdoc-icon@2x.png in Resources */,
 				A87CD58A1D35E9D9009A1F13 /* icon-card-pk.png in Resources */,
 				A84D36BC1C2D6CE9005A5CED /* group_detail@2x.png in Resources */,
 				A87CD5441D35E9D9009A1F13 /* card_background190140@3x.png in Resources */,
@@ -3886,12 +4170,14 @@
 				A8DE591B1C4DE48C0019CB49 /* WebP.sh in Resources */,
 				A84D37A51C2D6CEA005A5CED /* send_coupon@2x.png in Resources */,
 				A87CD5491D35E9D9009A1F13 /* intelAssist_cloudy_icon@2x.png in Resources */,
+				A82EDCA31D9E4E5800C5885F /* steps-setting-track-icon@2x.png in Resources */,
 				A87BCE9C1D0573BA000693BA /* referral_logo.png in Resources */,
 				A84D36971C2D6CE9005A5CED /* message_phone_hint_success.png in Resources */,
 				A84D36F61C2D6CE9005A5CED /* star_gray.png in Resources */,
 				A87CD5A61D35E9D9009A1F13 /* steps-pk-invitation-desc1@2x.png in Resources */,
 				A84D368F1C2D6CE9005A5CED /* advan_ask_keyboard.png in Resources */,
 				A87BCEA11D0573BA000693BA /* selected_combo_box@2x.png in Resources */,
+				A82EDC921D9E4E5800C5885F /* steps-setting-logout-icon.png in Resources */,
 				A84D37C91C2D6CEA005A5CED /* services_icon_plus@2x.png in Resources */,
 				A84D37CA1C2D6CEA005A5CED /* services_icon_point_problem@2x.png in Resources */,
 				A84D376A1C2D6CE9005A5CED /* clinic_14_icon.png in Resources */,
@@ -3899,6 +4185,7 @@
 				A87CD4A81D35E6FA009A1F13 /* dc-icon-sleep@2x.png in Resources */,
 				A87BCE851D0573BA000693BA /* comments_my_question.png in Resources */,
 				A84D36A61C2D6CE9005A5CED /* white_sound_animation_1.png in Resources */,
+				A82EDC841D9E4E5800C5885F /* steps-setting-about-icon@2x.png in Resources */,
 				A87BCE881D0573BA000693BA /* comments_support_question.png in Resources */,
 				A84D37891C2D6CEA005A5CED /* income_left_tab_gou.png in Resources */,
 				A84D37C11C2D6CEA005A5CED /* check_selected@2x.png in Resources */,
@@ -3922,6 +4209,8 @@
 				A87BCE6E1D0573BA000693BA /* bottom_green_btn_pressed.png in Resources */,
 				A84D36B71C2D6CE9005A5CED /* doctor_group_tab.png in Resources */,
 				A84D37DF1C2D6CEA005A5CED /* volunteer_suprise.png in Resources */,
+				A82EDCAE1D9E4E5800C5885F /* usercenter_top_pressed.png in Resources */,
+				A82EDC911D9E4E5800C5885F /* steps-setting-knob@2x.png in Resources */,
 				A84D37A11C2D6CEA005A5CED /* next_day_normal.png in Resources */,
 				A84D37C81C2D6CEA005A5CED /* services_icon_phone_ask@2x.png in Resources */,
 				A84D37B71C2D6CEA005A5CED /* ic_patient_check@2x.png in Resources */,
@@ -3940,6 +4229,7 @@
 				A84D372C1C2D6CE9005A5CED /* recommended@2x.png in Resources */,
 				A84D37BD1C2D6CEA005A5CED /* title_ic_more@3x.png in Resources */,
 				A84D37871C2D6CEA005A5CED /* income_left_tab2.png in Resources */,
+				A82EDC8F1D9E4E5800C5885F /* steps-setting-feedback-icon@2x.png in Resources */,
 				A84D37101C2D6CE9005A5CED /* home_register_disable@3x.png in Resources */,
 				A87BCE6F1D0573BA000693BA /* chatinput_again@2x.png in Resources */,
 				A87BCEF21D0E59C2000693BA /* clinic_09_icon_c.png in Resources */,
@@ -3951,6 +4241,7 @@
 				A84D36891C2D6CE9005A5CED /* asset_chose@2x.png in Resources */,
 				A84D374C1C2D6CE9005A5CED /* add_model_cell_bg@2x.png in Resources */,
 				A87BCF0D1D0E59C2000693BA /* clinic_default_icon.png in Resources */,
+				A82EDC731D9E4E5800C5885F /* gender_setting_boy.png in Resources */,
 				A87CD5A41D35E9D9009A1F13 /* steps-pk-gps-guide3.jpg in Resources */,
 				A87BCE7E1D0573BA000693BA /* chatInput_record@3.png in Resources */,
 				A84D37931C2D6CEA005A5CED /* my_invite@3x.png in Resources */,
@@ -3960,6 +4251,8 @@
 				A84D37311C2D6CE9005A5CED /* recommended_square@2x.png in Resources */,
 				A84D36B01C2D6CE9005A5CED /* tabbar_patient@2x.png in Resources */,
 				A87BCE741D0573BA000693BA /* chatinput_assistant@3x.png in Resources */,
+				A82EDC991D9E4E5800C5885F /* steps-setting-pk-icon@2x.png in Resources */,
+				A82EDC9C1D9E4E5800C5885F /* steps-setting-reload-icon.png in Resources */,
 				A84D371D1C2D6CE9005A5CED /* home_arrow_blue@2x.png in Resources */,
 				A87CD5681D35E9D9009A1F13 /* intelAssist_sunny_icon@2x.png in Resources */,
 				A87BCE8D1D0573BA000693BA /* edit_field_bg.png in Resources */,
@@ -3978,10 +4271,12 @@
 				A84D373D1C2D6CE9005A5CED /* income_upload_image.png in Resources */,
 				A84D36B81C2D6CE9005A5CED /* group_activity_icon@2x.png in Resources */,
 				A84D37211C2D6CE9005A5CED /* home_doc_pull_user@2x.png in Resources */,
+				A82EDC8D1D9E4E5800C5885F /* steps-setting-download-icon@2x.png in Resources */,
 				A84D375C1C2D6CE9005A5CED /* clinic_06_icon_c.png in Resources */,
 				A87BCE9E1D0573BA000693BA /* right_bubble@2x.png in Resources */,
 				A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */,
 				A814CE1A1D17F815006E17C6 /* jh_slider_loading_circle.png in Resources */,
+				A82EDCA71D9E4E5800C5885F /* text_bkgnd_1.png in Resources */,
 				A87BCEA51D0573BA000693BA /* unselected_combo_box@2x.png in Resources */,
 				A87CD54D1D35E9D9009A1F13 /* intelAssist_kms_icon@2x.png in Resources */,
 				A84D37E01C2D6CEA005A5CED /* tools_setting.png in Resources */,
@@ -3992,6 +4287,7 @@
 				A84D37921C2D6CEA005A5CED /* my_invite@2x.png in Resources */,
 				A87BCEEF1D0E59C2000693BA /* clinic_08_icon.png in Resources */,
 				A84D37381C2D6CE9005A5CED /* top_msg@3x.png in Resources */,
+				A82EDC771D9E4E5800C5885F /* icon-trash.png in Resources */,
 				A84D379B1C2D6CEA005A5CED /* my_strategy@3x.png in Resources */,
 				A84D37261C2D6CE9005A5CED /* invite_doctor@2x.png in Resources */,
 				A87CD5C01D35E9D9009A1F13 /* steps-pk-vs-line-red.png in Resources */,
@@ -4001,10 +4297,13 @@
 				A84D36941C2D6CE9005A5CED /* default_user@2x.png in Resources */,
 				A87CD5631D35E9D9009A1F13 /* intelAssist_sleepMoon_small_icon@3x.png in Resources */,
 				A84D37B21C2D6CEA005A5CED /* ic_patient_add@3x.png in Resources */,
+				A82EDC951D9E4E5800C5885F /* steps-setting-off@2x.png in Resources */,
 				A84D36951C2D6CE9005A5CED /* doctor_default@2x.png in Resources */,
+				A82EDCA61D9E4E5800C5885F /* table_row_arrow.png in Resources */,
 				A84D36F71C2D6CE9005A5CED /* star_highlighted.png in Resources */,
 				A84D375E1C2D6CE9005A5CED /* clinic_07_icon_c.png in Resources */,
 				A814CE1E1D17F815006E17C6 /* jh_slider_round.png in Resources */,
+				A82EDCB21D9E4E5800C5885F /* weight_setting_image_male.png in Resources */,
 				A8DE58CC1C4DD3450019CB49 /* mew_interlaced.gif in Resources */,
 				A84D376F1C2D6CE9005A5CED /* clinic_16_icon_c.png in Resources */,
 				A87BCE7A1D0573BA000693BA /* chatinput_photo@3x.png in Resources */,
@@ -4019,6 +4318,7 @@
 				A84D37C01C2D6CEA005A5CED /* check_selected.png in Resources */,
 				A87CD58F1D35E9D9009A1F13 /* icon-pk-vs@2x.png in Resources */,
 				A87CD54A1D35E9D9009A1F13 /* intelAssist_createProfile_icon@2x.png in Resources */,
+				A82EDC9B1D9E4E5800C5885F /* steps-setting-qqhealth-icon@2x.png in Resources */,
 				A87CD5A91D35E9D9009A1F13 /* steps-pk-open-center-img.png in Resources */,
 				A84D37511C2D6CE9005A5CED /* clinic_00_icon.png in Resources */,
 				A8DE58C91C4DD3450019CB49 /* mew_baseline.gif in Resources */,
@@ -4026,12 +4326,14 @@
 				A87BCE911D0573BA000693BA /* left_bubble.png in Resources */,
 				A84D36B91C2D6CE9005A5CED /* group_activity_icon@3x.png in Resources */,
 				A87CD5921D35E9D9009A1F13 /* steps-pk-card-share-icon.png in Resources */,
-				A87BCEA31D0573BA000693BA /* ugly_face.png in Resources */,
 				A84D36A41C2D6CE9005A5CED /* white_choose.png in Resources */,
+				A82EDC8E1D9E4E5800C5885F /* steps-setting-feedback-icon.png in Resources */,
+				A82EDCAC1D9E4E5800C5885F /* usercenter_shadow.png in Resources */,
 				A84D37BE1C2D6CEA005A5CED /* check_normal.png in Resources */,
 				A84D370F1C2D6CE9005A5CED /* home_register_disable@2x.png in Resources */,
 				A87CD5DB1D35EACE009A1F13 /* step_round_back_color.png in Resources */,
 				A87CD54F1D35E9D9009A1F13 /* intelAssist_kms_white_icon@2x.png in Resources */,
+				A82EDC941D9E4E5800C5885F /* steps-setting-off.png in Resources */,
 				A84D37D71C2D6CEA005A5CED /* video_cameraIcon@2x.png in Resources */,
 				A84D369D1C2D6CE9005A5CED /* patient_center_phone_icon.png in Resources */,
 				A84D369C1C2D6CE9005A5CED /* patient_center_item_arrow@2x.png in Resources */,
@@ -4050,6 +4352,7 @@
 				A84D37B11C2D6CEA005A5CED /* ic_patient_add@2x.png in Resources */,
 				A84D37C71C2D6CEA005A5CED /* services_icon_hospital_guide@3x.png in Resources */,
 				A84D36B61C2D6CE9005A5CED /* doctor_group_default.png in Resources */,
+				A82EDC871D9E4E5800C5885F /* steps-setting-app-intro-icon@2x.png in Resources */,
 				A84D36B51C2D6CE9005A5CED /* default_thumb.png in Resources */,
 				A8DE58D01C4DD3450019CB49 /* nyancat@2x.webp in Resources */,
 				A87CD5671D35E9D9009A1F13 /* intelAssist_snowy_icon@2x.png in Resources */,
@@ -4067,6 +4370,7 @@
 				A87BCEEC1D0E59C2000693BA /* clinic_06_icon_c.png in Resources */,
 				A87BCEF01D0E59C2000693BA /* clinic_08_icon_c.png in Resources */,
 				A84D37E41C2D6CEA005A5CED /* tools_share_weixin.png in Resources */,
+				A82EDC7C1D9E4E5800C5885F /* setting-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4169,6 +4473,7 @@
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,
 				A81C285F1D3E2FF300B5BE44 /* PKItem.m in Sources */,
 				A8DE58F51C4DD3450019CB49 /* YYImageBenchmark.m in Sources */,
+				A82EDCB61D9E4FB100C5885F /* AgeSettingViewController.m in Sources */,
 				A84D37FD1C312EC1005A5CED /* JHIndexViewController.m in Sources */,
 				A887FC611D348BD200746CDD /* JHNavigationView.m in Sources */,
 				A8DE59421C4DE5420019CB49 /* WBStatusTimelineViewController.m in Sources */,
@@ -4268,6 +4573,7 @@
 				A8DE59091C4DD3450019CB49 /* YYTextMarkdownExample.m in Sources */,
 				A8FEC9E01C293BD4007AF43A /* JHURLRequestModel.m in Sources */,
 				A8DE59071C4DD3450019CB49 /* YYTextExample.m in Sources */,
+				A82A22AD1DB5CB2900700B39 /* StepSettingItem.m in Sources */,
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
@@ -4277,6 +4583,7 @@
 				A887FC4B1D2F4C1100746CDD /* JHFontSettingViewController.m in Sources */,
 				A87BCEB21D0D40B0000693BA /* JHPopWindowViewController.m in Sources */,
 				A8DE590A1C4DD3450019CB49 /* YYTextRubyExample.m in Sources */,
+				A82EDCB91D9E530100C5885F /* ScrollChooseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -107,6 +107,8 @@
     [self.userTopView jhAddTapGestureWithActionBlock:^(UIGestureRecognizer *gesture) {
         
         NIDPRINT(@"头像点击");
+        IntelligenceAssistantTableViewController *VC = [[IntelligenceAssistantTableViewController alloc] initWithQuery:nil];
+        [self.navigationController pushViewController:VC animated:YES];
     }];
     
     UIBarButtonItem *userTopItenm = [[UIBarButtonItem alloc] initWithCustomView:self.userTopView];
