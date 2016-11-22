@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "JHIndexViewController.h"
+#import "StartMovieViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,12 +19,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+
+    BOOL isFirstLogin = [[[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstLogin"] boolValue];
+    if (isFirstLogin) {
+        //是第一次
+        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[StartMovieViewController alloc] init]];
+        [[NSUserDefaults standardUserDefaults] setObject:@"YES" forKey:@"isFirstLogin"];
+    }else{
+        
+        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+        
+    }
     [self.window makeKeyAndVisible];
-    
     [self customizeNavigationBar];
+    
     
     return YES;
 }
