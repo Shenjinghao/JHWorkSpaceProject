@@ -45,6 +45,8 @@
 		A81C285F1D3E2FF300B5BE44 /* PKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C285E1D3E2FF300B5BE44 /* PKItem.m */; };
 		A82A22AD1DB5CB2900700B39 /* StepSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A22AC1DB5CB2900700B39 /* StepSettingItem.m */; };
 		A82A22AF1DB5F5FE00700B39 /* ugly_face.png in Resources */ = {isa = PBXBuildFile; fileRef = A82A22AE1DB5F5FE00700B39 /* ugly_face.png */; };
+		A82A22B21DB629E700700B39 /* WeightSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A22B11DB629E700700B39 /* WeightSettingViewController.m */; };
+		A82A22B51DB629FD00700B39 /* HeightSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A22B41DB629FD00700B39 /* HeightSettingViewController.m */; };
 		A82EDC6F1D9E4E5800C5885F /* btn_account_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2B1D9E4E5800C5885F /* btn_account_green.png */; };
 		A82EDC701D9E4E5800C5885F /* btn_account_green_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2C1D9E4E5800C5885F /* btn_account_green_pressed.png */; };
 		A82EDC711D9E4E5800C5885F /* doted-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A82EDC2D1D9E4E5800C5885F /* doted-pattern.png */; };
@@ -957,6 +959,10 @@
 		A82A22AB1DB5CB2900700B39 /* StepSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepSettingItem.h; sourceTree = "<group>"; };
 		A82A22AC1DB5CB2900700B39 /* StepSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepSettingItem.m; sourceTree = "<group>"; };
 		A82A22AE1DB5F5FE00700B39 /* ugly_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugly_face.png; sourceTree = "<group>"; };
+		A82A22B01DB629E700700B39 /* WeightSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightSettingViewController.h; sourceTree = "<group>"; };
+		A82A22B11DB629E700700B39 /* WeightSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightSettingViewController.m; sourceTree = "<group>"; };
+		A82A22B31DB629FD00700B39 /* HeightSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightSettingViewController.h; sourceTree = "<group>"; };
+		A82A22B41DB629FD00700B39 /* HeightSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightSettingViewController.m; sourceTree = "<group>"; };
 		A82EDC2B1D9E4E5800C5885F /* btn_account_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_account_green.png; sourceTree = "<group>"; };
 		A82EDC2C1D9E4E5800C5885F /* btn_account_green_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_account_green_pressed.png; sourceTree = "<group>"; };
 		A82EDC2D1D9E4E5800C5885F /* doted-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doted-pattern.png"; sourceTree = "<group>"; };
@@ -2112,6 +2118,10 @@
 			children = (
 				A82EDCB41D9E4FB100C5885F /* AgeSettingViewController.h */,
 				A82EDCB51D9E4FB100C5885F /* AgeSettingViewController.m */,
+				A82A22B01DB629E700700B39 /* WeightSettingViewController.h */,
+				A82A22B11DB629E700700B39 /* WeightSettingViewController.m */,
+				A82A22B31DB629FD00700B39 /* HeightSettingViewController.h */,
+				A82A22B41DB629FD00700B39 /* HeightSettingViewController.m */,
 				A82EDCB71D9E530100C5885F /* ScrollChooseView.h */,
 				A82EDCB81D9E530100C5885F /* ScrollChooseView.m */,
 				A82A22AB1DB5CB2900700B39 /* StepSettingItem.h */,
@@ -4454,6 +4464,7 @@
 				A8FECA151C2ADF9F007AF43A /* JHTableViewController.m in Sources */,
 				A84D38121C32743D005A5CED /* AppDelegate+Navigation.m in Sources */,
 				A887FC5E1D3489B100746CDD /* IndexStepsViewController.m in Sources */,
+				A82A22B51DB629FD00700B39 /* HeightSettingViewController.m in Sources */,
 				A87CD6031D3647A6009A1F13 /* IntelligenceAssistantTableViewController.m in Sources */,
 				A8DE590B1C4DD3450019CB49 /* YYTextTagExample.m in Sources */,
 				A8DE58F21C4DD3450019CB49 /* YYControl.m in Sources */,
@@ -4576,6 +4587,7 @@
 				A82A22AD1DB5CB2900700B39 /* StepSettingItem.m in Sources */,
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
+				A82A22B21DB629E700700B39 /* WeightSettingViewController.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
 				A8DE590C1C4DD3450019CB49 /* YYTextUndoRedoExample.m in Sources */,
 				A85D08781B8C904B00F976F2 /* main.m in Sources */,
