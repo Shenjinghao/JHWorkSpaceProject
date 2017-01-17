@@ -9,6 +9,33 @@
 #ifndef JH_PrefixHeader_pch
 #define JH_PrefixHeader_pch
 
+
+#define RGBA_HEX(hexColor, a) rgbaFromHex(hexColor, a)
+
+#define RGBCOLOR_HEX(hexColor) rgbaFromHex(hexColor, 1)
+
+#define HexRGB(hexColor) rgbaFromHex(hexColor, 1)
+#define HexRGBA(hexColor, a) rgbaFromHex(hexColor, a)
+
+#ifndef RGBCOLOR
+#define RGBCOLOR(r,g,b) rgba(r, g, b, 1)
+#endif
+
+#ifndef RGBACOLOR
+#define RGBACOLOR(r, g, b, a) rgba(r, g, b, a)
+#endif
+
+#define kIOSVersion [[UIDevice currentDevice].systemVersion floatValue]
+#define IOSOVER(v) (kIOSVersion >= v)
+
+#define IS_iPhone4 ([UIScreen mainScreen].bounds.size.height < 568)
+#define _IPHONE6PLUS_ ([UIScreen mainScreen].scale == 3.0f)
+
+#ifndef safe_block
+#define safe_block(block, ...) block ? block(__VA_ARGS__) : nil
+
+#endif
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

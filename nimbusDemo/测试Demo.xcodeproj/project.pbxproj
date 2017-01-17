@@ -317,6 +317,8 @@
 		A84DC5271C1ADD2E000F4EA1 /* NSObject+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84DC5261C1ADD2E000F4EA1 /* NSObject+JHCategory.m */; };
 		A84DC52C1C1AF599000F4EA1 /* UIView+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84DC52B1C1AF599000F4EA1 /* UIView+JHCategory.m */; };
 		A84DC52F1C1AF5EF000F4EA1 /* UIImage+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84DC52E1C1AF5EF000F4EA1 /* UIImage+JHCategory.m */; };
+		A8583D291E0A63EC00B201AA /* JHMoveSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */; };
+		A8583D2C1E0A672600B201AA /* UIView+GestureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */; };
 		A85D08781B8C904B00F976F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D08771B8C904B00F976F2 /* main.m */; };
 		A85D087B1B8C904B00F976F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D087A1B8C904B00F976F2 /* AppDelegate.m */; };
 		A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85D087C1B8C904B00F976F2 /* __Demo.xcdatamodeld */; };
@@ -942,6 +944,10 @@
 		A84DC52D1C1AF5EF000F4EA1 /* UIImage+JHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JHCategory.h"; sourceTree = "<group>"; };
 		A84DC52E1C1AF5EF000F4EA1 /* UIImage+JHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JHCategory.m"; sourceTree = "<group>"; };
 		A84DC5301C1AFA79000F4EA1 /* JH-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JH-PrefixHeader.pch"; sourceTree = "<group>"; };
+		A8583D271E0A63EC00B201AA /* JHMoveSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMoveSingleView.h; sourceTree = "<group>"; };
+		A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMoveSingleView.m; sourceTree = "<group>"; };
+		A8583D2A1E0A672600B201AA /* UIView+GestureBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureBlock.h"; sourceTree = "<group>"; };
+		A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureBlock.m"; sourceTree = "<group>"; };
 		A85D08721B8C904B00F976F2 /* 测试Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D08761B8C904B00F976F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A85D08771B8C904B00F976F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1862,6 +1868,8 @@
 			children = (
 				A84D37FE1C31382F005A5CED /* JHHomeViewController.h */,
 				A84D37FF1C31382F005A5CED /* JHHomeViewController.m */,
+				A8583D271E0A63EC00B201AA /* JHMoveSingleView.h */,
+				A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */,
 			);
 			path = 01Home;
 			sourceTree = "<group>";
@@ -2011,6 +2019,8 @@
 				A84D34FD1C2D27CD005A5CED /* JHActivityView.m */,
 				A87BCE281D055C2C000693BA /* JHTextView.h */,
 				A87BCE291D055C2C000693BA /* JHTextView.m */,
+				A8583D2A1E0A672600B201AA /* UIView+GestureBlock.h */,
+				A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -3254,6 +3264,7 @@
 				A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */,
 				A8FECA101C2A81AB007AF43A /* UIImageView+JHCategory.m in Sources */,
 				A887FC481D2F4BEB00746CDD /* JHFontManager.m in Sources */,
+				A8583D291E0A63EC00B201AA /* JHMoveSingleView.m in Sources */,
 				A84DC52C1C1AF599000F4EA1 /* UIView+JHCategory.m in Sources */,
 				A814CE031D140031006E17C6 /* JHAnotherListCell.m in Sources */,
 				A8DE59021C4DD3450019CB49 /* YYTextAttributeExample.m in Sources */,
@@ -3296,6 +3307,7 @@
 				A8DE59071C4DD3450019CB49 /* YYTextExample.m in Sources */,
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
+				A8583D2C1E0A672600B201AA /* UIView+GestureBlock.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
 				A8CB36EA1D94FF0100575B27 /* AROverlayViewController.m in Sources */,
 				A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */,
