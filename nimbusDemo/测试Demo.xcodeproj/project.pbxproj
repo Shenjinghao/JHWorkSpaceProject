@@ -34,6 +34,9 @@
 		A814CE211D17F815006E17C6 /* jh_slider_round_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A814CE161D17F815006E17C6 /* jh_slider_round_finish@2x.png */; };
 		A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */; };
 		A81D3D991D3CC19400D7A126 /* JHSplitPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D3D981D3CC19400D7A126 /* JHSplitPhotoViewController.m */; };
+		A84D31A71E2F0D140014CC97 /* JHMoveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D31A61E2F0D140014CC97 /* JHMoveModel.m */; };
+		A84D31AA1E2F4F470014CC97 /* JHMoveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D31A91E2F4F470014CC97 /* JHMoveDetailViewController.m */; };
+		A84D31AD1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D31AC1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.m */; };
 		A84D34FB1C2CE198005A5CED /* JHViewController+NavigationButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */; };
 		A84D34FE1C2D27CD005A5CED /* JHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D34FD1C2D27CD005A5CED /* JHActivityView.m */; };
 		A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D35001C2D2A2C005A5CED /* UIFont+JHCategory.m */; };
@@ -318,7 +321,6 @@
 		A84DC52C1C1AF599000F4EA1 /* UIView+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84DC52B1C1AF599000F4EA1 /* UIView+JHCategory.m */; };
 		A84DC52F1C1AF5EF000F4EA1 /* UIImage+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A84DC52E1C1AF5EF000F4EA1 /* UIImage+JHCategory.m */; };
 		A8583D291E0A63EC00B201AA /* JHMoveSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */; };
-		A8583D2C1E0A672600B201AA /* UIView+GestureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */; };
 		A85D08781B8C904B00F976F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D08771B8C904B00F976F2 /* main.m */; };
 		A85D087B1B8C904B00F976F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D087A1B8C904B00F976F2 /* AppDelegate.m */; };
 		A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85D087C1B8C904B00F976F2 /* __Demo.xcdatamodeld */; };
@@ -558,7 +560,6 @@
 		A8DE59401C4DE5420019CB49 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59311C4DE5420019CB49 /* WBStatusHelper.m */; };
 		A8DE59411C4DE5420019CB49 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59331C4DE5420019CB49 /* WBStatusLayout.m */; };
 		A8DE59421C4DE5420019CB49 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59351C4DE5420019CB49 /* WBStatusTimelineViewController.m */; };
-		A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */; };
 		A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F136F51CF82A870085474F /* close_button_icon@2x.png */; };
 		A8F136F91CF8423B0085474F /* JHTopBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F136F81CF8423B0085474F /* JHTopBannerViewController.m */; };
 		A8FEC9B91C2022AE007AF43A /* UIWindow+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEC9B81C2022AE007AF43A /* UIWindow+JHCategory.m */; };
@@ -640,6 +641,12 @@
 		A814CE231D180543006E17C6 /* JHAnimateSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnimateSliderViewController.m; sourceTree = "<group>"; };
 		A81D3D971D3CC19400D7A126 /* JHSplitPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSplitPhotoViewController.h; sourceTree = "<group>"; };
 		A81D3D981D3CC19400D7A126 /* JHSplitPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSplitPhotoViewController.m; sourceTree = "<group>"; };
+		A84D31A51E2F0D140014CC97 /* JHMoveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMoveModel.h; sourceTree = "<group>"; };
+		A84D31A61E2F0D140014CC97 /* JHMoveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMoveModel.m; sourceTree = "<group>"; };
+		A84D31A81E2F4F470014CC97 /* JHMoveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMoveDetailViewController.h; sourceTree = "<group>"; };
+		A84D31A91E2F4F470014CC97 /* JHMoveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMoveDetailViewController.m; sourceTree = "<group>"; };
+		A84D31AB1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHGesturesBlock.h"; sourceTree = "<group>"; };
+		A84D31AC1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHGesturesBlock.m"; sourceTree = "<group>"; };
 		A84D34F91C2CE198005A5CED /* JHViewController+NavigationButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHViewController+NavigationButtons.h"; sourceTree = "<group>"; };
 		A84D34FA1C2CE198005A5CED /* JHViewController+NavigationButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHViewController+NavigationButtons.m"; sourceTree = "<group>"; };
 		A84D34FC1C2D27CD005A5CED /* JHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHActivityView.h; sourceTree = "<group>"; };
@@ -946,8 +953,6 @@
 		A84DC5301C1AFA79000F4EA1 /* JH-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JH-PrefixHeader.pch"; sourceTree = "<group>"; };
 		A8583D271E0A63EC00B201AA /* JHMoveSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMoveSingleView.h; sourceTree = "<group>"; };
 		A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMoveSingleView.m; sourceTree = "<group>"; };
-		A8583D2A1E0A672600B201AA /* UIView+GestureBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureBlock.h"; sourceTree = "<group>"; };
-		A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureBlock.m"; sourceTree = "<group>"; };
 		A85D08721B8C904B00F976F2 /* 测试Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D08761B8C904B00F976F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A85D08771B8C904B00F976F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1271,8 +1276,6 @@
 		A8DE59331C4DE5420019CB49 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		A8DE59341C4DE5420019CB49 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
 		A8DE59351C4DE5420019CB49 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
-		A8F136F21CF7ED0F0085474F /* UIView+JHGesturesBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHGesturesBlock.h"; sourceTree = "<group>"; };
-		A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHGesturesBlock.m"; sourceTree = "<group>"; };
 		A8F136F51CF82A870085474F /* close_button_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_button_icon@2x.png"; sourceTree = "<group>"; };
 		A8F136F71CF8423B0085474F /* JHTopBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopBannerViewController.h; sourceTree = "<group>"; };
 		A8F136F81CF8423B0085474F /* JHTopBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopBannerViewController.m; sourceTree = "<group>"; };
@@ -1870,6 +1873,10 @@
 				A84D37FF1C31382F005A5CED /* JHHomeViewController.m */,
 				A8583D271E0A63EC00B201AA /* JHMoveSingleView.h */,
 				A8583D281E0A63EC00B201AA /* JHMoveSingleView.m */,
+				A84D31A51E2F0D140014CC97 /* JHMoveModel.h */,
+				A84D31A61E2F0D140014CC97 /* JHMoveModel.m */,
+				A84D31A81E2F4F470014CC97 /* JHMoveDetailViewController.h */,
+				A84D31A91E2F4F470014CC97 /* JHMoveDetailViewController.m */,
 			);
 			path = 01Home;
 			sourceTree = "<group>";
@@ -1964,10 +1971,10 @@
 		A84DC5201C1ADC6B000F4EA1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A84D31AB1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.h */,
+				A84D31AC1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.m */,
 				A84DC5251C1ADD2E000F4EA1 /* NSObject+JHCategory.h */,
 				A84DC5261C1ADD2E000F4EA1 /* NSObject+JHCategory.m */,
-				A8F136F21CF7ED0F0085474F /* UIView+JHGesturesBlock.h */,
-				A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */,
 				A84DC52A1C1AF599000F4EA1 /* UIView+JHCategory.h */,
 				A84DC52B1C1AF599000F4EA1 /* UIView+JHCategory.m */,
 				A84DC52D1C1AF5EF000F4EA1 /* UIImage+JHCategory.h */,
@@ -2019,8 +2026,6 @@
 				A84D34FD1C2D27CD005A5CED /* JHActivityView.m */,
 				A87BCE281D055C2C000693BA /* JHTextView.h */,
 				A87BCE291D055C2C000693BA /* JHTextView.m */,
-				A8583D2A1E0A672600B201AA /* UIView+GestureBlock.h */,
-				A8583D2B1E0A672600B201AA /* UIView+GestureBlock.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -3204,7 +3209,6 @@
 				A8FECA0A1C2A7733007AF43A /* JHMutableTableViewModel.m in Sources */,
 				A8FEC9BC1C204CA2007AF43A /* NSString+JHCategory.m in Sources */,
 				A814CE241D180543006E17C6 /* JHAnimateSliderViewController.m in Sources */,
-				A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */,
 				A84D35041C2D4134005A5CED /* UIColor+JHCategory.m in Sources */,
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,
 				A8DE58F51C4DD3450019CB49 /* YYImageBenchmark.m in Sources */,
@@ -3244,6 +3248,7 @@
 				A8DE58F11C4DD3450019CB49 /* YYBPGCoder.m in Sources */,
 				A85D08811B8C904B00F976F2 /* ViewController.m in Sources */,
 				A8DE59011C4DD3450019CB49 /* YYTextAttachmentExample.m in Sources */,
+				A84D31AD1E2F6A4B0014CC97 /* UIView+JHGesturesBlock.m in Sources */,
 				A8DE58FD1C4DD3450019CB49 /* YYSimpleWebViewController.m in Sources */,
 				A8DE58FB1C4DD3450019CB49 /* YYPhotoGroupView.m in Sources */,
 				A8FEC9E31C2945D5007AF43A /* JHTableItem.m in Sources */,
@@ -3263,6 +3268,7 @@
 				A8DE58FF1C4DD3450019CB49 /* YYTableViewCell.m in Sources */,
 				A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */,
 				A8FECA101C2A81AB007AF43A /* UIImageView+JHCategory.m in Sources */,
+				A84D31AA1E2F4F470014CC97 /* JHMoveDetailViewController.m in Sources */,
 				A887FC481D2F4BEB00746CDD /* JHFontManager.m in Sources */,
 				A8583D291E0A63EC00B201AA /* JHMoveSingleView.m in Sources */,
 				A84DC52C1C1AF599000F4EA1 /* UIView+JHCategory.m in Sources */,
@@ -3295,6 +3301,7 @@
 				A84D37EF1C310C47005A5CED /* UIViewController+JHCategory.m in Sources */,
 				A87CD6221D37A93E009A1F13 /* JHNavigationBarViewController.m in Sources */,
 				A8FECA041C2A5620007AF43A /* JHNetworkImageView.m in Sources */,
+				A84D31A71E2F0D140014CC97 /* JHMoveModel.m in Sources */,
 				A814CE061D140136006E17C6 /* UIButton+Create.m in Sources */,
 				A8DE59051C4DD3450019CB49 /* YYTextEditExample.m in Sources */,
 				A87CD6321D3C7DF3009A1F13 /* MasterViewController.m in Sources */,
@@ -3307,7 +3314,6 @@
 				A8DE59071C4DD3450019CB49 /* YYTextExample.m in Sources */,
 				A8DE58F81C4DD3450019CB49 /* YYImageExampleHelper.m in Sources */,
 				A87BCE211D0126B2000693BA /* JHChatInputView.m in Sources */,
-				A8583D2C1E0A672600B201AA /* UIView+GestureBlock.m in Sources */,
 				A8FEC9C61C21426B007AF43A /* NSArray+JHCategory.m in Sources */,
 				A8CB36EA1D94FF0100575B27 /* AROverlayViewController.m in Sources */,
 				A87CD6241D37A93E009A1F13 /* UINavigationBar+JHDynamicChangeNavigationBar.m in Sources */,

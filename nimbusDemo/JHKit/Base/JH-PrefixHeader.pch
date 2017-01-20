@@ -73,7 +73,7 @@
 #import "UIColor+JHCategory.h"
 #import "JHViewController+NavigationButtons.h"
 #import "UINavigationController+JHCategory.h"
-
+#import "UIView+JHGesturesBlock.h"
 /**
  *  tool
  */
@@ -91,6 +91,7 @@
 #import "MJRefresh.h"
 #import "SVProgressHUD.h"
 #import "JHResource.h"
+
 
 
 
