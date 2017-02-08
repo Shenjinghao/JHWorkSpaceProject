@@ -13,28 +13,31 @@
 
 @interface JHDateBaseViewController ()<UIAlertViewDelegate>
 
-@property (nonatomic,strong)UIView *rootView;
 
 @end
 
 @implementation JHDateBaseViewController
 
 
--(void)loadView
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self creatView];
+}
+
+
+- (void) creatView
 {
-    self.rootView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.view = self.rootView;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = CGRectMake(100, 100, 150, 150);
+    button.frame = CGRectMake(15, 20, self.view.width - 30, 45);
     [button setTitle:@"收藏" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor lightGrayColor];
     [button setTintColor:[UIColor redColor]];
     [button addTarget:self action:@selector(buttonDidClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [self.rootView addSubview:button];
+    [self.view addSubview:button];
     
-    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(15, button.bottom + 20, scaleWidthWith320(290), 120)];
-    [_rootView addSubview:textView];
+    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(15, self.view.height - 200, scaleWidthWith320(290), 120)];
+    [self.view addSubview:textView];
     _textViewBlock = ^(){
         
         textView.text = NSHomeDirectory();
@@ -97,11 +100,6 @@
         }
         
     }
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
