@@ -403,6 +403,11 @@
 		A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285D91C32BA4900390B45 /* MyInformationHeaderView.m */; };
 		A88285DD1C32BA8100390B45 /* UserCenterInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */; };
 		A88285E01C32C42B00390B45 /* MyInformationSetButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */; };
+		A888FBFB1CF5499E005F7749 /* JHTopYellowBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */; };
+		A8DB9B451CF304A900884853 /* JHDateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B441CF304A900884853 /* JHDateBase.m */; };
+		A8DB9B481CF3183100884853 /* JHDateBaseSimpleUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B471CF3183100884853 /* JHDateBaseSimpleUse.m */; };
+		A8DB9B4B1CF31E8400884853 /* JHDateBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B4A1CF31E8400884853 /* JHDateBaseViewController.m */; };
+		A8DB9B4E1CF3FF8600884853 /* JHSimpleDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB9B4D1CF3FF8600884853 /* JHSimpleDBModel.m */; };
 		A8DE58B71C4DD3450019CB49 /* dribbble128_imageio.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DE58351C4DD3450019CB49 /* dribbble128_imageio.png */; };
 		A8DE58B81C4DD3450019CB49 /* dribbble256_imageio.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DE58361C4DD3450019CB49 /* dribbble256_imageio.png */; };
 		A8DE58B91C4DD3450019CB49 /* dribbble512_imageio.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DE58371C4DD3450019CB49 /* dribbble512_imageio.png */; };
@@ -490,6 +495,9 @@
 		A8DE59401C4DE5420019CB49 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59311C4DE5420019CB49 /* WBStatusHelper.m */; };
 		A8DE59411C4DE5420019CB49 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59331C4DE5420019CB49 /* WBStatusLayout.m */; };
 		A8DE59421C4DE5420019CB49 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE59351C4DE5420019CB49 /* WBStatusTimelineViewController.m */; };
+		A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */; };
+		A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F136F51CF82A870085474F /* close_button_icon@2x.png */; };
+		A8F136F91CF8423B0085474F /* JHTopBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F136F81CF8423B0085474F /* JHTopBannerViewController.m */; };
 		A8FEC9B91C2022AE007AF43A /* UIWindow+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEC9B81C2022AE007AF43A /* UIWindow+JHCategory.m */; };
 		A8FEC9BC1C204CA2007AF43A /* NSString+JHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEC9BB1C204CA2007AF43A /* NSString+JHCategory.m */; };
 		A8FEC9C01C21399F007AF43A /* JHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FEC9BF1C21399F007AF43A /* JHModel.m */; };
@@ -959,6 +967,16 @@
 		A88285DC1C32BA8100390B45 /* UserCenterInfoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCenterInfoButton.m; path = ../01Home/UserCenterInfoButton.m; sourceTree = "<group>"; };
 		A88285DE1C32C42B00390B45 /* MyInformationSetButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInformationSetButtonView.h; sourceTree = "<group>"; };
 		A88285DF1C32C42B00390B45 /* MyInformationSetButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInformationSetButtonView.m; sourceTree = "<group>"; };
+		A888FBF91CF5499E005F7749 /* JHTopYellowBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopYellowBannerManager.h; sourceTree = "<group>"; };
+		A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopYellowBannerManager.m; sourceTree = "<group>"; };
+		A8DB9B431CF304A900884853 /* JHDateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBase.h; sourceTree = "<group>"; };
+		A8DB9B441CF304A900884853 /* JHDateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDateBase.m; sourceTree = "<group>"; };
+		A8DB9B461CF3183100884853 /* JHDateBaseSimpleUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBaseSimpleUse.h; sourceTree = "<group>"; };
+		A8DB9B471CF3183100884853 /* JHDateBaseSimpleUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDateBaseSimpleUse.m; sourceTree = "<group>"; };
+		A8DB9B491CF31E8400884853 /* JHDateBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDateBaseViewController.h; sourceTree = "<group>"; };
+		A8DB9B4A1CF31E8400884853 /* JHDateBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDateBaseViewController.m; sourceTree = "<group>"; };
+		A8DB9B4C1CF3FF8600884853 /* JHSimpleDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSimpleDBModel.h; sourceTree = "<group>"; };
+		A8DB9B4D1CF3FF8600884853 /* JHSimpleDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSimpleDBModel.m; sourceTree = "<group>"; };
 		A8DE58351C4DD3450019CB49 /* dribbble128_imageio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble128_imageio.png; sourceTree = "<group>"; };
 		A8DE58361C4DD3450019CB49 /* dribbble256_imageio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble256_imageio.png; sourceTree = "<group>"; };
 		A8DE58371C4DD3450019CB49 /* dribbble512_imageio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble512_imageio.png; sourceTree = "<group>"; };
@@ -1088,6 +1106,11 @@
 		A8DE59331C4DE5420019CB49 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		A8DE59341C4DE5420019CB49 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
 		A8DE59351C4DE5420019CB49 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
+		A8F136F21CF7ED0F0085474F /* UIView+JHGesturesBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHGesturesBlock.h"; sourceTree = "<group>"; };
+		A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHGesturesBlock.m"; sourceTree = "<group>"; };
+		A8F136F51CF82A870085474F /* close_button_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_button_icon@2x.png"; sourceTree = "<group>"; };
+		A8F136F71CF8423B0085474F /* JHTopBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopBannerViewController.h; sourceTree = "<group>"; };
+		A8F136F81CF8423B0085474F /* JHTopBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopBannerViewController.m; sourceTree = "<group>"; };
 		A8FEC9A31C1FC5AD007AF43A /* JHMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMacros.h; sourceTree = "<group>"; };
 		A8FEC9B71C2022AE007AF43A /* UIWindow+JHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JHCategory.h"; sourceTree = "<group>"; };
 		A8FEC9B81C2022AE007AF43A /* UIWindow+JHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JHCategory.m"; sourceTree = "<group>"; };
@@ -1205,6 +1228,7 @@
 		A84D35061C2D6CE9005A5CED /* common */ = {
 			isa = PBXGroup;
 			children = (
+				A8F136F51CF82A870085474F /* close_button_icon@2x.png */,
 				A84D35071C2D6CE9005A5CED /* comments_right_arrow.png */,
 				A84D35081C2D6CE9005A5CED /* comments_right_arrow@2x.png */,
 				A84D35091C2D6CE9005A5CED /* depression_face.png */,
@@ -1754,6 +1778,8 @@
 		A84D37FA1C31256C005A5CED /* 04Other */ = {
 			isa = PBXGroup;
 			children = (
+				A888FBF81CF54980005F7749 /* TopYellowBanner */,
+				A8DB9B421CF3048800884853 /* JHDateBase */,
 				A8DE57301C4DD1530019CB49 /* YYKitDemo */,
 				A80A2F3F1C479FF300DBD028 /* Block */,
 				A80A2F2F1C43DFEF00DBD028 /* ReactiveCocoa */,
@@ -1799,6 +1825,8 @@
 			children = (
 				A84DC5251C1ADD2E000F4EA1 /* NSObject+JHCategory.h */,
 				A84DC5261C1ADD2E000F4EA1 /* NSObject+JHCategory.m */,
+				A8F136F21CF7ED0F0085474F /* UIView+JHGesturesBlock.h */,
+				A8F136F31CF7ED0F0085474F /* UIView+JHGesturesBlock.m */,
 				A84DC52A1C1AF599000F4EA1 /* UIView+JHCategory.h */,
 				A84DC52B1C1AF599000F4EA1 /* UIView+JHCategory.m */,
 				A84DC52D1C1AF5EF000F4EA1 /* UIImage+JHCategory.h */,
@@ -1933,6 +1961,32 @@
 				A85D08931B8C904B00F976F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A888FBF81CF54980005F7749 /* TopYellowBanner */ = {
+			isa = PBXGroup;
+			children = (
+				A888FBF91CF5499E005F7749 /* JHTopYellowBannerManager.h */,
+				A888FBFA1CF5499E005F7749 /* JHTopYellowBannerManager.m */,
+				A8F136F71CF8423B0085474F /* JHTopBannerViewController.h */,
+				A8F136F81CF8423B0085474F /* JHTopBannerViewController.m */,
+			);
+			path = TopYellowBanner;
+			sourceTree = "<group>";
+		};
+		A8DB9B421CF3048800884853 /* JHDateBase */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB9B431CF304A900884853 /* JHDateBase.h */,
+				A8DB9B441CF304A900884853 /* JHDateBase.m */,
+				A8DB9B461CF3183100884853 /* JHDateBaseSimpleUse.h */,
+				A8DB9B471CF3183100884853 /* JHDateBaseSimpleUse.m */,
+				A8DB9B491CF31E8400884853 /* JHDateBaseViewController.h */,
+				A8DB9B4A1CF31E8400884853 /* JHDateBaseViewController.m */,
+				A8DB9B4C1CF3FF8600884853 /* JHSimpleDBModel.h */,
+				A8DB9B4D1CF3FF8600884853 /* JHSimpleDBModel.m */,
+			);
+			path = JHDateBase;
 			sourceTree = "<group>";
 		};
 		A8DE57301C4DD1530019CB49 /* YYKitDemo */ = {
@@ -2602,6 +2656,7 @@
 				A84D37211C2D6CE9005A5CED /* home_doc_pull_user@2x.png in Resources */,
 				A84D375C1C2D6CE9005A5CED /* clinic_06_icon_c.png in Resources */,
 				A84D36E01C2D6CE9005A5CED /* field_bg@2x.png in Resources */,
+				A8F136F61CF82A870085474F /* close_button_icon@2x.png in Resources */,
 				A84D37E01C2D6CEA005A5CED /* tools_setting.png in Resources */,
 				A84D36C41C2D6CE9005A5CED /* bottom_green_btn.png in Resources */,
 				A84D37E71C2D6CEA005A5CED /* tools_share_weixin_friend@2x.png in Resources */,
@@ -2731,6 +2786,7 @@
 				A84D38091C313883005A5CED /* JHOtherViewController.m in Sources */,
 				A8FECA0A1C2A7733007AF43A /* JHMutableTableViewModel.m in Sources */,
 				A8FEC9BC1C204CA2007AF43A /* NSString+JHCategory.m in Sources */,
+				A8F136F41CF7ED0F0085474F /* UIView+JHGesturesBlock.m in Sources */,
 				A84D35041C2D4134005A5CED /* UIColor+JHCategory.m in Sources */,
 				A8DE593E1C4DE5420019CB49 /* WBStatusComposeTextParser.m in Sources */,
 				A8DE58F51C4DD3450019CB49 /* YYImageBenchmark.m in Sources */,
@@ -2742,11 +2798,15 @@
 				A84D38151C3286D9005A5CED /* JHResource.m in Sources */,
 				A8FEC9D41C2193B9007AF43A /* JHNetWorkManager.m in Sources */,
 				A8DE59081C4DD3450019CB49 /* YYTextExampleHelper.m in Sources */,
+				A8F136F91CF8423B0085474F /* JHTopBannerViewController.m in Sources */,
 				A84DC5271C1ADD2E000F4EA1 /* NSObject+JHCategory.m in Sources */,
 				A8DE59391C4DE5420019CB49 /* T1StatusCell.m in Sources */,
 				A84D37EC1C2D7F6C005A5CED /* JHWebViewController.m in Sources */,
+				A8DB9B451CF304A900884853 /* JHDateBase.m in Sources */,
+				A8DB9B4B1CF31E8400884853 /* JHDateBaseViewController.m in Sources */,
 				A8DE59001C4DD3450019CB49 /* YYTextAsyncExample.m in Sources */,
 				A8FECA0D1C2A7A85007AF43A /* JHUrlTableViewModel.m in Sources */,
+				A888FBFB1CF5499E005F7749 /* JHTopYellowBannerManager.m in Sources */,
 				A88285DA1C32BA4900390B45 /* MyInformationHeaderView.m in Sources */,
 				A8DE58F31C4DD3450019CB49 /* YYFeedListExample.m in Sources */,
 				A85D087E1B8C904B00F976F2 /* __Demo.xcdatamodeld in Sources */,
@@ -2758,6 +2818,7 @@
 				A8DE58FD1C4DD3450019CB49 /* YYSimpleWebViewController.m in Sources */,
 				A8DE58FB1C4DD3450019CB49 /* YYPhotoGroupView.m in Sources */,
 				A8FEC9E31C2945D5007AF43A /* JHTableItem.m in Sources */,
+				A8DB9B481CF3183100884853 /* JHDateBaseSimpleUse.m in Sources */,
 				A8FEC9C91C2151F4007AF43A /* JHViewController.m in Sources */,
 				A8DE59371C4DE5420019CB49 /* T1HomeTimelineItemsViewController.m in Sources */,
 				A8FEC9CF1C21675D007AF43A /* JHModelViewController.m in Sources */,
@@ -2793,6 +2854,7 @@
 				A84D37EF1C310C47005A5CED /* UIViewController+JHCategory.m in Sources */,
 				A8FECA041C2A5620007AF43A /* JHNetworkImageView.m in Sources */,
 				A8DE59051C4DD3450019CB49 /* YYTextEditExample.m in Sources */,
+				A8DB9B4E1CF3FF8600884853 /* JHSimpleDBModel.m in Sources */,
 				A84D35011C2D2A2C005A5CED /* UIFont+JHCategory.m in Sources */,
 				A8DE59091C4DD3450019CB49 /* YYTextMarkdownExample.m in Sources */,
 				A8FEC9E01C293BD4007AF43A /* JHURLRequestModel.m in Sources */,
