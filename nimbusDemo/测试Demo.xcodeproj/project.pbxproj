@@ -2275,9 +2275,11 @@
 				TargetAttributes = {
 					A85D08711B8C904B00F976F2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YRMH84M93J;
 					};
 					A85D088D1B8C904B00F976F2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YRMH84M93J;
 						TestTargetID = A85D08711B8C904B00F976F2;
 					};
 				};
@@ -2991,6 +2993,7 @@
 			baseConfigurationReference = 6362BBBCBB38B3049C96A1FE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3065,6 +3068,7 @@
 			baseConfigurationReference = 7664B76736407A6460742F86 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3138,6 +3142,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3157,6 +3162,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YRMH84M93J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
